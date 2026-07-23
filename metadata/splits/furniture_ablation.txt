@@ -1,0 +1,5 @@
+# Evaluated with one checkpoint; not training data.
+markings_and_posts
+markings_only
+posts_only
+no_markings_no_posts

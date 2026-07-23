@@ -1,0 +1,9 @@
+{
+  "frames": 200,
+  "depth_points": 505653,
+  "depth_absrel": 0.4622112512588501,
+  "depth_rmse_m": 16.726409912109375,
+  "depth_delta125": 0.12794940403794697,
+  "normal_points": 227374,
+  "normal_angular_error_deg": 12.66536808013916
+}

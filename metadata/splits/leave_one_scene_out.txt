@@ -1,0 +1,12 @@
+# Primary paper LOSO: hold out each of these eleven scenes; train on the other ten.
+forest_baseline
+rural_baseline
+rural_geom_straight
+rural_geom_right_curve
+rural_geom_s_curve
+rural_geom_crest
+rural_look_farmland
+rural_look_autumn
+rural_look_scrub
+rural_assets_conifer
+rural_assets_shrub

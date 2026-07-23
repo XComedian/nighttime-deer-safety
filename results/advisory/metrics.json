@@ -1,0 +1,467 @@
+{
+  "metrics": {
+    "15mph_flat": {
+      "state_dist_oracle": {
+        "CAUTION": 66,
+        "SLOW_PREPARE": 534
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 14,
+        "BRAKE_NOW": 529,
+        "SLOW_PREPARE": 57
+      },
+      "state_agreement": 0.085,
+      "confusion": {
+        "CAUTION->BRAKE_NOW": 59,
+        "CAUTION->NORMAL_MONITOR": 1,
+        "CAUTION->SLOW_PREPARE": 6,
+        "SLOW_PREPARE->BRAKE_NOW": 470,
+        "SLOW_PREPARE->NORMAL_MONITOR": 13,
+        "SLOW_PREPARE->SLOW_PREPARE": 51
+      },
+      "critical_recall": null,
+      "missed_critical_rate": null,
+      "first_urgent_delay_s_pred_vs_oracle": 0.0,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 95.0,
+      "transitions_per_min_predicted": 55.0
+    },
+    "15mph_down5": {
+      "state_dist_oracle": {
+        "CAUTION": 65,
+        "SLOW_PREPARE": 535
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 14,
+        "BRAKE_NOW": 549,
+        "SLOW_PREPARE": 37
+      },
+      "state_agreement": 0.058333333333333334,
+      "confusion": {
+        "CAUTION->BRAKE_NOW": 62,
+        "CAUTION->NORMAL_MONITOR": 1,
+        "CAUTION->SLOW_PREPARE": 2,
+        "SLOW_PREPARE->BRAKE_NOW": 487,
+        "SLOW_PREPARE->NORMAL_MONITOR": 13,
+        "SLOW_PREPARE->SLOW_PREPARE": 35
+      },
+      "critical_recall": null,
+      "missed_critical_rate": null,
+      "first_urgent_delay_s_pred_vs_oracle": 0.0,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 95.0,
+      "transitions_per_min_predicted": 51.0
+    },
+    "15mph_down8": {
+      "state_dist_oracle": {
+        "CAUTION": 67,
+        "SLOW_PREPARE": 533
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 14,
+        "BRAKE_NOW": 558,
+        "SLOW_PREPARE": 28
+      },
+      "state_agreement": 0.045,
+      "confusion": {
+        "CAUTION->BRAKE_NOW": 65,
+        "CAUTION->NORMAL_MONITOR": 1,
+        "CAUTION->SLOW_PREPARE": 1,
+        "SLOW_PREPARE->BRAKE_NOW": 493,
+        "SLOW_PREPARE->NORMAL_MONITOR": 13,
+        "SLOW_PREPARE->SLOW_PREPARE": 27
+      },
+      "critical_recall": null,
+      "missed_critical_rate": null,
+      "first_urgent_delay_s_pred_vs_oracle": 0.0,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 93.0,
+      "transitions_per_min_predicted": 41.0
+    },
+    "20mph_flat": {
+      "state_dist_oracle": {
+        "SLOW_PREPARE": 118,
+        "BRAKE_NOW": 468,
+        "CAUTION": 14
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.7683333333333333,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 461,
+        "BRAKE_NOW->NORMAL_MONITOR": 7,
+        "CAUTION->BRAKE_NOW": 14,
+        "SLOW_PREPARE->BRAKE_NOW": 109,
+        "SLOW_PREPARE->NORMAL_MONITOR": 9
+      },
+      "critical_recall": 0.9850427350427351,
+      "missed_critical_rate": 0.014957264957264958,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 93.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "20mph_down5": {
+      "state_dist_oracle": {
+        "SLOW_PREPARE": 105,
+        "BRAKE_NOW": 484,
+        "CAUTION": 11
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.7933333333333333,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 476,
+        "BRAKE_NOW->NORMAL_MONITOR": 8,
+        "CAUTION->BRAKE_NOW": 11,
+        "SLOW_PREPARE->BRAKE_NOW": 97,
+        "SLOW_PREPARE->NORMAL_MONITOR": 8
+      },
+      "critical_recall": 0.9834710743801653,
+      "missed_critical_rate": 0.01652892561983471,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 90.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "20mph_down8": {
+      "state_dist_oracle": {
+        "SLOW_PREPARE": 100,
+        "BRAKE_NOW": 494,
+        "CAUTION": 6
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.81,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 486,
+        "BRAKE_NOW->NORMAL_MONITOR": 8,
+        "CAUTION->BRAKE_NOW": 6,
+        "SLOW_PREPARE->BRAKE_NOW": 92,
+        "SLOW_PREPARE->NORMAL_MONITOR": 8
+      },
+      "critical_recall": 0.9838056680161943,
+      "missed_critical_rate": 0.016194331983805668,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 91.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "25mph_flat": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 564,
+        "SLOW_PREPARE": 36
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.915,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 549,
+        "BRAKE_NOW->NORMAL_MONITOR": 15,
+        "SLOW_PREPARE->BRAKE_NOW": 35,
+        "SLOW_PREPARE->NORMAL_MONITOR": 1
+      },
+      "critical_recall": 0.973404255319149,
+      "missed_critical_rate": 0.026595744680851064,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 54.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "25mph_down5": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 575,
+        "SLOW_PREPARE": 25
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9366666666666666,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 562,
+        "BRAKE_NOW->NORMAL_MONITOR": 13,
+        "SLOW_PREPARE->BRAKE_NOW": 22,
+        "SLOW_PREPARE->NORMAL_MONITOR": 3
+      },
+      "critical_recall": 0.9773913043478261,
+      "missed_critical_rate": 0.022608695652173914,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 36.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "25mph_down8": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 600
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9733333333333334,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 584,
+        "BRAKE_NOW->NORMAL_MONITOR": 16
+      },
+      "critical_recall": 0.9733333333333334,
+      "missed_critical_rate": 0.02666666666666667,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 0.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "30mph_flat": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 600
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9733333333333334,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 584,
+        "BRAKE_NOW->NORMAL_MONITOR": 16
+      },
+      "critical_recall": 0.9733333333333334,
+      "missed_critical_rate": 0.02666666666666667,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 0.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "30mph_down5": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 600
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9733333333333334,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 584,
+        "BRAKE_NOW->NORMAL_MONITOR": 16
+      },
+      "critical_recall": 0.9733333333333334,
+      "missed_critical_rate": 0.02666666666666667,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 0.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "30mph_down8": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 600
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9733333333333334,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 584,
+        "BRAKE_NOW->NORMAL_MONITOR": 16
+      },
+      "critical_recall": 0.9733333333333334,
+      "missed_critical_rate": 0.02666666666666667,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 0.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "35mph_flat": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 600
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9733333333333334,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 584,
+        "BRAKE_NOW->NORMAL_MONITOR": 16
+      },
+      "critical_recall": 0.9733333333333334,
+      "missed_critical_rate": 0.02666666666666667,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 0.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "35mph_down5": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 600
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9733333333333334,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 584,
+        "BRAKE_NOW->NORMAL_MONITOR": 16
+      },
+      "critical_recall": 0.9733333333333334,
+      "missed_critical_rate": 0.02666666666666667,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 0.0,
+      "transitions_per_min_predicted": 13.0
+    },
+    "35mph_down8": {
+      "state_dist_oracle": {
+        "BRAKE_NOW": 600
+      },
+      "state_dist_predicted": {
+        "NORMAL_MONITOR": 16,
+        "BRAKE_NOW": 584
+      },
+      "state_agreement": 0.9733333333333334,
+      "confusion": {
+        "BRAKE_NOW->BRAKE_NOW": 584,
+        "BRAKE_NOW->NORMAL_MONITOR": 16
+      },
+      "critical_recall": 0.9733333333333334,
+      "missed_critical_rate": 0.02666666666666667,
+      "first_urgent_delay_s_pred_vs_oracle": 0.1,
+      "false_urgent_on_empty_frames": 0,
+      "n_empty_frames_beyond_coast": 0,
+      "transitions_per_min_oracle": 0.0,
+      "transitions_per_min_predicted": 13.0
+    }
+  },
+  "calibration_coverage_c7_sigma_on_c8": [
+    {
+      "k": 1.0,
+      "matched_detections": 447,
+      "coverage": 0.0045
+    },
+    {
+      "k": 2.0,
+      "matched_detections": 447,
+      "coverage": 0.0134
+    },
+    {
+      "k": 3.0,
+      "matched_detections": 447,
+      "coverage": 0.0403
+    }
+  ],
+  "audit": {
+    "15mph_flat": {
+      "oracle_problems": [],
+      "oracle_held_frames": 191,
+      "predicted_problems": [],
+      "predicted_held_frames": 131
+    },
+    "15mph_down5": {
+      "oracle_problems": [],
+      "oracle_held_frames": 177,
+      "predicted_problems": [],
+      "predicted_held_frames": 85
+    },
+    "15mph_down8": {
+      "oracle_problems": [],
+      "oracle_held_frames": 163,
+      "predicted_problems": [],
+      "predicted_held_frames": 57
+    },
+    "20mph_flat": {
+      "oracle_problems": [],
+      "oracle_held_frames": 249,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "20mph_down5": {
+      "oracle_problems": [],
+      "oracle_held_frames": 203,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "20mph_down8": {
+      "oracle_problems": [],
+      "oracle_held_frames": 194,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "25mph_flat": {
+      "oracle_problems": [],
+      "oracle_held_frames": 64,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "25mph_down5": {
+      "oracle_problems": [],
+      "oracle_held_frames": 32,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "25mph_down8": {
+      "oracle_problems": [],
+      "oracle_held_frames": 24,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "30mph_flat": {
+      "oracle_problems": [],
+      "oracle_held_frames": 0,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "30mph_down5": {
+      "oracle_problems": [],
+      "oracle_held_frames": 0,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "30mph_down8": {
+      "oracle_problems": [],
+      "oracle_held_frames": 0,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "35mph_flat": {
+      "oracle_problems": [],
+      "oracle_held_frames": 0,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "35mph_down5": {
+      "oracle_problems": [],
+      "oracle_held_frames": 0,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    },
+    "35mph_down8": {
+      "oracle_problems": [],
+      "oracle_held_frames": 0,
+      "predicted_problems": [],
+      "predicted_held_frames": 1
+    }
+  }
+}

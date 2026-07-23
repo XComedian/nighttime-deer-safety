@@ -1,0 +1,5 @@
+# Forest-domain recovery analysis; separate from the primary 11-scene paper LOSO.
+forest_baseline
+forest_summer
+forest_autumn
+forest_wet

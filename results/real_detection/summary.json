@@ -1,0 +1,35 @@
+{
+  "models": [
+    {
+      "checkpoint": "data/checkpoints/all_condition_yolov8n.pt",
+      "checkpoint_sha256": "4aa483fd671aa33faf679634abe37ed0a24347b61ce9d7dc59c5f729bed18887",
+      "false_positive_detections": 4,
+      "false_positives_per_frame": 0.25,
+      "frame_alert_rate": 0.1875,
+      "frames_with_false_positive": 3,
+      "model": "all_condition_yolov8n",
+      "negative_frames": 16
+    },
+    {
+      "checkpoint": "data/checkpoints/real_plus_synthetic_searched.pt",
+      "checkpoint_sha256": "d33784c51e931fdee8e0d7727f39dfa6d906291e8d37270994ca3d04759cad0c",
+      "false_positive_detections": 0,
+      "false_positives_per_frame": 0.0,
+      "frame_alert_rate": 0.0,
+      "frames_with_false_positive": 0,
+      "model": "real_plus_synthetic_searched",
+      "negative_frames": 16
+    }
+  ],
+  "protocol": {
+    "batch_size": 1,
+    "confidence_threshold": 0.25,
+    "device": "cpu",
+    "image_size": 640,
+    "negative_frame_directory": "restricted_data/real_negatives",
+    "negative_frame_manifest_sha256": "d91e3a6a557a476a945f29d362058d6ed08eec5b66ab1f61a0ea401c92832b5f",
+    "nms_iou": 0.7,
+    "square_letterbox": true,
+    "target_class": "deer"
+  }
+}

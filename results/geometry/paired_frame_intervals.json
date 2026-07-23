@@ -1,0 +1,42 @@
+{
+  "depth_absrel": {
+    "label": "Depth AbsRel",
+    "paired_frames": 200,
+    "independent_test_scenes": 5,
+    "mean_frame_improvement": 0.14820410650223492,
+    "scene_cluster_bootstrap_95ci": [
+      0.01884635675411958,
+      0.25448006848918225
+    ]
+  },
+  "depth_rmse_m": {
+    "label": "Depth RMSE (m)",
+    "paired_frames": 200,
+    "independent_test_scenes": 5,
+    "mean_frame_improvement": 7.596514263153076,
+    "scene_cluster_bootstrap_95ci": [
+      6.757940228973948,
+      8.45737539462554
+    ]
+  },
+  "depth_delta125": {
+    "label": "Depth delta < 1.25",
+    "paired_frames": 200,
+    "independent_test_scenes": 5,
+    "mean_frame_improvement": 0.4418276204239038,
+    "scene_cluster_bootstrap_95ci": [
+      0.29948392116313605,
+      0.5815952587452304
+    ]
+  },
+  "normal_angular_error_deg": {
+    "label": "Normal error (degrees)",
+    "paired_frames": 200,
+    "independent_test_scenes": 5,
+    "mean_frame_improvement": 11.697809482440352,
+    "scene_cluster_bootstrap_95ci": [
+      9.933698608497295,
+      13.506429747786276
+    ]
+  }
+}

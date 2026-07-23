@@ -1,0 +1,24 @@
+group,scene,original_id,environment,alignment,grade_30_60m,distance_m,resolution,frames,deer_boxes,purpose
+01_near_range,mountain_a,output_deer_crossing1,mountain,winding,varied,3-22,1280x720,199,199,detection/geometry training
+01_near_range,mountain_b,output_deer_crossing2,mountain,winding,varied,3-16,1280x720,199,199,detection/geometry training
+01_near_range,mountain_c,output_deer_crossing3,mountain,winding,varied,4-16,1280x720,199,199,detection/geometry training
+01_near_range,forest_a,output_deer_crossing4,forest,winding,varied,9-33,960x540,198,198,detection/geometry training
+01_near_range,forest_b,output_deer_crossing6,forest,winding,varied,8-35,960x540,519,519,geometry validation set
+02_range_30-60m,forest_baseline,crossing7,forest,straight,level,30-60,960x540,600,525,original forest road; out-of-domain probe
+02_range_30-60m,rural_baseline,crossing8,rural,gentle curve,+6% (crest),30-59,960x540,600,536,original rural road; single-scene zero-shot
+02_range_30-60m,rural_geom_straight,crossing9a,rural,straight,-4%,31-60,960x540,600,813,geometry variant
+02_range_30-60m,rural_geom_right_curve,crossing9b,rural,right curve,level,30-60,960x540,600,826,geometry variant
+02_range_30-60m,rural_geom_s_curve,crossing9c,rural,S-curve,+3%,30-58,960x540,600,818,geometry variant
+02_range_30-60m,rural_geom_crest,crossing10,rural,left curve,crest +5%/-3%,30-60,960x540,600,802,geometry variant (parabolic crest)
+02_range_30-60m,rural_look_farmland,crossing11,rural,right curve,-2%,30-59,960x540,600,783,"appearance variant: open farmland, no markings/posts"
+02_range_30-60m,rural_look_autumn,crossing12,rural,left curve,-5%,30-59,960x540,600,819,"appearance variant: dense autumn foliage, dark sky"
+02_range_30-60m,rural_look_scrub,crossing13,rural,S-curve,+4%,31-60,960x540,600,799,"appearance variant: arid scrub, ochre ground"
+02_range_30-60m,rural_assets_conifer,crossing14,rural,left curve,-3%,30-60,960x540,600,782,asset variant: glTF conifer meshes
+02_range_30-60m,rural_assets_shrub,crossing15,rural,straight,+2%,31-59,960x540,600,812,asset variant: real-bush FBX meshes
+02_range_30-60m,forest_summer,f1,forest,straight,level,30-59,960x540,575,778,forest domain sibling: dense green summer
+02_range_30-60m,forest_autumn,f2,forest,straight,level,30-60,960x540,600,806,forest domain sibling: thinned autumn
+02_range_30-60m,forest_wet,f3,forest,straight,level,31-60,960x540,600,818,forest domain sibling: dark wet canopy
+03_furniture_ablation,markings_and_posts,cueA,rural,right curve,-3%,30-59,960x540,300,404,ablation: lane markings + delineator posts
+03_furniture_ablation,markings_only,cueB,rural,right curve,-3%,30-60,960x540,300,403,"ablation: lane markings, no posts"
+03_furniture_ablation,posts_only,cueC,rural,right curve,-3%,30-59,960x540,300,384,"ablation: posts, no markings"
+03_furniture_ablation,no_markings_no_posts,cueD,rural,right curve,-3%,30-59,960x540,300,388,ablation: neither markings nor posts
