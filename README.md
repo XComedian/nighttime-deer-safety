@@ -4,6 +4,8 @@ Research code and supporting artifacts for a monocular nighttime deer-safety
 study by Ningning Xu, Yunxiang Yang, and Jidong Yang at the University of
 Georgia.
 
+Repository: <https://github.com/XComedian/nighttime-deer-safety>
+
 The project studies a monocular nighttime pipeline that combines deer detection,
 metric range estimation, road-geometry estimation, and a warning-only
 stopping-distance advisory. The primary evaluation holds out complete rendered
