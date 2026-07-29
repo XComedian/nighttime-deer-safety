@@ -1,0 +1,545 @@
+{
+  "input": "results/advisory_loso60/c8_loso_predictions.csv",
+  "coverage_gate_m": 60.0,
+  "predicted_uncertainty_m": 0.0,
+  "uncertainty_note": "point-prediction replay; no calibrated deployment uncertainty is claimed",
+  "n_frames": 600,
+  "prediction_summary": {
+    "ground_truth_instances": 536,
+    "matched_detections": 379,
+    "matched_mae_m": 3.651452595875239,
+    "matched_bias_m": 1.8679974581828525,
+    "predicted_range_min_m": 30.871543667255086,
+    "predicted_range_max_m": 60.38527000509637
+  },
+  "flat_coverage_crossover_mph_including_latency": 28.7,
+  "transition_audit_problems": 0,
+  "metrics": {
+    "15mph_flat": {
+      "oracle": {
+        "state_counts": {
+          "CAUTION": 66,
+          "SLOW_PREPARE": 534
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.11,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.89,
+          "BRAKE_NOW": 0.0
+        },
+        "transitions_per_minute": 95.0,
+        "held_frames": 195,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "NORMAL_MONITOR": 10,
+          "SLOW_PREPARE": 476,
+          "CAUTION": 113,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.016666666666666666,
+          "CAUTION": 0.18833333333333332,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.7933333333333333,
+          "BRAKE_NOW": 0.0
+        },
+        "transitions_per_minute": 89.0,
+        "held_frames": 257,
+        "audit_problems": []
+      }
+    },
+    "15mph_down5": {
+      "oracle": {
+        "state_counts": {
+          "CAUTION": 66,
+          "SLOW_PREPARE": 534
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.11,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.89,
+          "BRAKE_NOW": 0.0
+        },
+        "transitions_per_minute": 95.0,
+        "held_frames": 181,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "NORMAL_MONITOR": 8,
+          "SLOW_PREPARE": 484,
+          "CAUTION": 107,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.013333333333333334,
+          "CAUTION": 0.17833333333333334,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.8066666666666666,
+          "BRAKE_NOW": 0.0
+        },
+        "transitions_per_minute": 89.0,
+        "held_frames": 246,
+        "audit_problems": []
+      }
+    },
+    "15mph_down8": {
+      "oracle": {
+        "state_counts": {
+          "CAUTION": 69,
+          "SLOW_PREPARE": 531
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.115,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.885,
+          "BRAKE_NOW": 0.0
+        },
+        "transitions_per_minute": 93.0,
+        "held_frames": 172,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "NORMAL_MONITOR": 10,
+          "SLOW_PREPARE": 493,
+          "CAUTION": 96,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.016666666666666666,
+          "CAUTION": 0.16,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.8216666666666667,
+          "BRAKE_NOW": 0.0
+        },
+        "transitions_per_minute": 89.0,
+        "held_frames": 244,
+        "audit_problems": []
+      }
+    },
+    "20mph_flat": {
+      "oracle": {
+        "state_counts": {
+          "SLOW_PREPARE": 120,
+          "BRAKE_NOW": 466,
+          "CAUTION": 14
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.023333333333333334,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.2,
+          "BRAKE_NOW": 0.7766666666666666
+        },
+        "transitions_per_minute": 93.0,
+        "held_frames": 265,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "SLOW_PREPARE": 244,
+          "BRAKE_NOW": 350,
+          "NORMAL_MONITOR": 1,
+          "CAUTION": 4,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0016666666666666668,
+          "CAUTION": 0.006666666666666667,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.4066666666666667,
+          "BRAKE_NOW": 0.5833333333333334
+        },
+        "transitions_per_minute": 72.0,
+        "held_frames": 263,
+        "audit_problems": []
+      }
+    },
+    "20mph_down5": {
+      "oracle": {
+        "state_counts": {
+          "SLOW_PREPARE": 112,
+          "BRAKE_NOW": 477,
+          "CAUTION": 11
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.018333333333333333,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.18666666666666668,
+          "BRAKE_NOW": 0.795
+        },
+        "transitions_per_minute": 90.0,
+        "held_frames": 212,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "SLOW_PREPARE": 223,
+          "BRAKE_NOW": 371,
+          "NORMAL_MONITOR": 1,
+          "CAUTION": 4,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0016666666666666668,
+          "CAUTION": 0.006666666666666667,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.37166666666666665,
+          "BRAKE_NOW": 0.6183333333333333
+        },
+        "transitions_per_minute": 75.0,
+        "held_frames": 238,
+        "audit_problems": []
+      }
+    },
+    "20mph_down8": {
+      "oracle": {
+        "state_counts": {
+          "SLOW_PREPARE": 102,
+          "BRAKE_NOW": 492,
+          "CAUTION": 6
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.01,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.17,
+          "BRAKE_NOW": 0.82
+        },
+        "transitions_per_minute": 91.0,
+        "held_frames": 199,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "SLOW_PREPARE": 202,
+          "BRAKE_NOW": 396,
+          "NORMAL_MONITOR": 1,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0016666666666666668,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.33666666666666667,
+          "BRAKE_NOW": 0.66
+        },
+        "transitions_per_minute": 77.0,
+        "held_frames": 222,
+        "audit_problems": []
+      }
+    },
+    "25mph_flat": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 560,
+          "SLOW_PREPARE": 40
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.06666666666666667,
+          "BRAKE_NOW": 0.9333333333333333
+        },
+        "transitions_per_minute": 60.0,
+        "held_frames": 67,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 545,
+          "NORMAL_MONITOR": 5,
+          "SLOW_PREPARE": 49,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.008333333333333333,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.08166666666666667,
+          "BRAKE_NOW": 0.9083333333333333
+        },
+        "transitions_per_minute": 52.0,
+        "held_frames": 70,
+        "audit_problems": []
+      }
+    },
+    "25mph_down5": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 575,
+          "SLOW_PREPARE": 24,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.04,
+          "BRAKE_NOW": 0.9583333333333334
+        },
+        "transitions_per_minute": 37.0,
+        "held_frames": 34,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 583,
+          "NORMAL_MONITOR": 6,
+          "SLOW_PREPARE": 10,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.016666666666666666,
+          "BRAKE_NOW": 0.9716666666666667
+        },
+        "transitions_per_minute": 21.0,
+        "held_frames": 29,
+        "audit_problems": []
+      }
+    },
+    "25mph_down8": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 600
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 1.0
+        },
+        "transitions_per_minute": 0.0,
+        "held_frames": 24,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 593,
+          "NORMAL_MONITOR": 6,
+          "SENSOR_LIMITED": 1
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0016666666666666668,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 0.9883333333333333
+        },
+        "transitions_per_minute": 10.0,
+        "held_frames": 5,
+        "audit_problems": []
+      }
+    },
+    "30mph_flat": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 600
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 1.0
+        },
+        "transitions_per_minute": 0.0,
+        "held_frames": 1,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 594,
+          "NORMAL_MONITOR": 6
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 0.99
+        },
+        "transitions_per_minute": 8.0,
+        "held_frames": 4,
+        "audit_problems": []
+      }
+    },
+    "30mph_down5": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 600
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 1.0
+        },
+        "transitions_per_minute": 0.0,
+        "held_frames": 1,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 594,
+          "NORMAL_MONITOR": 6
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 0.99
+        },
+        "transitions_per_minute": 8.0,
+        "held_frames": 4,
+        "audit_problems": []
+      }
+    },
+    "30mph_down8": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 600
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 1.0
+        },
+        "transitions_per_minute": 0.0,
+        "held_frames": 1,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 594,
+          "NORMAL_MONITOR": 6
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 0.99
+        },
+        "transitions_per_minute": 8.0,
+        "held_frames": 4,
+        "audit_problems": []
+      }
+    },
+    "35mph_flat": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 600
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 1.0
+        },
+        "transitions_per_minute": 0.0,
+        "held_frames": 1,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 594,
+          "NORMAL_MONITOR": 6
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 0.99
+        },
+        "transitions_per_minute": 8.0,
+        "held_frames": 4,
+        "audit_problems": []
+      }
+    },
+    "35mph_down5": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 600
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 1.0
+        },
+        "transitions_per_minute": 0.0,
+        "held_frames": 1,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 594,
+          "NORMAL_MONITOR": 6
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 0.99
+        },
+        "transitions_per_minute": 8.0,
+        "held_frames": 4,
+        "audit_problems": []
+      }
+    },
+    "35mph_down8": {
+      "oracle": {
+        "state_counts": {
+          "BRAKE_NOW": 600
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.0,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 1.0
+        },
+        "transitions_per_minute": 0.0,
+        "held_frames": 1,
+        "audit_problems": []
+      },
+      "predicted_point": {
+        "state_counts": {
+          "BRAKE_NOW": 594,
+          "NORMAL_MONITOR": 6
+        },
+        "state_fractions": {
+          "NORMAL_MONITOR": 0.01,
+          "CAUTION": 0.0,
+          "SENSOR_LIMITED": 0.0,
+          "SLOW_PREPARE": 0.0,
+          "BRAKE_NOW": 0.99
+        },
+        "transitions_per_minute": 8.0,
+        "held_frames": 4,
+        "audit_problems": []
+      }
+    }
+  }
+}

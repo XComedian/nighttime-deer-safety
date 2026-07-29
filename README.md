@@ -6,10 +6,11 @@ Georgia.
 
 Repository: <https://github.com/XComedian/nighttime-deer-safety>
 
-The project studies a monocular nighttime pipeline that combines deer detection,
-metric range estimation, road-geometry estimation, and a warning-only
-stopping-distance advisory. The primary evaluation holds out complete rendered
-road scenes rather than randomly splitting neighboring frames.
+The project studies monocular nighttime components for deer detection, metric
+range estimation, road-geometry estimation, and stopping-distance safety
+screening. The components are evaluated separately; this repository does not
+claim an integrated warning system. The primary evaluation holds out complete
+rendered road scenes rather than randomly splitting neighboring frames.
 
 ## Repository scope
 
@@ -19,6 +20,11 @@ This repository contains:
 - scene metadata and the exact experiment split definitions;
 - compact machine-readable experiment outputs; and
 - the advisory-controller replay input and unit tests.
+
+The selected network, architecture-search protocol, and task-head definitions
+are documented in [`docs/MODEL_ARCHITECTURE.md`](docs/MODEL_ARCHITECTURE.md);
+the exact detector YAML is in
+[`configs/detection_range_model.yaml`](configs/detection_range_model.yaml).
 
 It intentionally does **not** contain the 66 GB synthetic dataset, trained
 checkpoints, nuScenes files, restricted real images, or unpublished manuscript
@@ -102,6 +108,21 @@ The retained study values are preserved in
 `results/loso/loso_results.json`. Rural aggregates use `c8`--`c15`; `c7` is
 reported separately as the forest-domain probe.
 
+Reproduce the road-unit uncertainty intervals with:
+
+```bash
+python scripts/bootstrap_loso_roads.py \
+  --input results/loso/loso_results.json \
+  --output-dir output/loso_road_bootstrap \
+  --replicates 100000 \
+  --seed 20260728
+```
+
+The retained road-bootstrap table and summary are in
+`results/loso_road_bootstrap/`. These intervals describe heterogeneity across
+the ten represented rural roads; they do not include model-training seed
+variation.
+
 ## Real-night geometry experiment
 
 The geometry protocol uses the official nuScenes trainval release, divides
@@ -121,16 +142,36 @@ The synthetic geometry checkpoint expected by this script can be supplied at
 `output/synthetic/searched_geo/weights/last.pt`. See `--help` for other
 arguments and `results/geometry/` for the retained summaries.
 
-## Advisory replay
+## Corrected 60 m advisory replay
 
-The compact input needed to reproduce the historical controller stress test is
-included, so this stage does not require images or checkpoints:
+The compact prediction input from the final crossing8 leave-one-scene-out
+checkpoint is included, so the retained 60 m controller replay does not require
+images or a checkpoint:
 
 ```bash
-python scripts/replay_dynamic_ssd.py \
-  --input results/advisory/replay_input.csv \
-  --out output/dynamic_ssd
+python scripts/replay_dynamic_ssd_loso60.py \
+  --input results/advisory_loso60/c8_loso_predictions.csv \
+  --output-dir output/dynamic_ssd_loso60
 ```
+
+Its retained metrics and summary are in `results/advisory_loso60/`. Predicted
+mode uses point estimates with zero uncertainty because no independently
+calibrated uncertainty model exists. The input includes matched detections only,
+so nuisance alarms from unmatched false positives are not measured.
+
+With the archived checkpoint and converted crossing8 scene, regenerate the
+prediction input using:
+
+```bash
+python scripts/export_loso_predictions.py \
+  --scene data/loso/scenes/c8 \
+  --weights data/checkpoints/c8_loso_best.pt \
+  --output output/dynamic_ssd_loso60/c8_loso_predictions.csv \
+  --device cuda:0
+```
+
+The earlier 40 m diagnostic artifacts remain in `results/advisory/` for
+provenance but are not the controller evidence used by the submitted paper.
 
 Run the controller tests with:
 
