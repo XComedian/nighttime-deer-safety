@@ -1,0 +1,255 @@
+{
+  "assumptions": {
+    "path_m": 60.0,
+    "min_cover_m": 50.0,
+    "t_total_s": 2.8,
+    "friction": 0.35,
+    "speeds_mph": [
+      20,
+      25,
+      30
+    ]
+  },
+  "test": {
+    "imu_only": {
+      "n": 98,
+      "grade_mae_pct": 1.189150908369347,
+      "grade_rmse_pct": 1.7872881880944278,
+      "grade_bias_pct": 0.07753908669085052,
+      "grade_p95_abs_pct": 3.329612870527582,
+      "ssd_mae_m_20mph": 0.46512407447134946,
+      "ssd_p95_abs_m_20mph": 1.2546274812908462,
+      "ssd_mae_m_25mph": 0.7267563663614829,
+      "ssd_p95_abs_m_25mph": 1.9603554395169507,
+      "ssd_mae_m_30mph": 1.0465291675605362,
+      "ssd_p95_abs_m_30mph": 2.822911832904404,
+      "boundary60_mae_mph": 0.3014383444657761,
+      "boundary60_p95_abs_mph": 0.8314318473039249
+    },
+    "imu_lidar": {
+      "n": 98,
+      "grade_mae_pct": 1.0156649374208102,
+      "grade_rmse_pct": 1.372179167418139,
+      "grade_bias_pct": 0.6436228444455955,
+      "grade_p95_abs_pct": 2.9898154039749034,
+      "ssd_mae_m_20mph": 0.3792763207525139,
+      "ssd_p95_abs_m_20mph": 1.228750912441545,
+      "ssd_mae_m_25mph": 0.5926192511758027,
+      "ssd_p95_abs_m_25mph": 1.9199233006899132,
+      "ssd_mae_m_30mph": 0.8533717216931567,
+      "ssd_p95_abs_m_30mph": 2.764689552993481,
+      "boundary60_mae_mph": 0.2516796862869944,
+      "boundary60_p95_abs_mph": 0.7673614051282026
+    },
+    "imu_adapted_normal": {
+      "n": 98,
+      "grade_mae_pct": 1.3682994930040357,
+      "grade_rmse_pct": 1.956261766042304,
+      "grade_bias_pct": 0.8118193141025758,
+      "grade_p95_abs_pct": 4.019448570323048,
+      "ssd_mae_m_20mph": 0.5140425522528191,
+      "ssd_p95_abs_m_20mph": 1.484282832894765,
+      "ssd_mae_m_25mph": 0.803191487895029,
+      "ssd_p95_abs_m_25mph": 2.3191919263980707,
+      "ssd_mae_m_30mph": 1.1565957425688407,
+      "ssd_p95_abs_m_30mph": 3.339636374013223,
+      "boundary60_mae_mph": 0.3400659494109476,
+      "boundary60_p95_abs_mph": 0.9933087918324767
+    },
+    "imu_adapted_depth": {
+      "n": 98,
+      "grade_mae_pct": 2.45050376952615,
+      "grade_rmse_pct": 3.0262351726632546,
+      "grade_bias_pct": 1.6766252359417149,
+      "grade_p95_abs_pct": 5.547866297802849,
+      "ssd_mae_m_20mph": 0.8381015769029174,
+      "ssd_p95_abs_m_20mph": 1.9650306795003878,
+      "ssd_mae_m_25mph": 1.3095337139108085,
+      "ssd_p95_abs_m_25mph": 3.0703604367193615,
+      "ssd_mae_m_30mph": 1.8857285480315642,
+      "ssd_p95_abs_m_30mph": 4.421319028875872,
+      "boundary60_mae_mph": 0.5805419269945318,
+      "boundary60_p95_abs_mph": 1.3415891421476847
+    },
+    "imu_synthetic_normal": {
+      "n": 98,
+      "grade_mae_pct": 30.129901372321854,
+      "grade_rmse_pct": 31.054954745901288,
+      "grade_bias_pct": 30.129901372321854,
+      "grade_p95_abs_pct": 41.70969906192311,
+      "ssd_mae_m_20mph": 5.640835432069998,
+      "ssd_p95_abs_m_20mph": 7.441284784803478,
+      "ssd_mae_m_25mph": 8.813805362609369,
+      "ssd_p95_abs_m_25mph": 11.62700747625544,
+      "ssd_mae_m_30mph": 12.691879722157493,
+      "ssd_p95_abs_m_30mph": 16.74289076580783,
+      "boundary60_mae_mph": 5.0800794607242,
+      "boundary60_p95_abs_mph": 6.797124789711432
+    },
+    "imu_synthetic_depth": {
+      "n": 98,
+      "grade_mae_pct": 13.975549748654853,
+      "grade_rmse_pct": 14.665993409316112,
+      "grade_bias_pct": 13.975549748654853,
+      "grade_p95_abs_pct": 21.49936163483685,
+      "ssd_mae_m_20mph": 3.485616246890652,
+      "ssd_p95_abs_m_20mph": 5.235864413718423,
+      "ssd_mae_m_25mph": 5.446275385766642,
+      "ssd_p95_abs_m_25mph": 8.181038146435043,
+      "ssd_mae_m_30mph": 7.842636555503965,
+      "ssd_p95_abs_m_30mph": 11.780694930866447,
+      "boundary60_mae_mph": 2.7945461007723047,
+      "boundary60_p95_abs_mph": 4.229420094706618
+    },
+    "relative_tilt_vs_lidar": {
+      "adapted_normal": {
+        "n": 98,
+        "mae_pct": 0.9192139289121541,
+        "bias_pct": 0.16819646965698054
+      },
+      "adapted_depth": {
+        "n": 98,
+        "mae_pct": 2.0112666688058116,
+        "bias_pct": 1.033002391496119
+      },
+      "synthetic_normal": {
+        "n": 98,
+        "mae_pct": 29.486278527876255,
+        "bias_pct": 29.486278527876255
+      },
+      "synthetic_depth": {
+        "n": 98,
+        "mae_pct": 13.331926904209256,
+        "bias_pct": 13.331926904209256
+      }
+    },
+    "reference_grade_pct": {
+      "mean": -1.1906184845272367,
+      "p5_p95": [
+        -3.9784491011876852,
+        1.9774182207280082
+      ]
+    }
+  },
+  "val": {
+    "imu_only": {
+      "n": 284,
+      "grade_mae_pct": 1.4801414897960203,
+      "grade_rmse_pct": 1.9515601302654924,
+      "grade_bias_pct": 0.447321036884828,
+      "grade_p95_abs_pct": 3.965518782342725,
+      "ssd_mae_m_20mph": 0.610037950375263,
+      "ssd_p95_abs_m_20mph": 1.836695002533739,
+      "ssd_mae_m_25mph": 0.9531842974613483,
+      "ssd_p95_abs_m_25mph": 2.8698359414589536,
+      "ssd_mae_m_30mph": 1.372585388344342,
+      "ssd_p95_abs_m_30mph": 4.132563755700906,
+      "boundary60_mae_mph": 0.3814805002728134,
+      "boundary60_p95_abs_mph": 1.1065411607520002
+    },
+    "imu_lidar": {
+      "n": 284,
+      "grade_mae_pct": 1.0774092400367468,
+      "grade_rmse_pct": 1.4683041969007449,
+      "grade_bias_pct": 0.37750008618632575,
+      "grade_p95_abs_pct": 3.479593289107105,
+      "ssd_mae_m_20mph": 0.44257154879201444,
+      "ssd_p95_abs_m_20mph": 1.5199001917670574,
+      "ssd_mae_m_25mph": 0.6915180449875219,
+      "ssd_p95_abs_m_25mph": 2.374844049636028,
+      "ssd_mae_m_30mph": 0.9957859847820318,
+      "ssd_p95_abs_m_30mph": 3.4197754314758777,
+      "boundary60_mae_mph": 0.2777201584517111,
+      "boundary60_p95_abs_mph": 0.9428391487770739
+    },
+    "imu_adapted_normal": {
+      "n": 284,
+      "grade_mae_pct": 1.8130348779083543,
+      "grade_rmse_pct": 2.258023161066212,
+      "grade_bias_pct": 1.2112401081656785,
+      "grade_p95_abs_pct": 4.52549588857743,
+      "ssd_mae_m_20mph": 0.7079941257122141,
+      "ssd_p95_abs_m_20mph": 2.0434505202229247,
+      "ssd_mae_m_25mph": 1.1062408214253345,
+      "ssd_p95_abs_m_25mph": 3.1928914378483113,
+      "ssd_mae_m_30mph": 1.5929867828524813,
+      "ssd_p95_abs_m_30mph": 4.5977636705015765,
+      "boundary60_mae_mph": 0.4551841155880206,
+      "boundary60_p95_abs_mph": 1.1680494465803086
+    },
+    "imu_adapted_depth": {
+      "n": 284,
+      "grade_mae_pct": 2.4274478733547884,
+      "grade_rmse_pct": 2.9134920190593148,
+      "grade_bias_pct": 1.8703916588896663,
+      "grade_p95_abs_pct": 5.140065593707023,
+      "ssd_mae_m_20mph": 0.8758935975800529,
+      "ssd_p95_abs_m_20mph": 2.1732991237642074,
+      "ssd_mae_m_25mph": 1.3685837462188328,
+      "ssd_p95_abs_m_25mph": 3.395779880881575,
+      "ssd_mae_m_30mph": 1.97076059455512,
+      "ssd_p95_abs_m_30mph": 4.889923028469477,
+      "boundary60_mae_mph": 0.5863853293082312,
+      "boundary60_p95_abs_mph": 1.2773178474512563
+    },
+    "imu_synthetic_normal": {
+      "n": 284,
+      "grade_mae_pct": 30.25601137756181,
+      "grade_rmse_pct": 30.895432079630393,
+      "grade_bias_pct": 30.25601137756181,
+      "grade_p95_abs_pct": 40.29288068683638,
+      "ssd_mae_m_20mph": 5.868507083992795,
+      "ssd_p95_abs_m_20mph": 8.802854890373032,
+      "ssd_mae_m_25mph": 9.169542318738738,
+      "ssd_p95_abs_m_25mph": 13.754460766207867,
+      "ssd_mae_m_30mph": 13.204140938983786,
+      "ssd_p95_abs_m_30mph": 19.806423503339335,
+      "boundary60_mae_mph": 5.174494649513375,
+      "boundary60_p95_abs_mph": 6.8177679164098794
+    },
+    "imu_synthetic_depth": {
+      "n": 284,
+      "grade_mae_pct": 14.900717581051678,
+      "grade_rmse_pct": 15.263624406810003,
+      "grade_bias_pct": 14.900717581051678,
+      "grade_p95_abs_pct": 20.617645342854924,
+      "ssd_mae_m_20mph": 3.84258659110257,
+      "ssd_p95_abs_m_20mph": 6.304609804986565,
+      "ssd_mae_m_25mph": 6.004041548597765,
+      "ssd_p95_abs_m_25mph": 9.850952820291507,
+      "ssd_mae_m_30mph": 8.64581982998078,
+      "ssd_p95_abs_m_30mph": 14.185372061219782,
+      "boundary60_mae_mph": 3.014720426095886,
+      "boundary60_p95_abs_mph": 4.442337999878437
+    },
+    "relative_tilt_vs_lidar": {
+      "adapted_normal": {
+        "n": 284,
+        "mae_pct": 1.4689231382773495,
+        "bias_pct": 0.8337400219793527
+      },
+      "adapted_depth": {
+        "n": 284,
+        "mae_pct": 2.138503679758875,
+        "bias_pct": 1.4928915727033403
+      },
+      "synthetic_normal": {
+        "n": 284,
+        "mae_pct": 29.87851129137549,
+        "bias_pct": 29.87851129137549
+      },
+      "synthetic_depth": {
+        "n": 284,
+        "mae_pct": 14.523217494865357,
+        "bias_pct": 14.523217494865357
+      }
+    },
+    "reference_grade_pct": {
+      "mean": -1.4997294020007401,
+      "p5_p95": [
+        -9.1775678223535,
+        2.387406099155405
+      ]
+    }
+  }
+}

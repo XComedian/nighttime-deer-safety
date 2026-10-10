@@ -182,6 +182,47 @@ pytest -q scripts/test_dynamic_ssd_advisory.py
 The replay validates controller logic under declared assumptions; it is not an
 on-road deployment or automatic-braking validation.
 
+## Journal revision (October 2026): geometry-anchored range, reliability screening, benchmark
+
+The revised study (*Reliability-Based Screening of Camera-Only Nighttime Deer Warning with Geometry-Anchored
+Range: Synthetic Training and Real-World Evaluation*) adds the following. Scripts are in `scripts/`; compact
+outputs are in `results/journal_revision/`.
+
+- **Recovered camera intrinsics** for the rendered rural range roads (the lens was randomized but not logged):
+  `scripts/recover_synthetic_focal.py`, results in `benchmark/synthetic/`.
+- **Geometry-anchored range** `Z = f * H / h`, the distance decomposition of MonoRCNN/GUPNet applied to animals,
+  with a crop-based height network (HeightNet) trained on rendered deer only: `geo_range.py` (leave-one-road-out
+  training), `geo_eval.py` (identical detections vs. the learned range head), `geo_paper_stats.py`,
+  `geo_cue_eval.py` (road-furniture scenes), `geo_real_eval.py` (ZOD and dusk clips).
+- **Real-world range on ZOD** (LiDAR ground truth, Zenseact Open Dataset): `zod_fetch_images.py` (filtered download;
+  needs `ZOD_URL` from Zenseact), `zod_range_eval.py` (virtual pinhole views), `zod_bootstrap_ci.py`,
+  `species_prior_eval.py`, `zod_finetune.py`, `species_data.py` / `species_classifier.py`.
+- **Depth foundation-model baselines** (Metric3D v2, UniDepthV2, Depth Anything V2): `depth_baselines.py`,
+  `summarize_depth_baselines.py`, `head_gt_boxes.py`.
+- **Grade propagation, real-footage consistency, warning decisions**: `e4_grade_ssd.py`, `e5_real_consistency.py`,
+  `e5_synthetic_control.py`, `e6_decision_eval.py`, `e6_geo.py`.
+- **Reliability-based stopping-distance screening** (Monte Carlo probability of late warning with measured driver
+  response): `reliability_ssd.py`, `reliability_crossfit.py`.
+- Figures and tables: `make_paper_tables.py`, `make_geo_figures.py`, `make_reliability_figure.py`, `make_zod_vis.py`.
+
+Data locations are read from environment variables with repository-relative defaults: `ZOD_ROOT` (default
+`data/zod`), `SYNTHETIC_ROOT`, `COCO_ROOT`, `REAL_DEER_ROOT`.
+
+### Animal range benchmark
+
+`benchmark/` contains derived ZOD animal-range annotations (2,191 animals with LiDAR boxes, a species review of
+178, undistorted boxes and intrinsics for two virtual views), the rendered-road focal lengths and splits, and
+`tools/evaluate.py` (median relative error with frame-clustered intervals, scaling slope, zoom test). See
+`benchmark/README.md`. The ZOD-derived files are CC BY-SA 4.0 (`benchmark/zod_animal_range/LICENSE.md`).
+
+### Correction to the retained LOSO values
+
+`results/loso/loso_results.json` holds the July 23, 2026 re-evaluation used in the TRB submission (50-60 m joint
+mean 0.623). Re-evaluating the same frozen checkpoints with the current `loso_eval.py` does not reproduce it and
+instead matches the original run in `results/journal_revision/loso_reproduced/` (50-60 m joint mean 0.594;
+detection recall is identical in both). The journal revision uses the reproducible values; the earlier file is kept
+for provenance.
+
 ## Reproducibility notes
 
 `REPRODUCIBILITY.md` maps the principal study claims to retained artifacts.

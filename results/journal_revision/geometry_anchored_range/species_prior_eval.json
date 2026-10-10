@@ -1,0 +1,198 @@
+{
+  "54.4": {
+    "G0 constant 1.41 m": {
+      "n": 52,
+      "median_rel": 0.35516712675983,
+      "median_rel_ci": [
+        0.1731526929193988,
+        0.4779958617395603
+      ],
+      "slope": 0.8877321597486004,
+      "within_10pct": 0.15384615384615385,
+      "per_species": {
+        "cattle": 0.188,
+        "horse": 0.148,
+        "reindeer": 0.379,
+        "sheep": 0.791
+      }
+    },
+    "G1 HeightNet": {
+      "n": 52,
+      "median_rel": 0.18654835747350162,
+      "median_rel_ci": [
+        0.11796664547599271,
+        0.2981336713350807
+      ],
+      "slope": 0.8859465544991584,
+      "within_10pct": 0.2692307692307692,
+      "per_species": {
+        "cattle": 0.117,
+        "horse": 0.259,
+        "reindeer": 0.229,
+        "sheep": 0.136
+      }
+    },
+    "Species prior (literature)": {
+      "n": 52,
+      "median_rel": 0.11039314451640767,
+      "median_rel_ci": [
+        0.07314443083771577,
+        0.15940422175210248
+      ],
+      "slope": 0.8925724388293398,
+      "within_10pct": 0.4230769230769231,
+      "per_species": {
+        "cattle": 0.195,
+        "horse": 0.106,
+        "reindeer": 0.113,
+        "sheep": 0.102
+      }
+    },
+    "Species prior (data, leave-frame-out)": {
+      "n": 52,
+      "median_rel": 0.15815290929135356,
+      "median_rel_ci": [
+        0.09746616207684507,
+        0.2382003202128061
+      ],
+      "slope": 0.9079415519688573,
+      "within_10pct": 0.36538461538461536,
+      "per_species": {
+        "cattle": 0.519,
+        "horse": 0.136,
+        "reindeer": 0.106,
+        "sheep": 0.246
+      }
+    },
+    "G1 x species prior (literature, geometric mean)": {
+      "n": 52,
+      "median_rel": 0.14930629466090622,
+      "median_rel_ci": [
+        0.09906935055505973,
+        0.1949887853366408
+      ],
+      "slope": 0.8892594982930162,
+      "within_10pct": 0.36538461538461536,
+      "per_species": {
+        "cattle": 0.21,
+        "horse": 0.157,
+        "reindeer": 0.18,
+        "sheep": 0.074
+      }
+    },
+    "Size-oracle (true height)": {
+      "n": 52,
+      "median_rel": 0.11906104641550899,
+      "median_rel_ci": [
+        0.0677801822923503,
+        0.16017570457169594
+      ],
+      "slope": 0.9657442188127803,
+      "within_10pct": 0.4423076923076923,
+      "per_species": {
+        "cattle": 0.119,
+        "horse": 0.129,
+        "reindeer": 0.159,
+        "sheep": 0.1
+      }
+    }
+  },
+  "70": {
+    "G0 constant 1.41 m": {
+      "n": 78,
+      "median_rel": 0.3586375502969291,
+      "median_rel_ci": [
+        0.18083691016577952,
+        0.72935417482357
+      ],
+      "slope": 0.9384354351649946,
+      "within_10pct": 0.15384615384615385,
+      "per_species": {
+        "cattle": 0.195,
+        "horse": 0.148,
+        "reindeer": 0.378,
+        "sheep": 0.873
+      }
+    },
+    "G1 HeightNet": {
+      "n": 78,
+      "median_rel": 0.2297370028478224,
+      "median_rel_ci": [
+        0.14271455206145783,
+        0.3259391724704186
+      ],
+      "slope": 0.9512810537974955,
+      "within_10pct": 0.23076923076923078,
+      "per_species": {
+        "cattle": 0.137,
+        "horse": 0.27,
+        "reindeer": 0.233,
+        "sheep": 0.23
+      }
+    },
+    "Species prior (literature)": {
+      "n": 78,
+      "median_rel": 0.11221957912559664,
+      "median_rel_ci": [
+        0.08714763259858066,
+        0.16523378309799897
+      ],
+      "slope": 0.9476854282126047,
+      "within_10pct": 0.4230769230769231,
+      "per_species": {
+        "cattle": 0.202,
+        "horse": 0.106,
+        "reindeer": 0.114,
+        "sheep": 0.111
+      }
+    },
+    "Species prior (data, leave-frame-out)": {
+      "n": 78,
+      "median_rel": 0.11580762030824071,
+      "median_rel_ci": [
+        0.08101870377355998,
+        0.18021012748511758
+      ],
+      "slope": 0.929678617999151,
+      "within_10pct": 0.4358974358974359,
+      "per_species": {
+        "cattle": 0.249,
+        "horse": 0.086,
+        "reindeer": 0.129,
+        "sheep": 0.11
+      }
+    },
+    "G1 x species prior (literature, geometric mean)": {
+      "n": 78,
+      "median_rel": 0.15635893036266152,
+      "median_rel_ci": [
+        0.12182077111230336,
+        0.22879977019058434
+      ],
+      "slope": 0.9494832406556036,
+      "within_10pct": 0.2948717948717949,
+      "per_species": {
+        "cattle": 0.137,
+        "horse": 0.164,
+        "reindeer": 0.173,
+        "sheep": 0.12
+      }
+    },
+    "Size-oracle (true height)": {
+      "n": 78,
+      "median_rel": 0.1004214973405896,
+      "median_rel_ci": [
+        0.06805515749956978,
+        0.1498015670696611
+      ],
+      "slope": 0.9822383210433892,
+      "within_10pct": 0.5,
+      "per_species": {
+        "cattle": 0.119,
+        "horse": 0.129,
+        "reindeer": 0.15,
+        "sheep": 0.088
+      }
+    }
+  }
+}

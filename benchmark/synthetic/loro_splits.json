@@ -1,0 +1,162 @@
+{
+ "holdout_crossing8": {
+  "train": [
+   "crossing9a",
+   "crossing9b",
+   "crossing9c",
+   "crossing10",
+   "crossing11",
+   "crossing12",
+   "crossing13",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing8"
+  ]
+ },
+ "holdout_crossing9a": {
+  "train": [
+   "crossing8",
+   "crossing9b",
+   "crossing9c",
+   "crossing10",
+   "crossing11",
+   "crossing12",
+   "crossing13",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing9a"
+  ]
+ },
+ "holdout_crossing9b": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9c",
+   "crossing10",
+   "crossing11",
+   "crossing12",
+   "crossing13",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing9b"
+  ]
+ },
+ "holdout_crossing9c": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9b",
+   "crossing10",
+   "crossing11",
+   "crossing12",
+   "crossing13",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing9c"
+  ]
+ },
+ "holdout_crossing10": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9b",
+   "crossing9c",
+   "crossing11",
+   "crossing12",
+   "crossing13",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing10"
+  ]
+ },
+ "holdout_crossing11": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9b",
+   "crossing9c",
+   "crossing10",
+   "crossing12",
+   "crossing13",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing11"
+  ]
+ },
+ "holdout_crossing12": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9b",
+   "crossing9c",
+   "crossing10",
+   "crossing11",
+   "crossing13",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing12"
+  ]
+ },
+ "holdout_crossing13": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9b",
+   "crossing9c",
+   "crossing10",
+   "crossing11",
+   "crossing12",
+   "crossing14",
+   "crossing15"
+  ],
+  "test": [
+   "crossing13"
+  ]
+ },
+ "holdout_crossing14": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9b",
+   "crossing9c",
+   "crossing10",
+   "crossing11",
+   "crossing12",
+   "crossing13",
+   "crossing15"
+  ],
+  "test": [
+   "crossing14"
+  ]
+ },
+ "holdout_crossing15": {
+  "train": [
+   "crossing8",
+   "crossing9a",
+   "crossing9b",
+   "crossing9c",
+   "crossing10",
+   "crossing11",
+   "crossing12",
+   "crossing13",
+   "crossing14"
+  ],
+  "test": [
+   "crossing15"
+  ]
+ }
+}

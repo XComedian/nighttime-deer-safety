@@ -25,6 +25,12 @@ The dataset archive must include:
 Do not assign an open license to rendered data until the licenses of all Blender
 models, textures, vegetation, vehicles, and animal assets have been reviewed.
 
+## Derived ZOD annotations
+
+`benchmark/zod_animal_range/` contains annotations derived from the Zenseact Open Dataset (CC BY-SA 4.0) and is
+released under CC BY-SA 4.0 with attribution to Zenseact; see the license file in that folder. ZOD images are not
+redistributed; obtain ZOD Frames from https://zod.zenseact.com.
+
 ## Third-party data
 
 nuScenes and other restricted third-party images are not redistributed. Users

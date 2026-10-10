@@ -47,3 +47,10 @@ reproducibility claim.
 The rendered range corpus ends at 60 m. Accordingly, 60 m is an evaluation
 ceiling rather than an estimated maximum detection distance; performance beyond
 the corpus ceiling is untested.
+
+
+## Correction (October 2026)
+
+The 50-60 m joint-success mean of 0.623 reported from `results/loso/loso_results.json` (July 23, 2026 re-evaluation)
+does not reproduce from the frozen checkpoints with the current `scripts/loso_eval.py`; the reproducible value is 0.594
+(`results/journal_revision/loso_reproduced/`), matching the original July 22 run. Detection recall is unaffected.

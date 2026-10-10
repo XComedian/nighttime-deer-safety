@@ -1,0 +1,354 @@
+{
+  "head": {
+    "point": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.00018656716417910448,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.001499983711010134,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "20mph_level": {
+        "miss_rate": 0.28112539409827825,
+        "false_alert_rate": 0.06075243597173093,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "20mph_down8": {
+        "miss_rate": 0.19961030549103936,
+        "false_alert_rate": 0.08117196544976371,
+        "nuisance_rate_empty_frames": 0.006410570100318082
+      },
+      "25mph_level": {
+        "miss_rate": 0.10775098194992443,
+        "false_alert_rate": 0.230081928984409,
+        "nuisance_rate_empty_frames": 0.023719403146047157
+      },
+      "25mph_down8": {
+        "miss_rate": 0.052994461420583804,
+        "false_alert_rate": 0.5163631672656159,
+        "nuisance_rate_empty_frames": 0.038840196933795215
+      },
+      "coverage_mean_min": null
+    },
+    "conformal80": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.002061808974038474,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.015017427032416398,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "20mph_level": {
+        "miss_rate": 0.12439939022062259,
+        "false_alert_rate": 0.17901746106074165,
+        "nuisance_rate_empty_frames": 0.006410570100318082
+      },
+      "20mph_down8": {
+        "miss_rate": 0.10394971081039076,
+        "false_alert_rate": 0.2423079708444948,
+        "nuisance_rate_empty_frames": 0.019201769410067866
+      },
+      "25mph_level": {
+        "miss_rate": 0.0405559989894963,
+        "false_alert_rate": 0.5960070036562977,
+        "nuisance_rate_empty_frames": 0.031937694776763295
+      },
+      "25mph_down8": {
+        "miss_rate": 0.02172597123450807,
+        "false_alert_rate": 0.8349102820064906,
+        "nuisance_rate_empty_frames": 0.04705848856451135
+      },
+      "coverage_mean_min": [
+        0.7706212504927247,
+        0.28225806451612906
+      ]
+    },
+    "conformal90": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.010505821706641574,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.05313565057643253,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "20mph_level": {
+        "miss_rate": 0.07595792327665708,
+        "false_alert_rate": 0.28376721880801214,
+        "nuisance_rate_empty_frames": 0.015923080885477704
+      },
+      "20mph_down8": {
+        "miss_rate": 0.05568300774191457,
+        "false_alert_rate": 0.36689662722827476,
+        "nuisance_rate_empty_frames": 0.02240361367236295
+      },
+      "25mph_level": {
+        "miss_rate": 0.01938628193283429,
+        "false_alert_rate": 0.7916730232990128,
+        "nuisance_rate_empty_frames": 0.04705848856451135
+      },
+      "25mph_down8": {
+        "miss_rate": 0.01158445633056204,
+        "false_alert_rate": 0.9146481178396073,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "coverage_mean_min": [
+        0.8779875415848014,
+        0.4583333333333333
+      ]
+    },
+    "conformal95": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.04546182519424556,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.1230608703144768,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "20mph_level": {
+        "miss_rate": 0.048688874306024345,
+        "false_alert_rate": 0.41311093048944525,
+        "nuisance_rate_empty_frames": 0.020841113672362948
+      },
+      "20mph_down8": {
+        "miss_rate": 0.032903605741800776,
+        "false_alert_rate": 0.5162010570433406,
+        "nuisance_rate_empty_frames": 0.023719403146047157
+      },
+      "25mph_level": {
+        "miss_rate": 0.012024003206715239,
+        "false_alert_rate": 0.8943821679196265,
+        "nuisance_rate_empty_frames": 0.04869783282680643
+      },
+      "25mph_down8": {
+        "miss_rate": 0.007845234763471619,
+        "false_alert_rate": 0.9402618657937808,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "coverage_mean_min": [
+        0.9327228478067588,
+        0.5779569892473119
+      ]
+    },
+    "detection_only": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.9942059522747121,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.9942059522747121,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "20mph_level": {
+        "miss_rate": 0.0,
+        "false_alert_rate": 0.9915338140392865,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "20mph_down8": {
+        "miss_rate": 0.0008264462809917355,
+        "false_alert_rate": 0.9901241971889345,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "25mph_level": {
+        "miss_rate": 0.0026066350710900474,
+        "false_alert_rate": 0.9829794470880737,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "25mph_down8": {
+        "miss_rate": 0.004310931229168083,
+        "false_alert_rate": 0.9789279869067103,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "coverage_mean_min": null
+    }
+  },
+  "g1": {
+    "point": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.0011375432035930512,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.011063918998722017,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "20mph_level": {
+        "miss_rate": 0.10341554189277055,
+        "false_alert_rate": 0.11096117528373037,
+        "nuisance_rate_empty_frames": 0.0029551337359792927
+      },
+      "20mph_down8": {
+        "miss_rate": 0.06959695953596232,
+        "false_alert_rate": 0.1436050083700658,
+        "nuisance_rate_empty_frames": 0.005910267471958585
+      },
+      "25mph_level": {
+        "miss_rate": 0.04071978620323407,
+        "false_alert_rate": 0.27823330299165505,
+        "nuisance_rate_empty_frames": 0.020664365832614322
+      },
+      "25mph_down8": {
+        "miss_rate": 0.03643580791865022,
+        "false_alert_rate": 0.4282831197426319,
+        "nuisance_rate_empty_frames": 0.021980155306298533
+      },
+      "coverage_mean_min": null
+    },
+    "conformal80": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.0032007876767942193,
+        "nuisance_rate_empty_frames": 0.0
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.02155370140694058,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "20mph_level": {
+        "miss_rate": 0.06554048938089188,
+        "false_alert_rate": 0.16456092784168166,
+        "nuisance_rate_empty_frames": 0.0029551337359792927
+      },
+      "20mph_down8": {
+        "miss_rate": 0.038746995473130486,
+        "false_alert_rate": 0.20571422575336254,
+        "nuisance_rate_empty_frames": 0.014106988783433994
+      },
+      "25mph_level": {
+        "miss_rate": 0.024929095631423457,
+        "false_alert_rate": 0.3830320172860406,
+        "nuisance_rate_empty_frames": 0.020664365832614322
+      },
+      "25mph_down8": {
+        "miss_rate": 0.022898577697591457,
+        "false_alert_rate": 0.5476085818712235,
+        "nuisance_rate_empty_frames": 0.023295944779982744
+      },
+      "coverage_mean_min": [
+        0.7800160467962136,
+        0.47005444646098005
+      ]
+    },
+    "conformal90": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.010129323944487772,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.04185049163262595,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "20mph_level": {
+        "miss_rate": 0.035428688757965295,
+        "false_alert_rate": 0.2321150736887009,
+        "nuisance_rate_empty_frames": 0.0029551337359792927
+      },
+      "20mph_down8": {
+        "miss_rate": 0.01697252382974504,
+        "false_alert_rate": 0.28132791649743816,
+        "nuisance_rate_empty_frames": 0.01902502157031924
+      },
+      "25mph_level": {
+        "miss_rate": 0.016208917262534164,
+        "false_alert_rate": 0.5283165597896919,
+        "nuisance_rate_empty_frames": 0.020664365832614322
+      },
+      "25mph_down8": {
+        "miss_rate": 0.015102319118757746,
+        "false_alert_rate": 0.6938609474545203,
+        "nuisance_rate_empty_frames": 0.02610427156709979
+      },
+      "coverage_mean_min": [
+        0.8807044770992754,
+        0.5680580762250453
+      ]
+    },
+    "conformal95": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.025494083050633144,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.08132899454187419,
+        "nuisance_rate_empty_frames": 0.001639344262295082
+      },
+      "20mph_level": {
+        "miss_rate": 0.017466216627136166,
+        "false_alert_rate": 0.3270618528260355,
+        "nuisance_rate_empty_frames": 0.012467644521138913
+      },
+      "20mph_down8": {
+        "miss_rate": 0.0064936045734686355,
+        "false_alert_rate": 0.3944815145033289,
+        "nuisance_rate_empty_frames": 0.020664365832614322
+      },
+      "25mph_level": {
+        "miss_rate": 0.009767116834265576,
+        "false_alert_rate": 0.6733075498508787,
+        "nuisance_rate_empty_frames": 0.021980155306298533
+      },
+      "25mph_down8": {
+        "miss_rate": 0.010885822640125069,
+        "false_alert_rate": 0.8412584577214227,
+        "nuisance_rate_empty_frames": 0.028735850514468208
+      },
+      "coverage_mean_min": [
+        0.930532903666396,
+        0.6588021778584392
+      ]
+    },
+    "detection_only": {
+      "15mph_level": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.9942059522747121,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "15mph_down8": {
+        "miss_rate": NaN,
+        "false_alert_rate": 0.9942059522747121,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "20mph_level": {
+        "miss_rate": 0.0,
+        "false_alert_rate": 0.9915338140392865,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "20mph_down8": {
+        "miss_rate": 0.0008264462809917355,
+        "false_alert_rate": 0.9901241971889345,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "25mph_level": {
+        "miss_rate": 0.0026066350710900474,
+        "false_alert_rate": 0.9829794470880737,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "25mph_down8": {
+        "miss_rate": 0.004310931229168083,
+        "false_alert_rate": 0.9789279869067103,
+        "nuisance_rate_empty_frames": 0.05132941177417485
+      },
+      "coverage_mean_min": null
+    }
+  }
+}

@@ -1,0 +1,5371 @@
+{
+ "recall": [
+  0.9170521255671019,
+  0.8878781981761964,
+  0.8497519034789226
+ ],
+ "prt": {
+  "mu": 0.008574054804324951,
+  "sigma": 0.4165
+ },
+ "q90": 0.37416455516614355,
+ "curves": {
+  "perfect perception (to 60 m) | level": {
+   "15": {
+    "p_nc": 0.00684,
+    "p_no_warning": 0.0,
+    "median_warning_m": 25.275840000000983,
+    "median_spare_m": 12.270078991701617,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 25.34978057142857
+   },
+   "16": {
+    "p_nc": 0.00726,
+    "p_no_warning": 0.0,
+    "median_warning_m": 26.97459200000162,
+    "median_spare_m": 12.791522192605289,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 27.504223085714283
+   },
+   "17": {
+    "p_nc": 0.00682,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.165088000002157,
+    "median_spare_m": 13.771689012552347,
+    "p_early_20m": 0.00053,
+    "design_ssd_m": 29.716722742857144
+   },
+   "18": {
+    "p_nc": 0.00591,
+    "p_no_warning": 0.0,
+    "median_warning_m": 31.713215999998425,
+    "median_spare_m": 15.073235162993996,
+    "p_early_20m": 0.0218,
+    "design_ssd_m": 31.987279542857145
+   },
+   "19": {
+    "p_nc": 0.00652,
+    "p_no_warning": 0.0,
+    "median_warning_m": 33.6354879999991,
+    "median_spare_m": 15.7024676850386,
+    "p_early_20m": 0.06268,
+    "design_ssd_m": 34.315893485714284
+   },
+   "20": {
+    "p_nc": 0.00546,
+    "p_no_warning": 0.0,
+    "median_warning_m": 36.45183999999969,
+    "median_spare_m": 17.21749557845308,
+    "p_early_20m": 0.20045,
+    "design_ssd_m": 36.702564571428574
+   },
+   "21": {
+    "p_nc": 0.00572,
+    "p_no_warning": 0.0,
+    "median_warning_m": 38.284704000000204,
+    "median_spare_m": 17.690289449974735,
+    "p_early_20m": 0.26074,
+    "design_ssd_m": 39.147292799999995
+   },
+   "22": {
+    "p_nc": 0.00561,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.83283200000065,
+    "median_spare_m": 18.81457302256477,
+    "p_early_20m": 0.38073,
+    "design_ssd_m": 41.65007817142857
+   },
+   "23": {
+    "p_nc": 0.00469,
+    "p_no_warning": 0.0,
+    "median_warning_m": 44.09622400000103,
+    "median_spare_m": 20.634490400247575,
+    "p_early_20m": 0.55115,
+    "design_ssd_m": 44.21092068571429
+   },
+   "24": {
+    "p_nc": 0.00512,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.929087999998615,
+    "median_spare_m": 20.984470903955142,
+    "p_early_20m": 0.57777,
+    "design_ssd_m": 46.82982034285715
+   },
+   "25": {
+    "p_nc": 0.00397,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.41599999999909,
+    "median_spare_m": 22.95608725639348,
+    "p_early_20m": 0.70479,
+    "design_ssd_m": 49.506777142857146
+   },
+   "26": {
+    "p_nc": 0.00444,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.20415999999949,
+    "median_spare_m": 23.227733737808755,
+    "p_early_20m": 0.71022,
+    "design_ssd_m": 52.24179108571428
+   },
+   "27": {
+    "p_nc": 0.00401,
+    "p_no_warning": 0.0,
+    "median_warning_m": 54.64636799999985,
+    "median_spare_m": 25.07088157965663,
+    "p_early_20m": 0.79093,
+    "design_ssd_m": 55.03486217142857
+   },
+   "28": {
+    "p_nc": 0.0039,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.37331200000017,
+    "median_spare_m": 26.149826118082043,
+    "p_early_20m": 0.82064,
+    "design_ssd_m": 57.8859904
+   },
+   "29": {
+    "p_nc": 0.00412,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 26.398930054756654,
+    "p_early_20m": 0.82138,
+    "design_ssd_m": 60.795175771428575
+   },
+   "30": {
+    "p_nc": 0.00799,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 24.283754727618494,
+    "p_early_20m": 0.73187,
+    "design_ssd_m": 63.76241828571428
+   },
+   "31": {
+    "p_nc": 0.00921,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 23.627187083132355,
+    "p_early_20m": 0.69693,
+    "design_ssd_m": 66.78771794285714
+   },
+   "32": {
+    "p_nc": 0.01477,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 21.862535437216806,
+    "p_early_20m": 0.59973,
+    "design_ssd_m": 69.87107474285715
+   },
+   "33": {
+    "p_nc": 0.02815,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 18.80527916292929,
+    "p_early_20m": 0.41335,
+    "design_ssd_m": 73.01248868571429
+   },
+   "34": {
+    "p_nc": 0.04121,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 17.34497258380256,
+    "p_early_20m": 0.32316,
+    "design_ssd_m": 76.21195977142857
+   },
+   "35": {
+    "p_nc": 0.05613,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 16.030308404646604,
+    "p_early_20m": 0.24733,
+    "design_ssd_m": 79.469488
+   },
+   "36": {
+    "p_nc": 0.07317,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 14.94023983394841,
+    "p_early_20m": 0.19282,
+    "design_ssd_m": 82.78507337142858
+   },
+   "37": {
+    "p_nc": 0.11672,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 12.527072442597138,
+    "p_early_20m": 0.09087,
+    "design_ssd_m": 86.15871588571429
+   },
+   "38": {
+    "p_nc": 0.14011,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 11.775066999650335,
+    "p_early_20m": 0.06952,
+    "design_ssd_m": 89.59041554285714
+   },
+   "39": {
+    "p_nc": 0.20963,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 9.791849809501407,
+    "p_early_20m": 0.02528,
+    "design_ssd_m": 93.08017234285714
+   },
+   "40": {
+    "p_nc": 0.29349,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 8.139538761128577,
+    "p_early_20m": 0.00756,
+    "design_ssd_m": 96.6279862857143
+   },
+   "41": {
+    "p_nc": 0.39401,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 6.663651757046708,
+    "p_early_20m": 0.00186,
+    "design_ssd_m": 100.23385737142856
+   },
+   "42": {
+    "p_nc": 0.42296,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 6.522253879002676,
+    "p_early_20m": 0.00193,
+    "design_ssd_m": 103.89778559999999
+   },
+   "43": {
+    "p_nc": 0.52623,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 5.448114589315708,
+    "p_early_20m": 0.00042,
+    "design_ssd_m": 107.6197709714286
+   },
+   "44": {
+    "p_nc": 0.6264,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 4.645116755211546,
+    "p_early_20m": 8e-05,
+    "design_ssd_m": 111.39981348571428
+   },
+   "45": {
+    "p_nc": 0.71582,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.943796131794933,
+    "p_early_20m": 1e-05,
+    "design_ssd_m": 115.23791314285715
+   }
+  },
+  "rendered G1 | level": {
+   "15": {
+    "p_nc": 0.00667,
+    "p_no_warning": 0.0,
+    "median_warning_m": 25.946400000000978,
+    "median_spare_m": 12.538908789166381,
+    "p_early_20m": 0.00316,
+    "design_ssd_m": 25.34978057142857
+   },
+   "16": {
+    "p_nc": 0.00708,
+    "p_no_warning": 0.0,
+    "median_warning_m": 27.689856000001612,
+    "median_spare_m": 13.55474200321756,
+    "p_early_20m": 0.01824,
+    "design_ssd_m": 27.504223085714283
+   },
+   "17": {
+    "p_nc": 0.00684,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.925056000002144,
+    "median_spare_m": 14.62156043040252,
+    "p_early_20m": 0.05548,
+    "design_ssd_m": 29.716722742857144
+   },
+   "18": {
+    "p_nc": 0.00634,
+    "p_no_warning": 0.0,
+    "median_warning_m": 32.517887999998436,
+    "median_spare_m": 15.640769191725923,
+    "p_early_20m": 0.12141,
+    "design_ssd_m": 31.987279542857145
+   },
+   "19": {
+    "p_nc": 0.006,
+    "p_no_warning": 0.0,
+    "median_warning_m": 34.48486399999911,
+    "median_spare_m": 16.703936135615876,
+    "p_early_20m": 0.21311,
+    "design_ssd_m": 34.315893485714284
+   },
+   "20": {
+    "p_nc": 0.00607,
+    "p_no_warning": 0.0,
+    "median_warning_m": 37.345919999999694,
+    "median_spare_m": 17.84748597102912,
+    "p_early_20m": 0.31826,
+    "design_ssd_m": 36.702564571428574
+   },
+   "21": {
+    "p_nc": 0.00556,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.1622720000002,
+    "median_spare_m": 18.954534543137203,
+    "p_early_20m": 0.41387,
+    "design_ssd_m": 39.147292799999995
+   },
+   "22": {
+    "p_nc": 0.00476,
+    "p_no_warning": 0.0,
+    "median_warning_m": 41.816320000000644,
+    "median_spare_m": 20.11646733452201,
+    "p_early_20m": 0.50594,
+    "design_ssd_m": 41.65007817142857
+   },
+   "23": {
+    "p_nc": 0.00485,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.12441600000102,
+    "median_spare_m": 21.332804180279936,
+    "p_early_20m": 0.5868,
+    "design_ssd_m": 44.21092068571429
+   },
+   "24": {
+    "p_nc": 0.0048,
+    "p_no_warning": 0.0,
+    "median_warning_m": 47.00198399999863,
+    "median_spare_m": 22.57482635527103,
+    "p_early_20m": 0.65706,
+    "design_ssd_m": 46.82982034285715
+   },
+   "25": {
+    "p_nc": 0.00484,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.41599999999909,
+    "median_spare_m": 23.721174279195907,
+    "p_early_20m": 0.70997,
+    "design_ssd_m": 49.506777142857146
+   },
+   "26": {
+    "p_nc": 0.00484,
+    "p_no_warning": 0.0,
+    "median_warning_m": 52.366463999999496,
+    "median_spare_m": 24.57205417221757,
+    "p_early_20m": 0.74272,
+    "design_ssd_m": 52.24179108571428
+   },
+   "27": {
+    "p_nc": 0.00454,
+    "p_no_warning": 0.0,
+    "median_warning_m": 55.853375999999855,
+    "median_spare_m": 25.447864739880515,
+    "p_early_20m": 0.7707,
+    "design_ssd_m": 55.03486217142857
+   },
+   "28": {
+    "p_nc": 0.00471,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.62502400000017,
+    "median_spare_m": 25.96514236864418,
+    "p_early_20m": 0.78799,
+    "design_ssd_m": 57.8859904
+   },
+   "29": {
+    "p_nc": 0.00578,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 25.285317167976956,
+    "p_early_20m": 0.76663,
+    "design_ssd_m": 60.795175771428575
+   },
+   "30": {
+    "p_nc": 0.00856,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 23.636836596139396,
+    "p_early_20m": 0.69829,
+    "design_ssd_m": 63.76241828571428
+   },
+   "31": {
+    "p_nc": 0.01062,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 23.19015779920543,
+    "p_early_20m": 0.6705,
+    "design_ssd_m": 66.78771794285714
+   },
+   "32": {
+    "p_nc": 0.01674,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 21.459316934833055,
+    "p_early_20m": 0.57731,
+    "design_ssd_m": 69.87107474285715
+   },
+   "33": {
+    "p_nc": 0.03005,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 18.539469598969205,
+    "p_early_20m": 0.39673,
+    "design_ssd_m": 73.01248868571429
+   },
+   "34": {
+    "p_nc": 0.04232,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 17.035856545148775,
+    "p_early_20m": 0.30617,
+    "design_ssd_m": 76.21195977142857
+   },
+   "35": {
+    "p_nc": 0.05741,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 15.763130048099192,
+    "p_early_20m": 0.23348,
+    "design_ssd_m": 79.469488
+   },
+   "36": {
+    "p_nc": 0.07577,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 14.644936859830807,
+    "p_early_20m": 0.17808,
+    "design_ssd_m": 82.78507337142858
+   },
+   "37": {
+    "p_nc": 0.12347,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 12.324574033771235,
+    "p_early_20m": 0.08251,
+    "design_ssd_m": 86.15871588571429
+   },
+   "38": {
+    "p_nc": 0.14938,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 11.582526492642849,
+    "p_early_20m": 0.06313,
+    "design_ssd_m": 89.59041554285714
+   },
+   "39": {
+    "p_nc": 0.21943,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 9.568764928321244,
+    "p_early_20m": 0.02294,
+    "design_ssd_m": 93.08017234285714
+   },
+   "40": {
+    "p_nc": 0.30773,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 7.960674098512911,
+    "p_early_20m": 0.00741,
+    "design_ssd_m": 96.6279862857143
+   },
+   "41": {
+    "p_nc": 0.40708,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 6.587380603472955,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 100.23385737142856
+   },
+   "42": {
+    "p_nc": 0.43657,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 6.3529874564984326,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 103.89778559999999
+   },
+   "43": {
+    "p_nc": 0.53899,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 5.350878817729637,
+    "p_early_20m": 0.00034,
+    "design_ssd_m": 107.6197709714286
+   },
+   "44": {
+    "p_nc": 0.64017,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 4.530224214864539,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 111.39981348571428
+   },
+   "45": {
+    "p_nc": 0.73229,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.816388097823591,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 115.23791314285715
+   }
+  },
+  "real G1 | level": {
+   "15": {
+    "p_nc": 0.05301,
+    "p_no_warning": 0.0,
+    "median_warning_m": 24.605280000000988,
+    "median_spare_m": 11.650309192281874,
+    "p_early_20m": 0.17535,
+    "design_ssd_m": 25.34978057142857
+   },
+   "16": {
+    "p_nc": 0.0549,
+    "p_no_warning": 0.0,
+    "median_warning_m": 26.97459200000162,
+    "median_spare_m": 12.485216503649662,
+    "p_early_20m": 0.21103,
+    "design_ssd_m": 27.504223085714283
+   },
+   "17": {
+    "p_nc": 0.05244,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.165088000002157,
+    "median_spare_m": 13.4342473427948,
+    "p_early_20m": 0.25009,
+    "design_ssd_m": 29.716722742857144
+   },
+   "18": {
+    "p_nc": 0.05396,
+    "p_no_warning": 0.0,
+    "median_warning_m": 31.713215999998425,
+    "median_spare_m": 14.499060424945066,
+    "p_early_20m": 0.28972,
+    "design_ssd_m": 31.987279542857145
+   },
+   "19": {
+    "p_nc": 0.05205,
+    "p_no_warning": 0.0,
+    "median_warning_m": 33.6354879999991,
+    "median_spare_m": 15.388525323016474,
+    "p_early_20m": 0.32918,
+    "design_ssd_m": 34.315893485714284
+   },
+   "20": {
+    "p_nc": 0.05094,
+    "p_no_warning": 0.0,
+    "median_warning_m": 36.45183999999969,
+    "median_spare_m": 16.48792970492557,
+    "p_early_20m": 0.36538,
+    "design_ssd_m": 36.702564571428574
+   },
+   "21": {
+    "p_nc": 0.05485,
+    "p_no_warning": 0.0,
+    "median_warning_m": 38.284704000000204,
+    "median_spare_m": 17.42306600725064,
+    "p_early_20m": 0.39737,
+    "design_ssd_m": 39.147292799999995
+   },
+   "22": {
+    "p_nc": 0.05224,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.83283200000065,
+    "median_spare_m": 18.524603055396398,
+    "p_early_20m": 0.43274,
+    "design_ssd_m": 41.65007817142857
+   },
+   "23": {
+    "p_nc": 0.05292,
+    "p_no_warning": 0.0,
+    "median_warning_m": 43.06803200000104,
+    "median_spare_m": 19.506771237027568,
+    "p_early_20m": 0.4596,
+    "design_ssd_m": 44.21092068571429
+   },
+   "24": {
+    "p_nc": 0.05337,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.929087999998615,
+    "median_spare_m": 20.463596253447726,
+    "p_early_20m": 0.48601,
+    "design_ssd_m": 46.82982034285715
+   },
+   "25": {
+    "p_nc": 0.05395,
+    "p_no_warning": 0.0,
+    "median_warning_m": 48.29839999999908,
+    "median_spare_m": 21.402409772641704,
+    "p_early_20m": 0.5108,
+    "design_ssd_m": 49.506777142857146
+   },
+   "26": {
+    "p_nc": 0.05318,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.20415999999949,
+    "median_spare_m": 21.880795233387047,
+    "p_early_20m": 0.52571,
+    "design_ssd_m": 52.24179108571428
+   },
+   "27": {
+    "p_nc": 0.05386,
+    "p_no_warning": 0.0,
+    "median_warning_m": 53.43935999999985,
+    "median_spare_m": 22.353056054785615,
+    "p_early_20m": 0.5413,
+    "design_ssd_m": 55.03486217142857
+   },
+   "28": {
+    "p_nc": 0.05506,
+    "p_no_warning": 0.0,
+    "median_warning_m": 56.12160000000017,
+    "median_spare_m": 22.413627902293182,
+    "p_early_20m": 0.54749,
+    "design_ssd_m": 57.8859904
+   },
+   "29": {
+    "p_nc": 0.05518,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.954464000000456,
+    "median_spare_m": 21.648659320179075,
+    "p_early_20m": 0.53136,
+    "design_ssd_m": 60.795175771428575
+   },
+   "30": {
+    "p_nc": 0.05793,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.46272000000073,
+    "median_spare_m": 20.597756720150805,
+    "p_early_20m": 0.49615,
+    "design_ssd_m": 63.76241828571428
+   },
+   "31": {
+    "p_nc": 0.05895,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 20.421643615003887,
+    "p_early_20m": 0.48889,
+    "design_ssd_m": 66.78771794285714
+   },
+   "32": {
+    "p_nc": 0.06263,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 19.37975587650282,
+    "p_early_20m": 0.43944,
+    "design_ssd_m": 69.87107474285715
+   },
+   "33": {
+    "p_nc": 0.0737,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 17.157201353597188,
+    "p_early_20m": 0.31518,
+    "design_ssd_m": 73.01248868571429
+   },
+   "34": {
+    "p_nc": 0.08147,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 16.093888256905657,
+    "p_early_20m": 0.25593,
+    "design_ssd_m": 76.21195977142857
+   },
+   "35": {
+    "p_nc": 0.0948,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 15.075568461537241,
+    "p_early_20m": 0.20319,
+    "design_ssd_m": 79.469488
+   },
+   "36": {
+    "p_nc": 0.10959,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 14.146954819307375,
+    "p_early_20m": 0.1604,
+    "design_ssd_m": 82.78507337142858
+   },
+   "37": {
+    "p_nc": 0.15285,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 11.859179245430695,
+    "p_early_20m": 0.07563,
+    "design_ssd_m": 86.15871588571429
+   },
+   "38": {
+    "p_nc": 0.17493,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 11.16869035028401,
+    "p_early_20m": 0.05675,
+    "design_ssd_m": 89.59041554285714
+   },
+   "39": {
+    "p_nc": 0.23716,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 9.2985520114866,
+    "p_early_20m": 0.02069,
+    "design_ssd_m": 93.08017234285714
+   },
+   "40": {
+    "p_nc": 0.31938,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 7.8198515782316065,
+    "p_early_20m": 0.00629,
+    "design_ssd_m": 96.6279862857143
+   },
+   "41": {
+    "p_nc": 0.41575,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 6.524135006503606,
+    "p_early_20m": 0.0016,
+    "design_ssd_m": 100.23385737142856
+   },
+   "42": {
+    "p_nc": 0.44425,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 6.284851580319,
+    "p_early_20m": 0.00161,
+    "design_ssd_m": 103.89778559999999
+   },
+   "43": {
+    "p_nc": 0.54207,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 5.327521859994391,
+    "p_early_20m": 0.00029,
+    "design_ssd_m": 107.6197709714286
+   },
+   "44": {
+    "p_nc": 0.64017,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 4.530224214864539,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 111.39981348571428
+   },
+   "45": {
+    "p_nc": 0.73229,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.816388097823591,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 115.23791314285715
+   }
+  },
+  "real G1 + buffer q90 | level": {
+   "15": {
+    "p_nc": 0.00392,
+    "p_no_warning": 0.0,
+    "median_warning_m": 36.0048000000009,
+    "median_spare_m": 22.252714346503698,
+    "p_early_20m": 0.57791,
+    "design_ssd_m": 25.34978057142857
+   },
+   "16": {
+    "p_nc": 0.0039,
+    "p_no_warning": 0.0,
+    "median_warning_m": 39.13408000000146,
+    "median_spare_m": 24.096312213820838,
+    "p_early_20m": 0.62924,
+    "design_ssd_m": 27.504223085714283
+   },
+   "17": {
+    "p_nc": 0.00378,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.84451200000191,
+    "median_spare_m": 25.976617644977935,
+    "p_early_20m": 0.67548,
+    "design_ssd_m": 29.716722742857144
+   },
+   "18": {
+    "p_nc": 0.00371,
+    "p_no_warning": 0.0,
+    "median_warning_m": 46.19731199999862,
+    "median_spare_m": 27.970197040277565,
+    "p_early_20m": 0.7227,
+    "design_ssd_m": 31.987279542857145
+   },
+   "19": {
+    "p_nc": 0.00319,
+    "p_no_warning": 0.0,
+    "median_warning_m": 48.92425599999922,
+    "median_spare_m": 29.678728038059425,
+    "p_early_20m": 0.76108,
+    "design_ssd_m": 34.315893485714284
+   },
+   "20": {
+    "p_nc": 0.00377,
+    "p_no_warning": 0.0,
+    "median_warning_m": 52.545279999999735,
+    "median_spare_m": 31.208145278760977,
+    "p_early_20m": 0.79343,
+    "design_ssd_m": 36.702564571428574
+   },
+   "21": {
+    "p_nc": 0.00356,
+    "p_no_warning": 0.0,
+    "median_warning_m": 56.12160000000017,
+    "median_spare_m": 32.35531641405346,
+    "p_early_20m": 0.82042,
+    "design_ssd_m": 39.147292799999995
+   },
+   "22": {
+    "p_nc": 0.00344,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.535616000000545,
+    "median_spare_m": 32.58359360241672,
+    "p_early_20m": 0.84137,
+    "design_ssd_m": 41.65007817142857
+   },
+   "23": {
+    "p_nc": 0.00301,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.49091200000089,
+    "median_spare_m": 32.267531226574064,
+    "p_early_20m": 0.85395,
+    "design_ssd_m": 44.21092068571429
+   },
+   "24": {
+    "p_nc": 0.00317,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 31.917423881425997,
+    "p_early_20m": 0.86545,
+    "design_ssd_m": 46.82982034285715
+   },
+   "25": {
+    "p_nc": 0.00349,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 30.763287989753277,
+    "p_early_20m": 0.86489,
+    "design_ssd_m": 49.506777142857146
+   },
+   "26": {
+    "p_nc": 0.00353,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 29.725395369335452,
+    "p_early_20m": 0.85942,
+    "design_ssd_m": 52.24179108571428
+   },
+   "27": {
+    "p_nc": 0.00436,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 28.726910989245848,
+    "p_early_20m": 0.84724,
+    "design_ssd_m": 55.03486217142857
+   },
+   "28": {
+    "p_nc": 0.00479,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 27.72183995098507,
+    "p_early_20m": 0.8273,
+    "design_ssd_m": 57.8859904
+   },
+   "29": {
+    "p_nc": 0.00656,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 25.54262349021676,
+    "p_early_20m": 0.76723,
+    "design_ssd_m": 60.795175771428575
+   },
+   "30": {
+    "p_nc": 0.00911,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 23.51749624747471,
+    "p_early_20m": 0.68927,
+    "design_ssd_m": 63.76241828571428
+   },
+   "31": {
+    "p_nc": 0.01088,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 23.054026758069345,
+    "p_early_20m": 0.66219,
+    "design_ssd_m": 66.78771794285714
+   },
+   "32": {
+    "p_nc": 0.01653,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 21.435685772607634,
+    "p_early_20m": 0.57551,
+    "design_ssd_m": 69.87107474285715
+   },
+   "33": {
+    "p_nc": 0.03042,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 18.54547363445452,
+    "p_early_20m": 0.39728,
+    "design_ssd_m": 73.01248868571429
+   },
+   "34": {
+    "p_nc": 0.04202,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 17.062124427766754,
+    "p_early_20m": 0.30752,
+    "design_ssd_m": 76.21195977142857
+   },
+   "35": {
+    "p_nc": 0.05725,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 15.775644067457364,
+    "p_early_20m": 0.23419,
+    "design_ssd_m": 79.469488
+   },
+   "36": {
+    "p_nc": 0.07569,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 14.64990438766587,
+    "p_early_20m": 0.17837,
+    "design_ssd_m": 82.78507337142858
+   },
+   "37": {
+    "p_nc": 0.12347,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 12.324574033771235,
+    "p_early_20m": 0.08251,
+    "design_ssd_m": 86.15871588571429
+   },
+   "38": {
+    "p_nc": 0.14938,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 11.582526492642849,
+    "p_early_20m": 0.06313,
+    "design_ssd_m": 89.59041554285714
+   },
+   "39": {
+    "p_nc": 0.21943,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 9.568764928321244,
+    "p_early_20m": 0.02294,
+    "design_ssd_m": 93.08017234285714
+   },
+   "40": {
+    "p_nc": 0.30773,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 7.960674098512911,
+    "p_early_20m": 0.00741,
+    "design_ssd_m": 96.6279862857143
+   },
+   "41": {
+    "p_nc": 0.40708,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 6.587380603472955,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 100.23385737142856
+   },
+   "42": {
+    "p_nc": 0.43657,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 6.3529874564984326,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 103.89778559999999
+   },
+   "43": {
+    "p_nc": 0.53899,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 5.350878817729637,
+    "p_early_20m": 0.00034,
+    "design_ssd_m": 107.6197709714286
+   },
+   "44": {
+    "p_nc": 0.64017,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 4.530224214864539,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 111.39981348571428
+   },
+   "45": {
+    "p_nc": 0.73229,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.816388097823591,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 115.23791314285715
+   }
+  },
+  "real species-mean height | level": {
+   "15": {
+    "p_nc": 0.01732,
+    "p_no_warning": 0.0,
+    "median_warning_m": 25.275840000000983,
+    "median_spare_m": 11.982472402236528,
+    "p_early_20m": 0.10512,
+    "design_ssd_m": 25.34978057142857
+   },
+   "16": {
+    "p_nc": 0.01652,
+    "p_no_warning": 0.0,
+    "median_warning_m": 26.97459200000162,
+    "median_spare_m": 12.915438511555218,
+    "p_early_20m": 0.14043,
+    "design_ssd_m": 27.504223085714283
+   },
+   "17": {
+    "p_nc": 0.01532,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.165088000002157,
+    "median_spare_m": 13.87448805618418,
+    "p_early_20m": 0.181,
+    "design_ssd_m": 29.716722742857144
+   },
+   "18": {
+    "p_nc": 0.01602,
+    "p_no_warning": 0.0,
+    "median_warning_m": 31.713215999998425,
+    "median_spare_m": 14.891378229402942,
+    "p_early_20m": 0.23301,
+    "design_ssd_m": 31.987279542857145
+   },
+   "19": {
+    "p_nc": 0.01609,
+    "p_no_warning": 0.0,
+    "median_warning_m": 33.6354879999991,
+    "median_spare_m": 15.853213667925296,
+    "p_early_20m": 0.28416,
+    "design_ssd_m": 34.315893485714284
+   },
+   "20": {
+    "p_nc": 0.0154,
+    "p_no_warning": 0.0,
+    "median_warning_m": 36.45183999999969,
+    "median_spare_m": 16.963780839243512,
+    "p_early_20m": 0.34136,
+    "design_ssd_m": 36.702564571428574
+   },
+   "21": {
+    "p_nc": 0.01509,
+    "p_no_warning": 0.0,
+    "median_warning_m": 39.2234880000002,
+    "median_spare_m": 18.04034244208201,
+    "p_early_20m": 0.39839,
+    "design_ssd_m": 39.147292799999995
+   },
+   "22": {
+    "p_nc": 0.01539,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.83283200000065,
+    "median_spare_m": 19.02611032267876,
+    "p_early_20m": 0.44631,
+    "design_ssd_m": 41.65007817142857
+   },
+   "23": {
+    "p_nc": 0.01369,
+    "p_no_warning": 0.0,
+    "median_warning_m": 44.09622400000103,
+    "median_spare_m": 20.097529020531738,
+    "p_early_20m": 0.49706,
+    "design_ssd_m": 44.21092068571429
+   },
+   "24": {
+    "p_nc": 0.01363,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.929087999998615,
+    "median_spare_m": 21.170525575218143,
+    "p_early_20m": 0.54159,
+    "design_ssd_m": 46.82982034285715
+   },
+   "25": {
+    "p_nc": 0.01389,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.41599999999909,
+    "median_spare_m": 22.18039648371168,
+    "p_early_20m": 0.58038,
+    "design_ssd_m": 49.506777142857146
+   },
+   "26": {
+    "p_nc": 0.01354,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.20415999999949,
+    "median_spare_m": 23.03595923477586,
+    "p_early_20m": 0.6143,
+    "design_ssd_m": 52.24179108571428
+   },
+   "27": {
+    "p_nc": 0.01365,
+    "p_no_warning": 0.0,
+    "median_warning_m": 54.64636799999985,
+    "median_spare_m": 23.618993383113924,
+    "p_early_20m": 0.63641,
+    "design_ssd_m": 55.03486217142857
+   },
+   "28": {
+    "p_nc": 0.01426,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.37331200000017,
+    "median_spare_m": 23.878971685922558,
+    "p_early_20m": 0.65308,
+    "design_ssd_m": 57.8859904
+   },
+   "29": {
+    "p_nc": 0.01498,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.954464000000456,
+    "median_spare_m": 23.28866366229601,
+    "p_early_20m": 0.6423,
+    "design_ssd_m": 60.795175771428575
+   },
+   "30": {
+    "p_nc": 0.01664,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 22.19364414923879,
+    "p_early_20m": 0.6016,
+    "design_ssd_m": 63.76241828571428
+   },
+   "31": {
+    "p_nc": 0.01723,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 21.900687099759274,
+    "p_early_20m": 0.58989,
+    "design_ssd_m": 66.78771794285714
+   },
+   "32": {
+    "p_nc": 0.02196,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 20.607706333931453,
+    "p_early_20m": 0.52215,
+    "design_ssd_m": 69.87107474285715
+   },
+   "33": {
+    "p_nc": 0.03354,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 18.18536188130993,
+    "p_early_20m": 0.37565,
+    "design_ssd_m": 73.01248868571429
+   },
+   "34": {
+    "p_nc": 0.04574,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 16.885090791318284,
+    "p_early_20m": 0.29789,
+    "design_ssd_m": 76.21195977142857
+   },
+   "35": {
+    "p_nc": 0.06078,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 15.63723937196448,
+    "p_early_20m": 0.22966,
+    "design_ssd_m": 79.469488
+   },
+   "36": {
+    "p_nc": 0.07684,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 14.594289425719214,
+    "p_early_20m": 0.17565,
+    "design_ssd_m": 82.78507337142858
+   },
+   "37": {
+    "p_nc": 0.12347,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 12.321561580950458,
+    "p_early_20m": 0.0825,
+    "design_ssd_m": 86.15871588571429
+   },
+   "38": {
+    "p_nc": 0.14938,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 11.582526492642849,
+    "p_early_20m": 0.06313,
+    "design_ssd_m": 89.59041554285714
+   },
+   "39": {
+    "p_nc": 0.21943,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 9.568764928321244,
+    "p_early_20m": 0.02294,
+    "design_ssd_m": 93.08017234285714
+   },
+   "40": {
+    "p_nc": 0.30773,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 7.960674098512911,
+    "p_early_20m": 0.00741,
+    "design_ssd_m": 96.6279862857143
+   },
+   "41": {
+    "p_nc": 0.40708,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 6.587380603472955,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 100.23385737142856
+   },
+   "42": {
+    "p_nc": 0.43657,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 6.3529874564984326,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 103.89778559999999
+   },
+   "43": {
+    "p_nc": 0.53899,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 5.350878817729637,
+    "p_early_20m": 0.00034,
+    "design_ssd_m": 107.6197709714286
+   },
+   "44": {
+    "p_nc": 0.64017,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 4.530224214864539,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 111.39981348571428
+   },
+   "45": {
+    "p_nc": 0.73229,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.816388097823591,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 115.23791314285715
+   }
+  },
+  "real range head | level": {
+   "15": {
+    "p_nc": 0.90245,
+    "p_no_warning": 0.90245,
+    "median_warning_m": 59.47440000000071,
+    "median_spare_m": 46.276580376593834,
+    "p_early_20m": 0.09753,
+    "design_ssd_m": 25.34978057142857
+   },
+   "16": {
+    "p_nc": 0.86142,
+    "p_no_warning": 0.86142,
+    "median_warning_m": 59.87673600000119,
+    "median_spare_m": 45.58365849897592,
+    "p_early_20m": 0.13854,
+    "design_ssd_m": 27.504223085714283
+   },
+   "17": {
+    "p_nc": 0.83094,
+    "p_no_warning": 0.83094,
+    "median_warning_m": 59.563808000001615,
+    "median_spare_m": 44.02734014607971,
+    "p_early_20m": 0.16901,
+    "design_ssd_m": 29.716722742857144
+   },
+   "18": {
+    "p_nc": 0.79294,
+    "p_no_warning": 0.79294,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 43.03113987247542,
+    "p_early_20m": 0.20687,
+    "design_ssd_m": 31.987279542857145
+   },
+   "19": {
+    "p_nc": 0.68564,
+    "p_no_warning": 0.68563,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 41.83166264420139,
+    "p_early_20m": 0.31411,
+    "design_ssd_m": 34.315893485714284
+   },
+   "20": {
+    "p_nc": 0.62178,
+    "p_no_warning": 0.62177,
+    "median_warning_m": 59.697919999999755,
+    "median_spare_m": 40.25386798178042,
+    "p_early_20m": 0.37729,
+    "design_ssd_m": 36.702564571428574
+   },
+   "21": {
+    "p_nc": 0.45211,
+    "p_no_warning": 0.45208,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 39.06426378645987,
+    "p_early_20m": 0.54553,
+    "design_ssd_m": 39.147292799999995
+   },
+   "22": {
+    "p_nc": 0.39946,
+    "p_no_warning": 0.39939,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 37.282731202756466,
+    "p_early_20m": 0.59532,
+    "design_ssd_m": 41.65007817142857
+   },
+   "23": {
+    "p_nc": 0.3478,
+    "p_no_warning": 0.34776,
+    "median_warning_m": 59.51910400000088,
+    "median_spare_m": 35.84661564303626,
+    "p_early_20m": 0.64348,
+    "design_ssd_m": 44.21092068571429
+   },
+   "24": {
+    "p_nc": 0.23476,
+    "p_no_warning": 0.2345,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 34.70205288475492,
+    "p_early_20m": 0.74999,
+    "design_ssd_m": 46.82982034285715
+   },
+   "25": {
+    "p_nc": 0.17725,
+    "p_no_warning": 0.17675,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 32.82651092437898,
+    "p_early_20m": 0.79471,
+    "design_ssd_m": 49.506777142857146
+   },
+   "26": {
+    "p_nc": 0.06812,
+    "p_no_warning": 0.0672,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 31.06835111459434,
+    "p_early_20m": 0.87714,
+    "design_ssd_m": 52.24179108571428
+   },
+   "27": {
+    "p_nc": 0.02227,
+    "p_no_warning": 0.02059,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 29.642526584116062,
+    "p_early_20m": 0.89496,
+    "design_ssd_m": 55.03486217142857
+   },
+   "28": {
+    "p_nc": 0.0076,
+    "p_no_warning": 0.00523,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 28.438163668538316,
+    "p_early_20m": 0.87731,
+    "design_ssd_m": 57.8859904
+   },
+   "29": {
+    "p_nc": 0.00425,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 26.110618872876326,
+    "p_early_20m": 0.81321,
+    "design_ssd_m": 60.795175771428575
+   },
+   "30": {
+    "p_nc": 0.00748,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 24.035433426120065,
+    "p_early_20m": 0.72166,
+    "design_ssd_m": 63.76241828571428
+   },
+   "31": {
+    "p_nc": 0.0097,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 23.382721550013372,
+    "p_early_20m": 0.68426,
+    "design_ssd_m": 66.78771794285714
+   },
+   "32": {
+    "p_nc": 0.01543,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 21.584212473666128,
+    "p_early_20m": 0.58474,
+    "design_ssd_m": 69.87107474285715
+   },
+   "33": {
+    "p_nc": 0.02999,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 18.602309749609617,
+    "p_early_20m": 0.40089,
+    "design_ssd_m": 73.01248868571429
+   },
+   "34": {
+    "p_nc": 0.04202,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 17.062124427766754,
+    "p_early_20m": 0.30752,
+    "design_ssd_m": 76.21195977142857
+   },
+   "35": {
+    "p_nc": 0.05725,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 15.775644067457364,
+    "p_early_20m": 0.23419,
+    "design_ssd_m": 79.469488
+   },
+   "36": {
+    "p_nc": 0.07569,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 14.64990438766587,
+    "p_early_20m": 0.17837,
+    "design_ssd_m": 82.78507337142858
+   },
+   "37": {
+    "p_nc": 0.12347,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 12.324574033771235,
+    "p_early_20m": 0.08251,
+    "design_ssd_m": 86.15871588571429
+   },
+   "38": {
+    "p_nc": 0.14938,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 11.582526492642849,
+    "p_early_20m": 0.06313,
+    "design_ssd_m": 89.59041554285714
+   },
+   "39": {
+    "p_nc": 0.21943,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 9.568764928321244,
+    "p_early_20m": 0.02294,
+    "design_ssd_m": 93.08017234285714
+   },
+   "40": {
+    "p_nc": 0.30773,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 7.960674098512911,
+    "p_early_20m": 0.00741,
+    "design_ssd_m": 96.6279862857143
+   },
+   "41": {
+    "p_nc": 0.40708,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 6.587380603472955,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 100.23385737142856
+   },
+   "42": {
+    "p_nc": 0.43657,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 6.3529874564984326,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 103.89778559999999
+   },
+   "43": {
+    "p_nc": 0.53899,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 5.350878817729637,
+    "p_early_20m": 0.00034,
+    "design_ssd_m": 107.6197709714286
+   },
+   "44": {
+    "p_nc": 0.64017,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 4.530224214864539,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 111.39981348571428
+   },
+   "45": {
+    "p_nc": 0.73229,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.816388097823591,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 115.23791314285715
+   }
+  },
+  "real G1 + buffer q90, correlated detection (0.5 s) | level": {
+   "15": {
+    "p_nc": 0.00474,
+    "p_no_warning": 0.0,
+    "median_warning_m": 36.0048000000009,
+    "median_spare_m": 22.161042530464606,
+    "p_early_20m": 0.57338,
+    "design_ssd_m": 25.34978057142857
+   },
+   "16": {
+    "p_nc": 0.00432,
+    "p_no_warning": 0.0,
+    "median_warning_m": 39.13408000000146,
+    "median_spare_m": 23.947571249297955,
+    "p_early_20m": 0.62652,
+    "design_ssd_m": 27.504223085714283
+   },
+   "17": {
+    "p_nc": 0.00426,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.08454400000193,
+    "median_spare_m": 25.81972739404627,
+    "p_early_20m": 0.67138,
+    "design_ssd_m": 29.716722742857144
+   },
+   "18": {
+    "p_nc": 0.00443,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.39263999999861,
+    "median_spare_m": 27.73339936732541,
+    "p_early_20m": 0.7181,
+    "design_ssd_m": 31.987279542857145
+   },
+   "19": {
+    "p_nc": 0.00402,
+    "p_no_warning": 0.0,
+    "median_warning_m": 48.92425599999922,
+    "median_spare_m": 29.443021965573454,
+    "p_early_20m": 0.75473,
+    "design_ssd_m": 34.315893485714284
+   },
+   "20": {
+    "p_nc": 0.00381,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.65119999999973,
+    "median_spare_m": 30.969144609297835,
+    "p_early_20m": 0.79013,
+    "design_ssd_m": 36.702564571428574
+   },
+   "21": {
+    "p_nc": 0.00342,
+    "p_no_warning": 0.0,
+    "median_warning_m": 54.244032000000175,
+    "median_spare_m": 31.756727086300376,
+    "p_early_20m": 0.81619,
+    "design_ssd_m": 39.147292799999995
+   },
+   "22": {
+    "p_nc": 0.00391,
+    "p_no_warning": 0.0,
+    "median_warning_m": 56.568640000000556,
+    "median_spare_m": 32.155853998981485,
+    "p_early_20m": 0.83413,
+    "design_ssd_m": 41.65007817142857
+   },
+   "23": {
+    "p_nc": 0.00366,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.4627200000009,
+    "median_spare_m": 31.97055557352578,
+    "p_early_20m": 0.84764,
+    "design_ssd_m": 44.21092068571429
+   },
+   "24": {
+    "p_nc": 0.00381,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 31.77317797850032,
+    "p_early_20m": 0.85919,
+    "design_ssd_m": 46.82982034285715
+   },
+   "25": {
+    "p_nc": 0.00408,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 30.150806490522616,
+    "p_early_20m": 0.85357,
+    "design_ssd_m": 49.506777142857146
+   },
+   "26": {
+    "p_nc": 0.00424,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 29.423225281155606,
+    "p_early_20m": 0.85077,
+    "design_ssd_m": 52.24179108571428
+   },
+   "27": {
+    "p_nc": 0.00459,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 27.969607333807524,
+    "p_early_20m": 0.81829,
+    "design_ssd_m": 55.03486217142857
+   },
+   "28": {
+    "p_nc": 0.00553,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 27.22521632735976,
+    "p_early_20m": 0.80609,
+    "design_ssd_m": 57.8859904
+   },
+   "29": {
+    "p_nc": 0.00911,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 24.729430689005156,
+    "p_early_20m": 0.72138,
+    "design_ssd_m": 60.795175771428575
+   },
+   "30": {
+    "p_nc": 0.01084,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 23.272723208515025,
+    "p_early_20m": 0.67079,
+    "design_ssd_m": 63.76241828571428
+   },
+   "31": {
+    "p_nc": 0.01665,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 22.22267672354215,
+    "p_early_20m": 0.60827,
+    "design_ssd_m": 66.78771794285714
+   },
+   "32": {
+    "p_nc": 0.01968,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 21.141857526720187,
+    "p_early_20m": 0.5539,
+    "design_ssd_m": 69.87107474285715
+   },
+   "33": {
+    "p_nc": 0.03768,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 18.089102282881385,
+    "p_early_20m": 0.37028,
+    "design_ssd_m": 73.01248868571429
+   },
+   "34": {
+    "p_nc": 0.06179,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 16.4180121659614,
+    "p_early_20m": 0.2786,
+    "design_ssd_m": 76.21195977142857
+   },
+   "35": {
+    "p_nc": 0.06628,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 15.563719506630115,
+    "p_early_20m": 0.2248,
+    "design_ssd_m": 79.469488
+   },
+   "36": {
+    "p_nc": 0.09851,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 14.162782507172764,
+    "p_early_20m": 0.16446,
+    "design_ssd_m": 82.78507337142858
+   },
+   "37": {
+    "p_nc": 0.16087,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 11.822253222636753,
+    "p_early_20m": 0.07674,
+    "design_ssd_m": 86.15871588571429
+   },
+   "38": {
+    "p_nc": 0.164,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 11.295068241640628,
+    "p_early_20m": 0.06018,
+    "design_ssd_m": 89.59041554285714
+   },
+   "39": {
+    "p_nc": 0.24734,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 9.32903370714784,
+    "p_early_20m": 0.02224,
+    "design_ssd_m": 93.08017234285714
+   },
+   "40": {
+    "p_nc": 0.34898,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 7.718119636149645,
+    "p_early_20m": 0.0065,
+    "design_ssd_m": 96.6279862857143
+   },
+   "41": {
+    "p_nc": 0.4595,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 6.437861861570461,
+    "p_early_20m": 0.00164,
+    "design_ssd_m": 100.23385737142856
+   },
+   "42": {
+    "p_nc": 0.45548,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 6.281918389525579,
+    "p_early_20m": 0.00171,
+    "design_ssd_m": 103.89778559999999
+   },
+   "43": {
+    "p_nc": 0.56867,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 5.270562002483814,
+    "p_early_20m": 0.00033,
+    "design_ssd_m": 107.6197709714286
+   },
+   "44": {
+    "p_nc": 0.67171,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 4.5595657929444116,
+    "p_early_20m": 7e-05,
+    "design_ssd_m": 111.39981348571428
+   },
+   "45": {
+    "p_nc": 0.75786,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.918398765620285,
+    "p_early_20m": 2e-05,
+    "design_ssd_m": 115.23791314285715
+   }
+  },
+  "perfect perception (to 60 m) | down5": {
+   "15": {
+    "p_nc": 0.00568,
+    "p_no_warning": 0.0,
+    "median_warning_m": 25.946400000000978,
+    "median_spare_m": 12.481655911306726,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 26.438352
+   },
+   "16": {
+    "p_nc": 0.00545,
+    "p_no_warning": 0.0,
+    "median_warning_m": 28.405120000001602,
+    "median_spare_m": 13.701967966858998,
+    "p_early_20m": 0.00019,
+    "design_ssd_m": 28.742775466666664
+   },
+   "17": {
+    "p_nc": 0.00598,
+    "p_no_warning": 0.0,
+    "median_warning_m": 30.68502400000213,
+    "median_spare_m": 14.720799140917293,
+    "p_early_20m": 0.00908,
+    "design_ssd_m": 31.114932266666667
+   },
+   "18": {
+    "p_nc": 0.00445,
+    "p_no_warning": 0.0,
+    "median_warning_m": 33.32255999999845,
+    "median_spare_m": 16.031229587258526,
+    "p_early_20m": 0.07299,
+    "design_ssd_m": 33.5548224
+   },
+   "19": {
+    "p_nc": 0.00478,
+    "p_no_warning": 0.0,
+    "median_warning_m": 35.33423999999911,
+    "median_spare_m": 16.693372247549902,
+    "p_early_20m": 0.13843,
+    "design_ssd_m": 36.062445866666664
+   },
+   "20": {
+    "p_nc": 0.00381,
+    "p_no_warning": 0.0,
+    "median_warning_m": 38.2399999999997,
+    "median_spare_m": 18.17703198914019,
+    "p_early_20m": 0.30818,
+    "design_ssd_m": 38.637802666666666
+   },
+   "21": {
+    "p_nc": 0.00374,
+    "p_no_warning": 0.0,
+    "median_warning_m": 41.1010560000002,
+    "median_spare_m": 19.589758414828022,
+    "p_early_20m": 0.45854,
+    "design_ssd_m": 41.2808928
+   },
+   "22": {
+    "p_nc": 0.00345,
+    "p_no_warning": 0.0,
+    "median_warning_m": 43.78329600000063,
+    "median_spare_m": 20.799428117214354,
+    "p_early_20m": 0.5676,
+    "design_ssd_m": 43.991716266666664
+   },
+   "23": {
+    "p_nc": 0.00367,
+    "p_no_warning": 0.0,
+    "median_warning_m": 46.15260800000101,
+    "median_spare_m": 21.608738187661075,
+    "p_early_20m": 0.6267,
+    "design_ssd_m": 46.77027306666667
+   },
+   "24": {
+    "p_nc": 0.00339,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.14777599999866,
+    "median_spare_m": 23.077838982915118,
+    "p_early_20m": 0.71532,
+    "design_ssd_m": 49.6165632
+   },
+   "25": {
+    "p_nc": 0.00344,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.65119999999911,
+    "median_spare_m": 23.961264121130387,
+    "p_early_20m": 0.75257,
+    "design_ssd_m": 52.530586666666665
+   },
+   "26": {
+    "p_nc": 0.00314,
+    "p_no_warning": 0.0,
+    "median_warning_m": 54.69107199999951,
+    "median_spare_m": 25.34137712502607,
+    "p_early_20m": 0.80473,
+    "design_ssd_m": 55.51234346666667
+   },
+   "27": {
+    "p_nc": 0.00278,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.26739199999986,
+    "median_spare_m": 27.219575621554085,
+    "p_early_20m": 0.85625,
+    "design_ssd_m": 58.56183360000001
+   },
+   "28": {
+    "p_nc": 0.00314,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 27.092657861671558,
+    "p_early_20m": 0.84457,
+    "design_ssd_m": 61.67905706666666
+   },
+   "29": {
+    "p_nc": 0.00608,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 24.74583333652076,
+    "p_early_20m": 0.75576,
+    "design_ssd_m": 64.86401386666667
+   },
+   "30": {
+    "p_nc": 0.01124,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 22.524161790482104,
+    "p_early_20m": 0.64104,
+    "design_ssd_m": 68.116704
+   },
+   "31": {
+    "p_nc": 0.01343,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 21.759082922053068,
+    "p_early_20m": 0.59624,
+    "design_ssd_m": 71.43712746666667
+   },
+   "32": {
+    "p_nc": 0.0229,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 19.90872544943859,
+    "p_early_20m": 0.48324,
+    "design_ssd_m": 74.82528426666667
+   },
+   "33": {
+    "p_nc": 0.04356,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 16.789526451147534,
+    "p_early_20m": 0.29159,
+    "design_ssd_m": 78.2811744
+   },
+   "34": {
+    "p_nc": 0.0636,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 15.293203605327513,
+    "p_early_20m": 0.20763,
+    "design_ssd_m": 81.80479786666666
+   },
+   "35": {
+    "p_nc": 0.08666,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 13.913909766814612,
+    "p_early_20m": 0.146,
+    "design_ssd_m": 85.39615466666666
+   },
+   "36": {
+    "p_nc": 0.11342,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 12.814805958944813,
+    "p_early_20m": 0.10633,
+    "design_ssd_m": 89.0552448
+   },
+   "37": {
+    "p_nc": 0.17718,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 10.485317658785242,
+    "p_early_20m": 0.04005,
+    "design_ssd_m": 92.78206826666667
+   },
+   "38": {
+    "p_nc": 0.21521,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 9.785581686736236,
+    "p_early_20m": 0.02861,
+    "design_ssd_m": 96.57662506666668
+   },
+   "39": {
+    "p_nc": 0.31013,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 7.992822233594445,
+    "p_early_20m": 0.00833,
+    "design_ssd_m": 100.43891520000001
+   },
+   "40": {
+    "p_nc": 0.41931,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 6.568393357986068,
+    "p_early_20m": 0.00195,
+    "design_ssd_m": 104.36893866666666
+   },
+   "41": {
+    "p_nc": 0.53473,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 5.324285607410957,
+    "p_early_20m": 0.00039,
+    "design_ssd_m": 108.36669546666666
+   },
+   "42": {
+    "p_nc": 0.56879,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 5.204257002642372,
+    "p_early_20m": 0.00032,
+    "design_ssd_m": 112.4321856
+   },
+   "43": {
+    "p_nc": 0.67537,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 4.3713456398648844,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 116.56540906666667
+   },
+   "44": {
+    "p_nc": 0.76491,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.660761991535985,
+    "p_early_20m": 1e-05,
+    "design_ssd_m": 120.76636586666666
+   },
+   "45": {
+    "p_nc": 0.83904,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.208148994631369,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 125.03505600000001
+   }
+  },
+  "rendered G1 | down5": {
+   "15": {
+    "p_nc": 0.00536,
+    "p_no_warning": 0.0,
+    "median_warning_m": 26.616960000000972,
+    "median_spare_m": 13.220381951430058,
+    "p_early_20m": 0.00929,
+    "design_ssd_m": 26.438352
+   },
+   "16": {
+    "p_nc": 0.00557,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.120384000001593,
+    "median_spare_m": 14.301444968022482,
+    "p_early_20m": 0.04053,
+    "design_ssd_m": 28.742775466666664
+   },
+   "17": {
+    "p_nc": 0.00507,
+    "p_no_warning": 0.0,
+    "median_warning_m": 31.444992000002117,
+    "median_spare_m": 15.4475837178043,
+    "p_early_20m": 0.10147,
+    "design_ssd_m": 31.114932266666667
+   },
+   "18": {
+    "p_nc": 0.00463,
+    "p_no_warning": 0.0,
+    "median_warning_m": 34.12723199999846,
+    "median_spare_m": 16.572840003589253,
+    "p_early_20m": 0.19273,
+    "design_ssd_m": 33.5548224
+   },
+   "19": {
+    "p_nc": 0.00432,
+    "p_no_warning": 0.0,
+    "median_warning_m": 37.032991999999126,
+    "median_spare_m": 17.788958422026827,
+    "p_early_20m": 0.30743,
+    "design_ssd_m": 36.062445866666664
+   },
+   "20": {
+    "p_nc": 0.00432,
+    "p_no_warning": 0.0,
+    "median_warning_m": 39.1340799999997,
+    "median_spare_m": 19.04433093585935,
+    "p_early_20m": 0.41909,
+    "design_ssd_m": 38.637802666666666
+   },
+   "21": {
+    "p_nc": 0.00459,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.0398400000002,
+    "median_spare_m": 20.267178581954077,
+    "p_early_20m": 0.51765,
+    "design_ssd_m": 41.2808928
+   },
+   "22": {
+    "p_nc": 0.00378,
+    "p_no_warning": 0.0,
+    "median_warning_m": 44.76678400000063,
+    "median_spare_m": 21.615558042940762,
+    "p_early_20m": 0.60837,
+    "design_ssd_m": 43.991716266666664
+   },
+   "23": {
+    "p_nc": 0.00378,
+    "p_no_warning": 0.0,
+    "median_warning_m": 47.180800000001,
+    "median_spare_m": 22.955960677125802,
+    "p_early_20m": 0.68098,
+    "design_ssd_m": 46.77027306666667
+   },
+   "24": {
+    "p_nc": 0.00343,
+    "p_no_warning": 0.0,
+    "median_warning_m": 50.22067199999867,
+    "median_spare_m": 24.211109025063138,
+    "p_early_20m": 0.73434,
+    "design_ssd_m": 49.6165632
+   },
+   "25": {
+    "p_nc": 0.00352,
+    "p_no_warning": 0.0,
+    "median_warning_m": 52.76879999999912,
+    "median_spare_m": 25.230872262001153,
+    "p_early_20m": 0.77248,
+    "design_ssd_m": 52.530586666666665
+   },
+   "26": {
+    "p_nc": 0.00356,
+    "p_no_warning": 0.0,
+    "median_warning_m": 55.853375999999514,
+    "median_spare_m": 26.091809940521806,
+    "p_early_20m": 0.80103,
+    "design_ssd_m": 55.51234346666667
+   },
+   "27": {
+    "p_nc": 0.00375,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.26739199999986,
+    "median_spare_m": 26.381383113346565,
+    "p_early_20m": 0.81096,
+    "design_ssd_m": 58.56183360000001
+   },
+   "28": {
+    "p_nc": 0.00458,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 26.073076638275456,
+    "p_early_20m": 0.79822,
+    "design_ssd_m": 61.67905706666666
+   },
+   "29": {
+    "p_nc": 0.00675,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 24.22462279371058,
+    "p_early_20m": 0.72357,
+    "design_ssd_m": 64.86401386666667
+   },
+   "30": {
+    "p_nc": 0.01193,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 22.137390708451754,
+    "p_early_20m": 0.61814,
+    "design_ssd_m": 68.116704
+   },
+   "31": {
+    "p_nc": 0.01515,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 21.445198816651313,
+    "p_early_20m": 0.57616,
+    "design_ssd_m": 71.43712746666667
+   },
+   "32": {
+    "p_nc": 0.02413,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 19.579961725569987,
+    "p_early_20m": 0.46364,
+    "design_ssd_m": 74.82528426666667
+   },
+   "33": {
+    "p_nc": 0.0467,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 16.585142945072263,
+    "p_early_20m": 0.27973,
+    "design_ssd_m": 78.2811744
+   },
+   "34": {
+    "p_nc": 0.06518,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 15.00013114978973,
+    "p_early_20m": 0.19659,
+    "design_ssd_m": 81.80479786666666
+   },
+   "35": {
+    "p_nc": 0.0908,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 13.704875314226854,
+    "p_early_20m": 0.13762,
+    "design_ssd_m": 85.39615466666666
+   },
+   "36": {
+    "p_nc": 0.11898,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 12.53940153091305,
+    "p_early_20m": 0.09532,
+    "design_ssd_m": 89.0552448
+   },
+   "37": {
+    "p_nc": 0.18759,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 10.342455398875302,
+    "p_early_20m": 0.03652,
+    "design_ssd_m": 92.78206826666667
+   },
+   "38": {
+    "p_nc": 0.22543,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 9.590280406366652,
+    "p_early_20m": 0.02551,
+    "design_ssd_m": 96.57662506666668
+   },
+   "39": {
+    "p_nc": 0.32213,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 7.769450383497812,
+    "p_early_20m": 0.00727,
+    "design_ssd_m": 100.43891520000001
+   },
+   "40": {
+    "p_nc": 0.43111,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 6.398928522154463,
+    "p_early_20m": 0.00191,
+    "design_ssd_m": 104.36893866666666
+   },
+   "41": {
+    "p_nc": 0.5483,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 5.2819760523327375,
+    "p_early_20m": 0.00035,
+    "design_ssd_m": 108.36669546666666
+   },
+   "42": {
+    "p_nc": 0.58384,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 5.115000818234655,
+    "p_early_20m": 0.0003,
+    "design_ssd_m": 112.4321856
+   },
+   "43": {
+    "p_nc": 0.68484,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 4.269075388753446,
+    "p_early_20m": 5e-05,
+    "design_ssd_m": 116.56540906666667
+   },
+   "44": {
+    "p_nc": 0.77625,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.6480620443763883,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 120.76636586666666
+   },
+   "45": {
+    "p_nc": 0.85096,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.0548390533686174,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 125.03505600000001
+   }
+  },
+  "real G1 | down5": {
+   "15": {
+    "p_nc": 0.04893,
+    "p_no_warning": 0.0,
+    "median_warning_m": 25.946400000000978,
+    "median_spare_m": 12.184463490271316,
+    "p_early_20m": 0.19707,
+    "design_ssd_m": 26.438352
+   },
+   "16": {
+    "p_nc": 0.04921,
+    "p_no_warning": 0.0,
+    "median_warning_m": 28.405120000001602,
+    "median_spare_m": 13.241974560450647,
+    "p_early_20m": 0.23758,
+    "design_ssd_m": 28.742775466666664
+   },
+   "17": {
+    "p_nc": 0.04822,
+    "p_no_warning": 0.0,
+    "median_warning_m": 30.68502400000213,
+    "median_spare_m": 14.251463617153627,
+    "p_early_20m": 0.28067,
+    "design_ssd_m": 31.114932266666667
+   },
+   "18": {
+    "p_nc": 0.04738,
+    "p_no_warning": 0.0,
+    "median_warning_m": 33.32255999999845,
+    "median_spare_m": 15.340594607663853,
+    "p_early_20m": 0.32208,
+    "design_ssd_m": 33.5548224
+   },
+   "19": {
+    "p_nc": 0.04721,
+    "p_no_warning": 0.0,
+    "median_warning_m": 35.33423999999911,
+    "median_spare_m": 16.336662949773782,
+    "p_early_20m": 0.36308,
+    "design_ssd_m": 36.062445866666664
+   },
+   "20": {
+    "p_nc": 0.04627,
+    "p_no_warning": 0.0,
+    "median_warning_m": 38.2399999999997,
+    "median_spare_m": 17.534068491392173,
+    "p_early_20m": 0.40216,
+    "design_ssd_m": 38.637802666666666
+   },
+   "21": {
+    "p_nc": 0.04991,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.1622720000002,
+    "median_spare_m": 18.633144718290925,
+    "p_early_20m": 0.43738,
+    "design_ssd_m": 41.2808928
+   },
+   "22": {
+    "p_nc": 0.04786,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.79980800000064,
+    "median_spare_m": 19.761465209130733,
+    "p_early_20m": 0.46967,
+    "design_ssd_m": 43.991716266666664
+   },
+   "23": {
+    "p_nc": 0.04734,
+    "p_no_warning": 0.0,
+    "median_warning_m": 46.15260800000101,
+    "median_spare_m": 20.82461944007605,
+    "p_early_20m": 0.49834,
+    "design_ssd_m": 46.77027306666667
+   },
+   "24": {
+    "p_nc": 0.0468,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.14777599999866,
+    "median_spare_m": 21.881132016619613,
+    "p_early_20m": 0.52617,
+    "design_ssd_m": 49.6165632
+   },
+   "25": {
+    "p_nc": 0.0479,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.65119999999911,
+    "median_spare_m": 22.545185146836587,
+    "p_early_20m": 0.54653,
+    "design_ssd_m": 52.530586666666665
+   },
+   "26": {
+    "p_nc": 0.04844,
+    "p_no_warning": 0.0,
+    "median_warning_m": 54.69107199999951,
+    "median_spare_m": 22.801038298363473,
+    "p_early_20m": 0.55608,
+    "design_ssd_m": 55.51234346666667
+   },
+   "27": {
+    "p_nc": 0.04831,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.06038399999986,
+    "median_spare_m": 22.726860966624272,
+    "p_early_20m": 0.56248,
+    "design_ssd_m": 58.56183360000001
+   },
+   "28": {
+    "p_nc": 0.04984,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.62502400000017,
+    "median_spare_m": 22.396926517656333,
+    "p_early_20m": 0.55927,
+    "design_ssd_m": 61.67905706666666
+   },
+   "29": {
+    "p_nc": 0.04958,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.954464000000456,
+    "median_spare_m": 21.226190816350908,
+    "p_early_20m": 0.52538,
+    "design_ssd_m": 64.86401386666667
+   },
+   "30": {
+    "p_nc": 0.05414,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 19.903540760802244,
+    "p_early_20m": 0.46852,
+    "design_ssd_m": 68.116704
+   },
+   "31": {
+    "p_nc": 0.056,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 19.48444798153276,
+    "p_early_20m": 0.44804,
+    "design_ssd_m": 71.43712746666667
+   },
+   "32": {
+    "p_nc": 0.06148,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 18.132779106400466,
+    "p_early_20m": 0.37423,
+    "design_ssd_m": 74.82528426666667
+   },
+   "33": {
+    "p_nc": 0.07866,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 15.8197539874858,
+    "p_early_20m": 0.24108,
+    "design_ssd_m": 78.2811744
+   },
+   "34": {
+    "p_nc": 0.09634,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 14.458647073026636,
+    "p_early_20m": 0.17743,
+    "design_ssd_m": 81.80479786666666
+   },
+   "35": {
+    "p_nc": 0.11656,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 13.266417347118598,
+    "p_early_20m": 0.12515,
+    "design_ssd_m": 85.39615466666666
+   },
+   "36": {
+    "p_nc": 0.14415,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 12.231034922022701,
+    "p_early_20m": 0.08855,
+    "design_ssd_m": 89.0552448
+   },
+   "37": {
+    "p_nc": 0.20564,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 10.03835901802314,
+    "p_early_20m": 0.03433,
+    "design_ssd_m": 92.78206826666667
+   },
+   "38": {
+    "p_nc": 0.23927,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 9.29308751808307,
+    "p_early_20m": 0.02327,
+    "design_ssd_m": 96.57662506666668
+   },
+   "39": {
+    "p_nc": 0.3311,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 7.735128127378012,
+    "p_early_20m": 0.007,
+    "design_ssd_m": 100.43891520000001
+   },
+   "40": {
+    "p_nc": 0.43544,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 6.35790034071837,
+    "p_early_20m": 0.0018,
+    "design_ssd_m": 104.36893866666666
+   },
+   "41": {
+    "p_nc": 0.55007,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 5.27025707385495,
+    "p_early_20m": 0.00034,
+    "design_ssd_m": 108.36669546666666
+   },
+   "42": {
+    "p_nc": 0.58384,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 5.115000818234655,
+    "p_early_20m": 0.0003,
+    "design_ssd_m": 112.4321856
+   },
+   "43": {
+    "p_nc": 0.68484,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 4.269075388753446,
+    "p_early_20m": 5e-05,
+    "design_ssd_m": 116.56540906666667
+   },
+   "44": {
+    "p_nc": 0.77625,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.6480620443763883,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 120.76636586666666
+   },
+   "45": {
+    "p_nc": 0.85096,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.0548390533686174,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 125.03505600000001
+   }
+  },
+  "real G1 + buffer q90 | down5": {
+   "15": {
+    "p_nc": 0.00296,
+    "p_no_warning": 0.0,
+    "median_warning_m": 38.01648000000088,
+    "median_spare_m": 23.3289645271361,
+    "p_early_20m": 0.61167,
+    "design_ssd_m": 26.438352
+   },
+   "16": {
+    "p_nc": 0.00319,
+    "p_no_warning": 0.0,
+    "median_warning_m": 41.27987200000143,
+    "median_spare_m": 25.30093943475053,
+    "p_early_20m": 0.66215,
+    "design_ssd_m": 28.742775466666664
+   },
+   "17": {
+    "p_nc": 0.00342,
+    "p_no_warning": 0.0,
+    "median_warning_m": 44.364448000001886,
+    "median_spare_m": 27.348238957956774,
+    "p_early_20m": 0.71073,
+    "design_ssd_m": 31.114932266666667
+   },
+   "18": {
+    "p_nc": 0.00299,
+    "p_no_warning": 0.0,
+    "median_warning_m": 47.80665599999864,
+    "median_spare_m": 29.306285072804872,
+    "p_early_20m": 0.75618,
+    "design_ssd_m": 33.5548224
+   },
+   "19": {
+    "p_nc": 0.00271,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.47238399999924,
+    "median_spare_m": 31.259732113805242,
+    "p_early_20m": 0.79599,
+    "design_ssd_m": 36.062445866666664
+   },
+   "20": {
+    "p_nc": 0.00309,
+    "p_no_warning": 0.0,
+    "median_warning_m": 55.22751999999974,
+    "median_spare_m": 32.52713687836146,
+    "p_early_20m": 0.82213,
+    "design_ssd_m": 38.637802666666666
+   },
+   "21": {
+    "p_nc": 0.00299,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.99916800000017,
+    "median_spare_m": 33.1413578788145,
+    "p_early_20m": 0.84439,
+    "design_ssd_m": 41.2808928
+   },
+   "22": {
+    "p_nc": 0.00249,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.535616000000545,
+    "median_spare_m": 32.757116600629786,
+    "p_early_20m": 0.86175,
+    "design_ssd_m": 43.991716266666664
+   },
+   "23": {
+    "p_nc": 0.00246,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000088,
+    "median_spare_m": 32.141608764593805,
+    "p_early_20m": 0.87083,
+    "design_ssd_m": 46.77027306666667
+   },
+   "24": {
+    "p_nc": 0.00266,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 31.546996249631544,
+    "p_early_20m": 0.87806,
+    "design_ssd_m": 49.6165632
+   },
+   "25": {
+    "p_nc": 0.00287,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 30.23192562208505,
+    "p_early_20m": 0.87365,
+    "design_ssd_m": 52.530586666666665
+   },
+   "26": {
+    "p_nc": 0.00321,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 28.9431950334871,
+    "p_early_20m": 0.85895,
+    "design_ssd_m": 55.51234346666667
+   },
+   "27": {
+    "p_nc": 0.00393,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 27.532902229701886,
+    "p_early_20m": 0.83079,
+    "design_ssd_m": 58.56183360000001
+   },
+   "28": {
+    "p_nc": 0.00502,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 26.30936595444997,
+    "p_early_20m": 0.7961,
+    "design_ssd_m": 61.67905706666666
+   },
+   "29": {
+    "p_nc": 0.00754,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 24.067492820392886,
+    "p_early_20m": 0.71463,
+    "design_ssd_m": 64.86401386666667
+   },
+   "30": {
+    "p_nc": 0.01213,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 22.03734645412048,
+    "p_early_20m": 0.61244,
+    "design_ssd_m": 68.116704
+   },
+   "31": {
+    "p_nc": 0.01535,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 21.373001724893626,
+    "p_early_20m": 0.57196,
+    "design_ssd_m": 71.43712746666667
+   },
+   "32": {
+    "p_nc": 0.02413,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 19.63155353428475,
+    "p_early_20m": 0.46629,
+    "design_ssd_m": 74.82528426666667
+   },
+   "33": {
+    "p_nc": 0.04653,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 16.59851198686019,
+    "p_early_20m": 0.28061,
+    "design_ssd_m": 78.2811744
+   },
+   "34": {
+    "p_nc": 0.06515,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 15.006101830093023,
+    "p_early_20m": 0.19683,
+    "design_ssd_m": 81.80479786666666
+   },
+   "35": {
+    "p_nc": 0.0908,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 13.704875314226854,
+    "p_early_20m": 0.13762,
+    "design_ssd_m": 85.39615466666666
+   },
+   "36": {
+    "p_nc": 0.11898,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 12.53940153091305,
+    "p_early_20m": 0.09532,
+    "design_ssd_m": 89.0552448
+   },
+   "37": {
+    "p_nc": 0.18759,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 10.342455398875302,
+    "p_early_20m": 0.03652,
+    "design_ssd_m": 92.78206826666667
+   },
+   "38": {
+    "p_nc": 0.22543,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 9.590280406366652,
+    "p_early_20m": 0.02551,
+    "design_ssd_m": 96.57662506666668
+   },
+   "39": {
+    "p_nc": 0.32213,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 7.769450383497812,
+    "p_early_20m": 0.00727,
+    "design_ssd_m": 100.43891520000001
+   },
+   "40": {
+    "p_nc": 0.43111,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 6.398928522154463,
+    "p_early_20m": 0.00191,
+    "design_ssd_m": 104.36893866666666
+   },
+   "41": {
+    "p_nc": 0.5483,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 5.2819760523327375,
+    "p_early_20m": 0.00035,
+    "design_ssd_m": 108.36669546666666
+   },
+   "42": {
+    "p_nc": 0.58384,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 5.115000818234655,
+    "p_early_20m": 0.0003,
+    "design_ssd_m": 112.4321856
+   },
+   "43": {
+    "p_nc": 0.68484,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 4.269075388753446,
+    "p_early_20m": 5e-05,
+    "design_ssd_m": 116.56540906666667
+   },
+   "44": {
+    "p_nc": 0.77625,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.6480620443763883,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 120.76636586666666
+   },
+   "45": {
+    "p_nc": 0.85096,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.0548390533686174,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 125.03505600000001
+   }
+  },
+  "real species-mean height | down5": {
+   "15": {
+    "p_nc": 0.01476,
+    "p_no_warning": 0.0,
+    "median_warning_m": 25.946400000000978,
+    "median_spare_m": 12.553892879535415,
+    "p_early_20m": 0.12418,
+    "design_ssd_m": 26.438352
+   },
+   "16": {
+    "p_nc": 0.01362,
+    "p_no_warning": 0.0,
+    "median_warning_m": 28.405120000001602,
+    "median_spare_m": 13.652099313561576,
+    "p_early_20m": 0.16786,
+    "design_ssd_m": 28.742775466666664
+   },
+   "17": {
+    "p_nc": 0.01398,
+    "p_no_warning": 0.0,
+    "median_warning_m": 30.68502400000213,
+    "median_spare_m": 14.658048461829551,
+    "p_early_20m": 0.22005,
+    "design_ssd_m": 31.114932266666667
+   },
+   "18": {
+    "p_nc": 0.01338,
+    "p_no_warning": 0.0,
+    "median_warning_m": 33.32255999999845,
+    "median_spare_m": 15.780430835331142,
+    "p_early_20m": 0.27626,
+    "design_ssd_m": 33.5548224
+   },
+   "19": {
+    "p_nc": 0.01244,
+    "p_no_warning": 0.0,
+    "median_warning_m": 36.18361599999912,
+    "median_spare_m": 16.9083440752732,
+    "p_early_20m": 0.33927,
+    "design_ssd_m": 36.062445866666664
+   },
+   "20": {
+    "p_nc": 0.01331,
+    "p_no_warning": 0.0,
+    "median_warning_m": 38.2399999999997,
+    "median_spare_m": 18.063735035295064,
+    "p_early_20m": 0.39767,
+    "design_ssd_m": 38.637802666666666
+   },
+   "21": {
+    "p_nc": 0.0119,
+    "p_no_warning": 0.0,
+    "median_warning_m": 41.1010560000002,
+    "median_spare_m": 19.208929029087347,
+    "p_early_20m": 0.45703,
+    "design_ssd_m": 41.2808928
+   },
+   "22": {
+    "p_nc": 0.01129,
+    "p_no_warning": 0.0,
+    "median_warning_m": 43.78329600000063,
+    "median_spare_m": 20.34032752914358,
+    "p_early_20m": 0.50911,
+    "design_ssd_m": 43.991716266666664
+   },
+   "23": {
+    "p_nc": 0.01168,
+    "p_no_warning": 0.0,
+    "median_warning_m": 46.15260800000101,
+    "median_spare_m": 21.57005425972574,
+    "p_early_20m": 0.56111,
+    "design_ssd_m": 46.77027306666667
+   },
+   "24": {
+    "p_nc": 0.01092,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.14777599999866,
+    "median_spare_m": 22.668955108921686,
+    "p_early_20m": 0.60164,
+    "design_ssd_m": 49.6165632
+   },
+   "25": {
+    "p_nc": 0.01102,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.65119999999911,
+    "median_spare_m": 23.707877693168633,
+    "p_early_20m": 0.63885,
+    "design_ssd_m": 52.530586666666665
+   },
+   "26": {
+    "p_nc": 0.01131,
+    "p_no_warning": 0.0,
+    "median_warning_m": 54.69107199999951,
+    "median_spare_m": 24.277319228195722,
+    "p_early_20m": 0.66213,
+    "design_ssd_m": 55.51234346666667
+   },
+   "27": {
+    "p_nc": 0.01086,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.06038399999986,
+    "median_spare_m": 24.260580963780136,
+    "p_early_20m": 0.67611,
+    "design_ssd_m": 58.56183360000001
+   },
+   "28": {
+    "p_nc": 0.01139,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.62502400000017,
+    "median_spare_m": 24.10348112312593,
+    "p_early_20m": 0.67846,
+    "design_ssd_m": 61.67905706666666
+   },
+   "29": {
+    "p_nc": 0.01424,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 22.79042233348732,
+    "p_early_20m": 0.63439,
+    "design_ssd_m": 64.86401386666667
+   },
+   "30": {
+    "p_nc": 0.01624,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 21.260990395292957,
+    "p_early_20m": 0.56167,
+    "design_ssd_m": 68.116704
+   },
+   "31": {
+    "p_nc": 0.01937,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 20.8038076291906,
+    "p_early_20m": 0.53423,
+    "design_ssd_m": 71.43712746666667
+   },
+   "32": {
+    "p_nc": 0.02696,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 19.22540934576704,
+    "p_early_20m": 0.44183,
+    "design_ssd_m": 74.82528426666667
+   },
+   "33": {
+    "p_nc": 0.04737,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 16.46067360170167,
+    "p_early_20m": 0.273,
+    "design_ssd_m": 78.2811744
+   },
+   "34": {
+    "p_nc": 0.06579,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 14.960306582714658,
+    "p_early_20m": 0.1947,
+    "design_ssd_m": 81.80479786666666
+   },
+   "35": {
+    "p_nc": 0.09088,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 13.698326687014404,
+    "p_early_20m": 0.13734,
+    "design_ssd_m": 85.39615466666666
+   },
+   "36": {
+    "p_nc": 0.11898,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 12.53940153091305,
+    "p_early_20m": 0.09532,
+    "design_ssd_m": 89.0552448
+   },
+   "37": {
+    "p_nc": 0.18759,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 10.342455398875302,
+    "p_early_20m": 0.03652,
+    "design_ssd_m": 92.78206826666667
+   },
+   "38": {
+    "p_nc": 0.22543,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 9.590280406366652,
+    "p_early_20m": 0.02551,
+    "design_ssd_m": 96.57662506666668
+   },
+   "39": {
+    "p_nc": 0.32213,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 7.769450383497812,
+    "p_early_20m": 0.00727,
+    "design_ssd_m": 100.43891520000001
+   },
+   "40": {
+    "p_nc": 0.43111,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 6.398928522154463,
+    "p_early_20m": 0.00191,
+    "design_ssd_m": 104.36893866666666
+   },
+   "41": {
+    "p_nc": 0.5483,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 5.2819760523327375,
+    "p_early_20m": 0.00035,
+    "design_ssd_m": 108.36669546666666
+   },
+   "42": {
+    "p_nc": 0.58384,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 5.115000818234655,
+    "p_early_20m": 0.0003,
+    "design_ssd_m": 112.4321856
+   },
+   "43": {
+    "p_nc": 0.68484,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 4.269075388753446,
+    "p_early_20m": 5e-05,
+    "design_ssd_m": 116.56540906666667
+   },
+   "44": {
+    "p_nc": 0.77625,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.6480620443763883,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 120.76636586666666
+   },
+   "45": {
+    "p_nc": 0.85096,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.0548390533686174,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 125.03505600000001
+   }
+  },
+  "real range head | down5": {
+   "15": {
+    "p_nc": 0.89263,
+    "p_no_warning": 0.89263,
+    "median_warning_m": 59.47440000000071,
+    "median_spare_m": 45.84155147346769,
+    "p_early_20m": 0.10734,
+    "design_ssd_m": 26.438352
+   },
+   "16": {
+    "p_nc": 0.84931,
+    "p_no_warning": 0.84931,
+    "median_warning_m": 59.87673600000119,
+    "median_spare_m": 45.08181225896288,
+    "p_early_20m": 0.15065,
+    "design_ssd_m": 28.742775466666664
+   },
+   "17": {
+    "p_nc": 0.80074,
+    "p_no_warning": 0.80074,
+    "median_warning_m": 59.563808000001615,
+    "median_spare_m": 43.447141555971555,
+    "p_early_20m": 0.19918,
+    "design_ssd_m": 31.114932266666667
+   },
+   "18": {
+    "p_nc": 0.6987,
+    "p_no_warning": 0.6987,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 42.41713602691532,
+    "p_early_20m": 0.30098,
+    "design_ssd_m": 33.5548224
+   },
+   "19": {
+    "p_nc": 0.64958,
+    "p_no_warning": 0.64956,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 41.10444689108389,
+    "p_early_20m": 0.35005,
+    "design_ssd_m": 36.062445866666664
+   },
+   "20": {
+    "p_nc": 0.48638,
+    "p_no_warning": 0.48637,
+    "median_warning_m": 59.697919999999755,
+    "median_spare_m": 39.465070395520826,
+    "p_early_20m": 0.51211,
+    "design_ssd_m": 38.637802666666666
+   },
+   "21": {
+    "p_nc": 0.41272,
+    "p_no_warning": 0.41269,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 38.173747490119695,
+    "p_early_20m": 0.58413,
+    "design_ssd_m": 41.2808928
+   },
+   "22": {
+    "p_nc": 0.35549,
+    "p_no_warning": 0.35541,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 36.31822894565166,
+    "p_early_20m": 0.63734,
+    "design_ssd_m": 43.991716266666664
+   },
+   "23": {
+    "p_nc": 0.23567,
+    "p_no_warning": 0.23559,
+    "median_warning_m": 59.51910400000088,
+    "median_spare_m": 34.802961936499564,
+    "p_early_20m": 0.75057,
+    "design_ssd_m": 46.77027306666667
+   },
+   "24": {
+    "p_nc": 0.16857,
+    "p_no_warning": 0.16823,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 33.55740321246933,
+    "p_early_20m": 0.80909,
+    "design_ssd_m": 49.6165632
+   },
+   "25": {
+    "p_nc": 0.06624,
+    "p_no_warning": 0.06549,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 31.587813952393617,
+    "p_early_20m": 0.88981,
+    "design_ssd_m": 52.530586666666665
+   },
+   "26": {
+    "p_nc": 0.01971,
+    "p_no_warning": 0.01832,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 29.717833761123853,
+    "p_early_20m": 0.90195,
+    "design_ssd_m": 55.51234346666667
+   },
+   "27": {
+    "p_nc": 0.00194,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 28.23729629846772,
+    "p_early_20m": 0.88153,
+    "design_ssd_m": 58.56183360000001
+   },
+   "28": {
+    "p_nc": 0.00326,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 26.84077290779513,
+    "p_early_20m": 0.83912,
+    "design_ssd_m": 61.67905706666666
+   },
+   "29": {
+    "p_nc": 0.00623,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 24.457688728099328,
+    "p_early_20m": 0.74303,
+    "design_ssd_m": 64.86401386666667
+   },
+   "30": {
+    "p_nc": 0.01108,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 22.28359474186652,
+    "p_early_20m": 0.6284,
+    "design_ssd_m": 68.116704
+   },
+   "31": {
+    "p_nc": 0.01472,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 21.532196437527457,
+    "p_early_20m": 0.58167,
+    "design_ssd_m": 71.43712746666667
+   },
+   "32": {
+    "p_nc": 0.02395,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 19.64562154156303,
+    "p_early_20m": 0.46679,
+    "design_ssd_m": 74.82528426666667
+   },
+   "33": {
+    "p_nc": 0.04653,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 16.59851198686019,
+    "p_early_20m": 0.28061,
+    "design_ssd_m": 78.2811744
+   },
+   "34": {
+    "p_nc": 0.06515,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 15.006101830093023,
+    "p_early_20m": 0.19683,
+    "design_ssd_m": 81.80479786666666
+   },
+   "35": {
+    "p_nc": 0.0908,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 13.704875314226854,
+    "p_early_20m": 0.13762,
+    "design_ssd_m": 85.39615466666666
+   },
+   "36": {
+    "p_nc": 0.11898,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 12.53940153091305,
+    "p_early_20m": 0.09532,
+    "design_ssd_m": 89.0552448
+   },
+   "37": {
+    "p_nc": 0.18759,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 10.342455398875302,
+    "p_early_20m": 0.03652,
+    "design_ssd_m": 92.78206826666667
+   },
+   "38": {
+    "p_nc": 0.22543,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 9.590280406366652,
+    "p_early_20m": 0.02551,
+    "design_ssd_m": 96.57662506666668
+   },
+   "39": {
+    "p_nc": 0.32213,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 7.769450383497812,
+    "p_early_20m": 0.00727,
+    "design_ssd_m": 100.43891520000001
+   },
+   "40": {
+    "p_nc": 0.43111,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 6.398928522154463,
+    "p_early_20m": 0.00191,
+    "design_ssd_m": 104.36893866666666
+   },
+   "41": {
+    "p_nc": 0.5483,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 5.2819760523327375,
+    "p_early_20m": 0.00035,
+    "design_ssd_m": 108.36669546666666
+   },
+   "42": {
+    "p_nc": 0.58384,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 5.115000818234655,
+    "p_early_20m": 0.0003,
+    "design_ssd_m": 112.4321856
+   },
+   "43": {
+    "p_nc": 0.68484,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 4.269075388753446,
+    "p_early_20m": 5e-05,
+    "design_ssd_m": 116.56540906666667
+   },
+   "44": {
+    "p_nc": 0.77625,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.6480620443763883,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 120.76636586666666
+   },
+   "45": {
+    "p_nc": 0.85096,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.0548390533686174,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 125.03505600000001
+   }
+  },
+  "real G1 + buffer q90, correlated detection (0.5 s) | down5": {
+   "15": {
+    "p_nc": 0.00381,
+    "p_no_warning": 0.0,
+    "median_warning_m": 38.01648000000088,
+    "median_spare_m": 23.25057751173925,
+    "p_early_20m": 0.60627,
+    "design_ssd_m": 26.438352
+   },
+   "16": {
+    "p_nc": 0.00344,
+    "p_no_warning": 0.0,
+    "median_warning_m": 41.27987200000143,
+    "median_spare_m": 25.169933782611956,
+    "p_early_20m": 0.65837,
+    "design_ssd_m": 28.742775466666664
+   },
+   "17": {
+    "p_nc": 0.00348,
+    "p_no_warning": 0.0,
+    "median_warning_m": 44.364448000001886,
+    "median_spare_m": 27.209988497899523,
+    "p_early_20m": 0.70515,
+    "design_ssd_m": 31.114932266666667
+   },
+   "18": {
+    "p_nc": 0.00319,
+    "p_no_warning": 0.0,
+    "median_warning_m": 47.80665599999864,
+    "median_spare_m": 29.127684509501037,
+    "p_early_20m": 0.7504,
+    "design_ssd_m": 33.5548224
+   },
+   "19": {
+    "p_nc": 0.00329,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.47238399999924,
+    "median_spare_m": 30.875154876550837,
+    "p_early_20m": 0.78854,
+    "design_ssd_m": 36.062445866666664
+   },
+   "20": {
+    "p_nc": 0.00309,
+    "p_no_warning": 0.0,
+    "median_warning_m": 54.33343999999974,
+    "median_spare_m": 32.06962256595779,
+    "p_early_20m": 0.81733,
+    "design_ssd_m": 38.637802666666666
+   },
+   "21": {
+    "p_nc": 0.00299,
+    "p_no_warning": 0.0,
+    "median_warning_m": 56.12160000000017,
+    "median_spare_m": 32.62180771501885,
+    "p_early_20m": 0.84003,
+    "design_ssd_m": 41.2808928
+   },
+   "22": {
+    "p_nc": 0.00291,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.55212800000055,
+    "median_spare_m": 32.28295978732873,
+    "p_early_20m": 0.85524,
+    "design_ssd_m": 43.991716266666664
+   },
+   "23": {
+    "p_nc": 0.00298,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000088,
+    "median_spare_m": 31.89394057424595,
+    "p_early_20m": 0.86569,
+    "design_ssd_m": 46.77027306666667
+   },
+   "24": {
+    "p_nc": 0.00307,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 31.412664213713864,
+    "p_early_20m": 0.87228,
+    "design_ssd_m": 49.6165632
+   },
+   "25": {
+    "p_nc": 0.00345,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 29.667520384586027,
+    "p_early_20m": 0.85833,
+    "design_ssd_m": 52.530586666666665
+   },
+   "26": {
+    "p_nc": 0.00371,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 28.6519829186615,
+    "p_early_20m": 0.84862,
+    "design_ssd_m": 55.51234346666667
+   },
+   "27": {
+    "p_nc": 0.00483,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 26.76407609973907,
+    "p_early_20m": 0.79653,
+    "design_ssd_m": 58.56183360000001
+   },
+   "28": {
+    "p_nc": 0.00617,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 25.816992006978772,
+    "p_early_20m": 0.77276,
+    "design_ssd_m": 61.67905706666666
+   },
+   "29": {
+    "p_nc": 0.01111,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 23.29707345079668,
+    "p_early_20m": 0.66548,
+    "design_ssd_m": 64.86401386666667
+   },
+   "30": {
+    "p_nc": 0.01434,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 21.76009245383962,
+    "p_early_20m": 0.59344,
+    "design_ssd_m": 68.116704
+   },
+   "31": {
+    "p_nc": 0.02309,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 20.623770600990817,
+    "p_early_20m": 0.52282,
+    "design_ssd_m": 71.43712746666667
+   },
+   "32": {
+    "p_nc": 0.02864,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 19.35952884842131,
+    "p_early_20m": 0.44887,
+    "design_ssd_m": 74.82528426666667
+   },
+   "33": {
+    "p_nc": 0.05676,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 16.175481761298762,
+    "p_early_20m": 0.25947,
+    "design_ssd_m": 78.2811744
+   },
+   "34": {
+    "p_nc": 0.09139,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 14.443499254078063,
+    "p_early_20m": 0.17901,
+    "design_ssd_m": 81.80479786666666
+   },
+   "35": {
+    "p_nc": 0.10112,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 13.500619716777894,
+    "p_early_20m": 0.1309,
+    "design_ssd_m": 85.39615466666666
+   },
+   "36": {
+    "p_nc": 0.14632,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 12.120096786647466,
+    "p_early_20m": 0.08949,
+    "design_ssd_m": 89.0552448
+   },
+   "37": {
+    "p_nc": 0.23146,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 9.955798365940339,
+    "p_early_20m": 0.03439,
+    "design_ssd_m": 92.78206826666667
+   },
+   "38": {
+    "p_nc": 0.2434,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 9.391000349722752,
+    "p_early_20m": 0.02487,
+    "design_ssd_m": 96.57662506666668
+   },
+   "39": {
+    "p_nc": 0.35171,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 7.625760405448332,
+    "p_early_20m": 0.00723,
+    "design_ssd_m": 100.43891520000001
+   },
+   "40": {
+    "p_nc": 0.47211,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 6.250846116827347,
+    "p_early_20m": 0.00169,
+    "design_ssd_m": 104.36893866666666
+   },
+   "41": {
+    "p_nc": 0.59174,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 5.237554627697978,
+    "p_early_20m": 0.00033,
+    "design_ssd_m": 108.36669546666666
+   },
+   "42": {
+    "p_nc": 0.59906,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 5.053680363304352,
+    "p_early_20m": 0.00031,
+    "design_ssd_m": 112.4321856
+   },
+   "43": {
+    "p_nc": 0.70756,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 4.255858895802199,
+    "p_early_20m": 4e-05,
+    "design_ssd_m": 116.56540906666667
+   },
+   "44": {
+    "p_nc": 0.79578,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.612727528326282,
+    "p_early_20m": 1e-05,
+    "design_ssd_m": 120.76636586666666
+   },
+   "45": {
+    "p_nc": 0.8628,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 3.159244109830958,
+    "p_early_20m": 1e-05,
+    "design_ssd_m": 125.03505600000001
+   }
+  },
+  "perfect perception (to 60 m) | down8": {
+   "15": {
+    "p_nc": 0.00569,
+    "p_no_warning": 0.0,
+    "median_warning_m": 26.616960000000972,
+    "median_spare_m": 12.8293486366161,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 27.28501866666667
+   },
+   "16": {
+    "p_nc": 0.00508,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.120384000001593,
+    "median_spare_m": 14.084052292751139,
+    "p_early_20m": 0.00097,
+    "design_ssd_m": 29.706093985185184
+   },
+   "17": {
+    "p_nc": 0.00444,
+    "p_no_warning": 0.0,
+    "median_warning_m": 31.444992000002117,
+    "median_spare_m": 15.059116939403475,
+    "p_early_20m": 0.01922,
+    "design_ssd_m": 32.202428562962965
+   },
+   "18": {
+    "p_nc": 0.00429,
+    "p_no_warning": 0.0,
+    "median_warning_m": 34.12723199999846,
+    "median_spare_m": 16.39740840758966,
+    "p_early_20m": 0.10443,
+    "design_ssd_m": 34.7740224
+   },
+   "19": {
+    "p_nc": 0.00347,
+    "p_no_warning": 0.0,
+    "median_warning_m": 37.032991999999126,
+    "median_spare_m": 17.845695769481743,
+    "p_early_20m": 0.26381,
+    "design_ssd_m": 37.4208754962963
+   },
+   "20": {
+    "p_nc": 0.00328,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.0281599999997,
+    "median_spare_m": 19.40632280165702,
+    "p_early_20m": 0.43802,
+    "design_ssd_m": 40.14298785185185
+   },
+   "21": {
+    "p_nc": 0.00342,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.0398400000002,
+    "median_spare_m": 19.91917084594666,
+    "p_early_20m": 0.49042,
+    "design_ssd_m": 42.94035946666666
+   },
+   "22": {
+    "p_nc": 0.00293,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.75027200000062,
+    "median_spare_m": 22.079552360317347,
+    "p_early_20m": 0.66439,
+    "design_ssd_m": 45.81299034074074
+   },
+   "23": {
+    "p_nc": 0.00281,
+    "p_no_warning": 0.0,
+    "median_warning_m": 48.20899200000099,
+    "median_spare_m": 22.936662139731418,
+    "p_early_20m": 0.71327,
+    "design_ssd_m": 48.760880474074085
+   },
+   "24": {
+    "p_nc": 0.00242,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.293567999998686,
+    "median_spare_m": 24.408787113953487,
+    "p_early_20m": 0.78013,
+    "design_ssd_m": 51.78402986666667
+   },
+   "25": {
+    "p_nc": 0.00258,
+    "p_no_warning": 0.0,
+    "median_warning_m": 53.88639999999913,
+    "median_spare_m": 25.331829247632903,
+    "p_early_20m": 0.80583,
+    "design_ssd_m": 54.88243851851852
+   },
+   "26": {
+    "p_nc": 0.00241,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.01567999999952,
+    "median_spare_m": 26.72277194570856,
+    "p_early_20m": 0.84744,
+    "design_ssd_m": 58.05610642962963
+   },
+   "27": {
+    "p_nc": 0.00286,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 27.437361448519507,
+    "p_early_20m": 0.85895,
+    "design_ssd_m": 61.3050336
+   },
+   "28": {
+    "p_nc": 0.0041,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 26.00041779693203,
+    "p_early_20m": 0.80589,
+    "design_ssd_m": 64.62922002962964
+   },
+   "29": {
+    "p_nc": 0.00824,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 23.589883530659506,
+    "p_early_20m": 0.69794,
+    "design_ssd_m": 68.02866571851852
+   },
+   "30": {
+    "p_nc": 0.01472,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 21.308591746385723,
+    "p_early_20m": 0.56893,
+    "design_ssd_m": 71.50337066666667
+   },
+   "31": {
+    "p_nc": 0.01841,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 20.47049678379203,
+    "p_early_20m": 0.51822,
+    "design_ssd_m": 75.05333487407408
+   },
+   "32": {
+    "p_nc": 0.03095,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 18.559642419654956,
+    "p_early_20m": 0.39985,
+    "design_ssd_m": 78.67855834074074
+   },
+   "33": {
+    "p_nc": 0.05963,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 15.457421722350908,
+    "p_early_20m": 0.21826,
+    "design_ssd_m": 82.37904106666667
+   },
+   "34": {
+    "p_nc": 0.08607,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 13.929148590626042,
+    "p_early_20m": 0.14523,
+    "design_ssd_m": 86.15478305185185
+   },
+   "35": {
+    "p_nc": 0.11758,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 12.540435115514235,
+    "p_early_20m": 0.09651,
+    "design_ssd_m": 90.00578429629631
+   },
+   "36": {
+    "p_nc": 0.15483,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 11.471004968824658,
+    "p_early_20m": 0.06628,
+    "design_ssd_m": 93.9320448
+   },
+   "37": {
+    "p_nc": 0.23485,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 9.242679351715068,
+    "p_early_20m": 0.02214,
+    "design_ssd_m": 97.93356456296299
+   },
+   "38": {
+    "p_nc": 0.28037,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 8.581349628493967,
+    "p_early_20m": 0.01475,
+    "design_ssd_m": 102.0103435851852
+   },
+   "39": {
+    "p_nc": 0.39347,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 6.989668143179415,
+    "p_early_20m": 0.00365,
+    "design_ssd_m": 106.16238186666666
+   },
+   "40": {
+    "p_nc": 0.51206,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 5.687591413341536,
+    "p_early_20m": 0.0008,
+    "design_ssd_m": 110.3896794074074
+   },
+   "41": {
+    "p_nc": 0.63197,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 4.604688409228771,
+    "p_early_20m": 0.00013,
+    "design_ssd_m": 114.69223620740739
+   },
+   "42": {
+    "p_nc": 0.66354,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 4.49769360298669,
+    "p_early_20m": 0.00013,
+    "design_ssd_m": 119.07005226666668
+   },
+   "43": {
+    "p_nc": 0.76322,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 3.8295521890120483,
+    "p_early_20m": 1e-05,
+    "design_ssd_m": 123.52312758518521
+   },
+   "44": {
+    "p_nc": 0.83939,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.2044936134503104,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 128.05146216296296
+   },
+   "45": {
+    "p_nc": 0.89625,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 2.796049089830049,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 132.655056
+   }
+  },
+  "rendered G1 | down8": {
+   "15": {
+    "p_nc": 0.00544,
+    "p_no_warning": 0.0,
+    "median_warning_m": 27.95808000000096,
+    "median_spare_m": 13.747047818558489,
+    "p_early_20m": 0.01862,
+    "design_ssd_m": 27.28501866666667
+   },
+   "16": {
+    "p_nc": 0.00478,
+    "p_no_warning": 0.0,
+    "median_warning_m": 30.550912000001574,
+    "median_spare_m": 14.92844159164261,
+    "p_early_20m": 0.06671,
+    "design_ssd_m": 29.706093985185184
+   },
+   "17": {
+    "p_nc": 0.00464,
+    "p_no_warning": 0.0,
+    "median_warning_m": 32.96492800000209,
+    "median_spare_m": 16.128033203941662,
+    "p_early_20m": 0.15055,
+    "design_ssd_m": 32.202428562962965
+   },
+   "18": {
+    "p_nc": 0.00389,
+    "p_no_warning": 0.0,
+    "median_warning_m": 35.73657599999848,
+    "median_spare_m": 17.38465064824704,
+    "p_early_20m": 0.26606,
+    "design_ssd_m": 34.7740224
+   },
+   "19": {
+    "p_nc": 0.00386,
+    "p_no_warning": 0.0,
+    "median_warning_m": 37.88236799999913,
+    "median_spare_m": 18.749399122646125,
+    "p_early_20m": 0.391,
+    "design_ssd_m": 37.4208754962963
+   },
+   "20": {
+    "p_nc": 0.00353,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.922239999999704,
+    "median_spare_m": 20.043970493460087,
+    "p_early_20m": 0.50194,
+    "design_ssd_m": 40.14298785185185
+   },
+   "21": {
+    "p_nc": 0.00302,
+    "p_no_warning": 0.0,
+    "median_warning_m": 43.917408000000194,
+    "median_spare_m": 21.410761786997217,
+    "p_early_20m": 0.59882,
+    "design_ssd_m": 42.94035946666666
+   },
+   "22": {
+    "p_nc": 0.0031,
+    "p_no_warning": 0.0,
+    "median_warning_m": 46.733760000000615,
+    "median_spare_m": 22.817401665388765,
+    "p_early_20m": 0.67861,
+    "design_ssd_m": 45.81299034074074
+   },
+   "23": {
+    "p_nc": 0.00287,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.23718400000098,
+    "median_spare_m": 24.18875817563277,
+    "p_early_20m": 0.7405,
+    "design_ssd_m": 48.760880474074085
+   },
+   "24": {
+    "p_nc": 0.0029,
+    "p_no_warning": 0.0,
+    "median_warning_m": 52.3664639999987,
+    "median_spare_m": 25.32074175828815,
+    "p_early_20m": 0.78121,
+    "design_ssd_m": 51.78402986666667
+   },
+   "25": {
+    "p_nc": 0.00282,
+    "p_no_warning": 0.0,
+    "median_warning_m": 55.00399999999914,
+    "median_spare_m": 26.429457389149782,
+    "p_early_20m": 0.81269,
+    "design_ssd_m": 54.88243851851852
+   },
+   "26": {
+    "p_nc": 0.00333,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.177983999999526,
+    "median_spare_m": 26.806991354156683,
+    "p_early_20m": 0.8275,
+    "design_ssd_m": 58.05610642962963
+   },
+   "27": {
+    "p_nc": 0.00366,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 26.404295183773904,
+    "p_early_20m": 0.81473,
+    "design_ssd_m": 61.3050336
+   },
+   "28": {
+    "p_nc": 0.00516,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 25.433125409107028,
+    "p_early_20m": 0.77507,
+    "design_ssd_m": 64.62922002962964
+   },
+   "29": {
+    "p_nc": 0.00851,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 23.216553959094824,
+    "p_early_20m": 0.67416,
+    "design_ssd_m": 68.02866571851852
+   },
+   "30": {
+    "p_nc": 0.01551,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 20.981794307901694,
+    "p_early_20m": 0.54997,
+    "design_ssd_m": 71.50337066666667
+   },
+   "31": {
+    "p_nc": 0.02034,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 20.18423085390847,
+    "p_early_20m": 0.50067,
+    "design_ssd_m": 75.05333487407408
+   },
+   "32": {
+    "p_nc": 0.03298,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 18.2885419227793,
+    "p_early_20m": 0.38264,
+    "design_ssd_m": 78.67855834074074
+   },
+   "33": {
+    "p_nc": 0.06287,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 15.256440373492659,
+    "p_early_20m": 0.20855,
+    "design_ssd_m": 82.37904106666667
+   },
+   "34": {
+    "p_nc": 0.08866,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 13.650208218939028,
+    "p_early_20m": 0.13845,
+    "design_ssd_m": 86.15478305185185
+   },
+   "35": {
+    "p_nc": 0.12223,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 12.33965373273115,
+    "p_early_20m": 0.08991,
+    "design_ssd_m": 90.00578429629631
+   },
+   "36": {
+    "p_nc": 0.16003,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 11.219012512073029,
+    "p_early_20m": 0.0592,
+    "design_ssd_m": 93.9320448
+   },
+   "37": {
+    "p_nc": 0.24681,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 9.149581421195137,
+    "p_early_20m": 0.01997,
+    "design_ssd_m": 97.93356456296299
+   },
+   "38": {
+    "p_nc": 0.2931,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 8.418814463492012,
+    "p_early_20m": 0.01353,
+    "design_ssd_m": 102.0103435851852
+   },
+   "39": {
+    "p_nc": 0.40566,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 6.772756288655582,
+    "p_early_20m": 0.00333,
+    "design_ssd_m": 106.16238186666666
+   },
+   "40": {
+    "p_nc": 0.52524,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 5.580619646973275,
+    "p_early_20m": 0.00071,
+    "design_ssd_m": 110.3896794074074
+   },
+   "41": {
+    "p_nc": 0.64318,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 4.591521603159443,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 114.69223620740739
+   },
+   "42": {
+    "p_nc": 0.67788,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 4.437017096390754,
+    "p_early_20m": 7e-05,
+    "design_ssd_m": 119.07005226666668
+   },
+   "43": {
+    "p_nc": 0.77129,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 3.73813482566721,
+    "p_early_20m": 2e-05,
+    "design_ssd_m": 123.52312758518521
+   },
+   "44": {
+    "p_nc": 0.84723,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.1633796598852726,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 128.05146216296296
+   },
+   "45": {
+    "p_nc": 0.90687,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 2.700651380469864,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 132.655056
+   }
+  },
+  "real G1 | down8": {
+   "15": {
+    "p_nc": 0.0451,
+    "p_no_warning": 0.0,
+    "median_warning_m": 26.616960000000972,
+    "median_spare_m": 12.654170876433936,
+    "p_early_20m": 0.21496,
+    "design_ssd_m": 27.28501866666667
+   },
+   "16": {
+    "p_nc": 0.04464,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.120384000001593,
+    "median_spare_m": 13.749883885368185,
+    "p_early_20m": 0.26109,
+    "design_ssd_m": 29.706093985185184
+   },
+   "17": {
+    "p_nc": 0.04373,
+    "p_no_warning": 0.0,
+    "median_warning_m": 31.444992000002117,
+    "median_spare_m": 14.859663292258887,
+    "p_early_20m": 0.30579,
+    "design_ssd_m": 32.202428562962965
+   },
+   "18": {
+    "p_nc": 0.04428,
+    "p_no_warning": 0.0,
+    "median_warning_m": 34.12723199999846,
+    "median_spare_m": 16.016227540684834,
+    "p_early_20m": 0.34943,
+    "design_ssd_m": 34.7740224
+   },
+   "19": {
+    "p_nc": 0.04344,
+    "p_no_warning": 0.0,
+    "median_warning_m": 37.032991999999126,
+    "median_spare_m": 17.190083965236767,
+    "p_early_20m": 0.39223,
+    "design_ssd_m": 37.4208754962963
+   },
+   "20": {
+    "p_nc": 0.04242,
+    "p_no_warning": 0.0,
+    "median_warning_m": 39.1340799999997,
+    "median_spare_m": 18.346563235632992,
+    "p_early_20m": 0.42912,
+    "design_ssd_m": 40.14298785185185
+   },
+   "21": {
+    "p_nc": 0.04538,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.0398400000002,
+    "median_spare_m": 19.556424792377655,
+    "p_early_20m": 0.46489,
+    "design_ssd_m": 42.94035946666666
+   },
+   "22": {
+    "p_nc": 0.04399,
+    "p_no_warning": 0.0,
+    "median_warning_m": 44.76678400000063,
+    "median_spare_m": 20.780206316357525,
+    "p_early_20m": 0.49942,
+    "design_ssd_m": 45.81299034074074
+   },
+   "23": {
+    "p_nc": 0.04367,
+    "p_no_warning": 0.0,
+    "median_warning_m": 48.20899200000099,
+    "median_spare_m": 21.899138864380646,
+    "p_early_20m": 0.5289,
+    "design_ssd_m": 48.760880474074085
+   },
+   "24": {
+    "p_nc": 0.04176,
+    "p_no_warning": 0.0,
+    "median_warning_m": 50.22067199999867,
+    "median_spare_m": 22.836962225096414,
+    "p_early_20m": 0.55373,
+    "design_ssd_m": 51.78402986666667
+   },
+   "25": {
+    "p_nc": 0.04309,
+    "p_no_warning": 0.0,
+    "median_warning_m": 53.88639999999913,
+    "median_spare_m": 23.166122297154494,
+    "p_early_20m": 0.56862,
+    "design_ssd_m": 54.88243851851852
+   },
+   "26": {
+    "p_nc": 0.04371,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.01567999999952,
+    "median_spare_m": 23.111771055570003,
+    "p_early_20m": 0.57697,
+    "design_ssd_m": 58.05610642962963
+   },
+   "27": {
+    "p_nc": 0.04359,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.26739199999986,
+    "median_spare_m": 22.721516932393076,
+    "p_early_20m": 0.57562,
+    "design_ssd_m": 61.3050336
+   },
+   "28": {
+    "p_nc": 0.0456,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.62502400000017,
+    "median_spare_m": 22.21757044779895,
+    "p_early_20m": 0.56354,
+    "design_ssd_m": 64.62922002962964
+   },
+   "29": {
+    "p_nc": 0.04697,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 20.843029683348732,
+    "p_early_20m": 0.51449,
+    "design_ssd_m": 68.02866571851852
+   },
+   "30": {
+    "p_nc": 0.05295,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 19.235821573907998,
+    "p_early_20m": 0.43428,
+    "design_ssd_m": 71.50337066666667
+   },
+   "31": {
+    "p_nc": 0.05594,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 18.71854142181912,
+    "p_early_20m": 0.40654,
+    "design_ssd_m": 75.05333487407408
+   },
+   "32": {
+    "p_nc": 0.06396,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 17.371006094700792,
+    "p_early_20m": 0.33073,
+    "design_ssd_m": 78.67855834074074
+   },
+   "33": {
+    "p_nc": 0.08755,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 14.677562893441085,
+    "p_early_20m": 0.18645,
+    "design_ssd_m": 82.37904106666667
+   },
+   "34": {
+    "p_nc": 0.11361,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 13.210315171957035,
+    "p_early_20m": 0.12477,
+    "design_ssd_m": 86.15478305185185
+   },
+   "35": {
+    "p_nc": 0.1431,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 12.014285437604073,
+    "p_early_20m": 0.08315,
+    "design_ssd_m": 90.00578429629631
+   },
+   "36": {
+    "p_nc": 0.17989,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 10.912929391186822,
+    "p_early_20m": 0.056,
+    "design_ssd_m": 93.9320448
+   },
+   "37": {
+    "p_nc": 0.25721,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 8.933449857941937,
+    "p_early_20m": 0.01791,
+    "design_ssd_m": 97.93356456296299
+   },
+   "38": {
+    "p_nc": 0.30168,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 8.249318672265947,
+    "p_early_20m": 0.0125,
+    "design_ssd_m": 102.0103435851852
+   },
+   "39": {
+    "p_nc": 0.40626,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 6.770902816501781,
+    "p_early_20m": 0.0033,
+    "design_ssd_m": 106.16238186666666
+   },
+   "40": {
+    "p_nc": 0.52524,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 5.580619646973275,
+    "p_early_20m": 0.00071,
+    "design_ssd_m": 110.3896794074074
+   },
+   "41": {
+    "p_nc": 0.64318,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 4.591521603159443,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 114.69223620740739
+   },
+   "42": {
+    "p_nc": 0.67788,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 4.437017096390754,
+    "p_early_20m": 7e-05,
+    "design_ssd_m": 119.07005226666668
+   },
+   "43": {
+    "p_nc": 0.77129,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 3.73813482566721,
+    "p_early_20m": 2e-05,
+    "design_ssd_m": 123.52312758518521
+   },
+   "44": {
+    "p_nc": 0.84723,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.1633796598852726,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 128.05146216296296
+   },
+   "45": {
+    "p_nc": 0.90687,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 2.700651380469864,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 132.655056
+   }
+  },
+  "real G1 + buffer q90 | down8": {
+   "15": {
+    "p_nc": 0.00264,
+    "p_no_warning": 0.0,
+    "median_warning_m": 39.35760000000087,
+    "median_spare_m": 24.261028498992328,
+    "p_early_20m": 0.63851,
+    "design_ssd_m": 27.28501866666667
+   },
+   "16": {
+    "p_nc": 0.00282,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.710400000001414,
+    "median_spare_m": 26.3178462603563,
+    "p_early_20m": 0.69127,
+    "design_ssd_m": 29.706093985185184
+   },
+   "17": {
+    "p_nc": 0.00255,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.88438400000186,
+    "median_spare_m": 28.426090535781814,
+    "p_early_20m": 0.74076,
+    "design_ssd_m": 32.202428562962965
+   },
+   "18": {
+    "p_nc": 0.0025,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.41599999999866,
+    "median_spare_m": 30.539957450269842,
+    "p_early_20m": 0.78315,
+    "design_ssd_m": 34.7740224
+   },
+   "19": {
+    "p_nc": 0.00229,
+    "p_no_warning": 0.0,
+    "median_warning_m": 53.17113599999925,
+    "median_spare_m": 32.335084201218066,
+    "p_early_20m": 0.81593,
+    "design_ssd_m": 37.4208754962963
+   },
+   "20": {
+    "p_nc": 0.00226,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.01567999999975,
+    "median_spare_m": 33.19383598802842,
+    "p_early_20m": 0.84363,
+    "design_ssd_m": 40.14298785185185
+   },
+   "21": {
+    "p_nc": 0.00239,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.937952000000166,
+    "median_spare_m": 33.47047313519961,
+    "p_early_20m": 0.8632,
+    "design_ssd_m": 42.94035946666666
+   },
+   "22": {
+    "p_nc": 0.00202,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 32.714764632411814,
+    "p_early_20m": 0.87581,
+    "design_ssd_m": 45.81299034074074
+   },
+   "23": {
+    "p_nc": 0.002,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000088,
+    "median_spare_m": 31.947538775986935,
+    "p_early_20m": 0.88321,
+    "design_ssd_m": 48.760880474074085
+   },
+   "24": {
+    "p_nc": 0.00221,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 31.224809027118624,
+    "p_early_20m": 0.88555,
+    "design_ssd_m": 51.78402986666667
+   },
+   "25": {
+    "p_nc": 0.00242,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 29.805579083895168,
+    "p_early_20m": 0.87415,
+    "design_ssd_m": 54.88243851851852
+   },
+   "26": {
+    "p_nc": 0.00339,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 28.170879067221072,
+    "p_early_20m": 0.84995,
+    "design_ssd_m": 58.05610642962963
+   },
+   "27": {
+    "p_nc": 0.00395,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 26.621012207593118,
+    "p_early_20m": 0.81208,
+    "design_ssd_m": 61.3050336
+   },
+   "28": {
+    "p_nc": 0.00554,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 25.31494911170897,
+    "p_early_20m": 0.76614,
+    "design_ssd_m": 64.62922002962964
+   },
+   "29": {
+    "p_nc": 0.00953,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 23.095245822628065,
+    "p_early_20m": 0.67153,
+    "design_ssd_m": 68.02866571851852
+   },
+   "30": {
+    "p_nc": 0.01519,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 20.952242226316145,
+    "p_early_20m": 0.54834,
+    "design_ssd_m": 71.50337066666667
+   },
+   "31": {
+    "p_nc": 0.02013,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 20.192815793410787,
+    "p_early_20m": 0.50151,
+    "design_ssd_m": 75.05333487407408
+   },
+   "32": {
+    "p_nc": 0.03285,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 18.308636434108486,
+    "p_early_20m": 0.38377,
+    "design_ssd_m": 78.67855834074074
+   },
+   "33": {
+    "p_nc": 0.06283,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 15.25850764272198,
+    "p_early_20m": 0.2087,
+    "design_ssd_m": 82.37904106666667
+   },
+   "34": {
+    "p_nc": 0.08866,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 13.650208218939028,
+    "p_early_20m": 0.13845,
+    "design_ssd_m": 86.15478305185185
+   },
+   "35": {
+    "p_nc": 0.12223,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 12.33965373273115,
+    "p_early_20m": 0.08991,
+    "design_ssd_m": 90.00578429629631
+   },
+   "36": {
+    "p_nc": 0.16003,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 11.219012512073029,
+    "p_early_20m": 0.0592,
+    "design_ssd_m": 93.9320448
+   },
+   "37": {
+    "p_nc": 0.24681,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 9.149581421195137,
+    "p_early_20m": 0.01997,
+    "design_ssd_m": 97.93356456296299
+   },
+   "38": {
+    "p_nc": 0.2931,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 8.418814463492012,
+    "p_early_20m": 0.01353,
+    "design_ssd_m": 102.0103435851852
+   },
+   "39": {
+    "p_nc": 0.40566,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 6.772756288655582,
+    "p_early_20m": 0.00333,
+    "design_ssd_m": 106.16238186666666
+   },
+   "40": {
+    "p_nc": 0.52524,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 5.580619646973275,
+    "p_early_20m": 0.00071,
+    "design_ssd_m": 110.3896794074074
+   },
+   "41": {
+    "p_nc": 0.64318,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 4.591521603159443,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 114.69223620740739
+   },
+   "42": {
+    "p_nc": 0.67788,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 4.437017096390754,
+    "p_early_20m": 7e-05,
+    "design_ssd_m": 119.07005226666668
+   },
+   "43": {
+    "p_nc": 0.77129,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 3.73813482566721,
+    "p_early_20m": 2e-05,
+    "design_ssd_m": 123.52312758518521
+   },
+   "44": {
+    "p_nc": 0.84723,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.1633796598852726,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 128.05146216296296
+   },
+   "45": {
+    "p_nc": 0.90687,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 2.700651380469864,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 132.655056
+   }
+  },
+  "real species-mean height | down8": {
+   "15": {
+    "p_nc": 0.01285,
+    "p_no_warning": 0.0,
+    "median_warning_m": 27.287520000000967,
+    "median_spare_m": 13.09538828581712,
+    "p_early_20m": 0.14349,
+    "design_ssd_m": 27.28501866666667
+   },
+   "16": {
+    "p_nc": 0.01198,
+    "p_no_warning": 0.0,
+    "median_warning_m": 29.835648000001584,
+    "median_spare_m": 14.205199904926555,
+    "p_early_20m": 0.19342,
+    "design_ssd_m": 29.706093985185184
+   },
+   "17": {
+    "p_nc": 0.01231,
+    "p_no_warning": 0.0,
+    "median_warning_m": 32.2049600000021,
+    "median_spare_m": 15.357079384080638,
+    "p_early_20m": 0.25338,
+    "design_ssd_m": 32.202428562962965
+   },
+   "18": {
+    "p_nc": 0.01199,
+    "p_no_warning": 0.0,
+    "median_warning_m": 34.93190399999847,
+    "median_spare_m": 16.57445458289542,
+    "p_early_20m": 0.31765,
+    "design_ssd_m": 34.7740224
+   },
+   "19": {
+    "p_nc": 0.01116,
+    "p_no_warning": 0.0,
+    "median_warning_m": 37.032991999999126,
+    "median_spare_m": 17.76903224348721,
+    "p_early_20m": 0.38274,
+    "design_ssd_m": 37.4208754962963
+   },
+   "20": {
+    "p_nc": 0.01034,
+    "p_no_warning": 0.0,
+    "median_warning_m": 40.0281599999997,
+    "median_spare_m": 18.977544801440846,
+    "p_early_20m": 0.44671,
+    "design_ssd_m": 40.14298785185185
+   },
+   "21": {
+    "p_nc": 0.01053,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.978624000000195,
+    "median_spare_m": 20.233433992491427,
+    "p_early_20m": 0.50509,
+    "design_ssd_m": 42.94035946666666
+   },
+   "22": {
+    "p_nc": 0.00994,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.75027200000062,
+    "median_spare_m": 21.503026269341618,
+    "p_early_20m": 0.56011,
+    "design_ssd_m": 45.81299034074074
+   },
+   "23": {
+    "p_nc": 0.00935,
+    "p_no_warning": 0.0,
+    "median_warning_m": 48.20899200000099,
+    "median_spare_m": 22.758308598607876,
+    "p_early_20m": 0.60684,
+    "design_ssd_m": 48.760880474074085
+   },
+   "24": {
+    "p_nc": 0.00891,
+    "p_no_warning": 0.0,
+    "median_warning_m": 51.293567999998686,
+    "median_spare_m": 23.856215587002673,
+    "p_early_20m": 0.64831,
+    "design_ssd_m": 51.78402986666667
+   },
+   "25": {
+    "p_nc": 0.00939,
+    "p_no_warning": 0.0,
+    "median_warning_m": 55.00399999999914,
+    "median_spare_m": 24.605308340807056,
+    "p_early_20m": 0.67736,
+    "design_ssd_m": 54.88243851851852
+   },
+   "26": {
+    "p_nc": 0.00968,
+    "p_no_warning": 0.0,
+    "median_warning_m": 57.01567999999952,
+    "median_spare_m": 24.76880758628434,
+    "p_early_20m": 0.69205,
+    "design_ssd_m": 58.05610642962963
+   },
+   "27": {
+    "p_nc": 0.01032,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.26739199999986,
+    "median_spare_m": 24.422348900795804,
+    "p_early_20m": 0.6928,
+    "design_ssd_m": 61.3050336
+   },
+   "28": {
+    "p_nc": 0.01062,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 23.901035155146964,
+    "p_early_20m": 0.68093,
+    "design_ssd_m": 64.62922002962964
+   },
+   "29": {
+    "p_nc": 0.01368,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 22.196639287546958,
+    "p_early_20m": 0.61016,
+    "design_ssd_m": 68.02866571851852
+   },
+   "30": {
+    "p_nc": 0.01802,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 20.423399155064935,
+    "p_early_20m": 0.51576,
+    "design_ssd_m": 71.50337066666667
+   },
+   "31": {
+    "p_nc": 0.02291,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 19.816059984253187,
+    "p_early_20m": 0.4782,
+    "design_ssd_m": 75.05333487407408
+   },
+   "32": {
+    "p_nc": 0.03417,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 18.15260997875562,
+    "p_early_20m": 0.3767,
+    "design_ssd_m": 78.67855834074074
+   },
+   "33": {
+    "p_nc": 0.06327,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 15.227931420580795,
+    "p_early_20m": 0.20711,
+    "design_ssd_m": 82.37904106666667
+   },
+   "34": {
+    "p_nc": 0.08866,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 13.650208218939028,
+    "p_early_20m": 0.13845,
+    "design_ssd_m": 86.15478305185185
+   },
+   "35": {
+    "p_nc": 0.12223,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 12.33965373273115,
+    "p_early_20m": 0.08991,
+    "design_ssd_m": 90.00578429629631
+   },
+   "36": {
+    "p_nc": 0.16003,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 11.219012512073029,
+    "p_early_20m": 0.0592,
+    "design_ssd_m": 93.9320448
+   },
+   "37": {
+    "p_nc": 0.24681,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 9.149581421195137,
+    "p_early_20m": 0.01997,
+    "design_ssd_m": 97.93356456296299
+   },
+   "38": {
+    "p_nc": 0.2931,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 8.418814463492012,
+    "p_early_20m": 0.01353,
+    "design_ssd_m": 102.0103435851852
+   },
+   "39": {
+    "p_nc": 0.40566,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 6.772756288655582,
+    "p_early_20m": 0.00333,
+    "design_ssd_m": 106.16238186666666
+   },
+   "40": {
+    "p_nc": 0.52524,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 5.580619646973275,
+    "p_early_20m": 0.00071,
+    "design_ssd_m": 110.3896794074074
+   },
+   "41": {
+    "p_nc": 0.64318,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 4.591521603159443,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 114.69223620740739
+   },
+   "42": {
+    "p_nc": 0.67788,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 4.437017096390754,
+    "p_early_20m": 7e-05,
+    "design_ssd_m": 119.07005226666668
+   },
+   "43": {
+    "p_nc": 0.77129,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 3.73813482566721,
+    "p_early_20m": 2e-05,
+    "design_ssd_m": 123.52312758518521
+   },
+   "44": {
+    "p_nc": 0.84723,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.1633796598852726,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 128.05146216296296
+   },
+   "45": {
+    "p_nc": 0.90687,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 2.700651380469864,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 132.655056
+   }
+  },
+  "real range head | down8": {
+   "15": {
+    "p_nc": 0.86582,
+    "p_no_warning": 0.86582,
+    "median_warning_m": 59.47440000000071,
+    "median_spare_m": 45.533321180704,
+    "p_early_20m": 0.13415,
+    "design_ssd_m": 27.28501866666667
+   },
+   "16": {
+    "p_nc": 0.83134,
+    "p_no_warning": 0.83134,
+    "median_warning_m": 59.87673600000119,
+    "median_spare_m": 44.705247309537285,
+    "p_early_20m": 0.16862,
+    "design_ssd_m": 29.706093985185184
+   },
+   "17": {
+    "p_nc": 0.7895,
+    "p_no_warning": 0.7895,
+    "median_warning_m": 59.563808000001615,
+    "median_spare_m": 43.034956747724905,
+    "p_early_20m": 0.21041,
+    "design_ssd_m": 32.202428562962965
+   },
+   "18": {
+    "p_nc": 0.66574,
+    "p_no_warning": 0.66574,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 41.94757405373385,
+    "p_early_20m": 0.33388,
+    "design_ssd_m": 34.7740224
+   },
+   "19": {
+    "p_nc": 0.55882,
+    "p_no_warning": 0.5588,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 40.60881046116914,
+    "p_early_20m": 0.44063,
+    "design_ssd_m": 37.4208754962963
+   },
+   "20": {
+    "p_nc": 0.44054,
+    "p_no_warning": 0.44052,
+    "median_warning_m": 59.697919999999755,
+    "median_spare_m": 38.89554655040847,
+    "p_early_20m": 0.55753,
+    "design_ssd_m": 40.14298785185185
+   },
+   "21": {
+    "p_nc": 0.37856,
+    "p_no_warning": 0.37853,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 37.55979070439129,
+    "p_early_20m": 0.61765,
+    "design_ssd_m": 42.94035946666666
+   },
+   "22": {
+    "p_nc": 0.25084,
+    "p_no_warning": 0.25076,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 35.645554432271325,
+    "p_early_20m": 0.7387,
+    "design_ssd_m": 45.81299034074074
+   },
+   "23": {
+    "p_nc": 0.20402,
+    "p_no_warning": 0.20386,
+    "median_warning_m": 59.51910400000088,
+    "median_spare_m": 34.05961986831264,
+    "p_early_20m": 0.77842,
+    "design_ssd_m": 48.760880474074085
+   },
+   "24": {
+    "p_nc": 0.07077,
+    "p_no_warning": 0.07026,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 32.75029111087663,
+    "p_early_20m": 0.89784,
+    "design_ssd_m": 51.78402986666667
+   },
+   "25": {
+    "p_nc": 0.02229,
+    "p_no_warning": 0.0214,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 30.703053844892608,
+    "p_early_20m": 0.91968,
+    "design_ssd_m": 54.88243851851852
+   },
+   "26": {
+    "p_nc": 0.0017,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 28.819052329920346,
+    "p_early_20m": 0.89845,
+    "design_ssd_m": 58.05610642962963
+   },
+   "27": {
+    "p_nc": 0.00262,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 27.228163301442837,
+    "p_early_20m": 0.85085,
+    "design_ssd_m": 61.3050336
+   },
+   "28": {
+    "p_nc": 0.00433,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 25.75797911961709,
+    "p_early_20m": 0.79799,
+    "design_ssd_m": 64.62922002962964
+   },
+   "29": {
+    "p_nc": 0.0084,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 23.305066337203208,
+    "p_early_20m": 0.6852,
+    "design_ssd_m": 68.02866571851852
+   },
+   "30": {
+    "p_nc": 0.01479,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 21.056593135711317,
+    "p_early_20m": 0.55533,
+    "design_ssd_m": 71.50337066666667
+   },
+   "31": {
+    "p_nc": 0.01994,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 20.241514051070677,
+    "p_early_20m": 0.50424,
+    "design_ssd_m": 75.05333487407408
+   },
+   "32": {
+    "p_nc": 0.03285,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 18.308636434108486,
+    "p_early_20m": 0.38377,
+    "design_ssd_m": 78.67855834074074
+   },
+   "33": {
+    "p_nc": 0.06283,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 15.25850764272198,
+    "p_early_20m": 0.2087,
+    "design_ssd_m": 82.37904106666667
+   },
+   "34": {
+    "p_nc": 0.08866,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 13.650208218939028,
+    "p_early_20m": 0.13845,
+    "design_ssd_m": 86.15478305185185
+   },
+   "35": {
+    "p_nc": 0.12223,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 12.33965373273115,
+    "p_early_20m": 0.08991,
+    "design_ssd_m": 90.00578429629631
+   },
+   "36": {
+    "p_nc": 0.16003,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 11.219012512073029,
+    "p_early_20m": 0.0592,
+    "design_ssd_m": 93.9320448
+   },
+   "37": {
+    "p_nc": 0.24681,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 9.149581421195137,
+    "p_early_20m": 0.01997,
+    "design_ssd_m": 97.93356456296299
+   },
+   "38": {
+    "p_nc": 0.2931,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 8.418814463492012,
+    "p_early_20m": 0.01353,
+    "design_ssd_m": 102.0103435851852
+   },
+   "39": {
+    "p_nc": 0.40566,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 6.772756288655582,
+    "p_early_20m": 0.00333,
+    "design_ssd_m": 106.16238186666666
+   },
+   "40": {
+    "p_nc": 0.52524,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 5.580619646973275,
+    "p_early_20m": 0.00071,
+    "design_ssd_m": 110.3896794074074
+   },
+   "41": {
+    "p_nc": 0.64318,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 4.591521603159443,
+    "p_early_20m": 6e-05,
+    "design_ssd_m": 114.69223620740739
+   },
+   "42": {
+    "p_nc": 0.67788,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 4.437017096390754,
+    "p_early_20m": 7e-05,
+    "design_ssd_m": 119.07005226666668
+   },
+   "43": {
+    "p_nc": 0.77129,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 3.73813482566721,
+    "p_early_20m": 2e-05,
+    "design_ssd_m": 123.52312758518521
+   },
+   "44": {
+    "p_nc": 0.84723,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.1633796598852726,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 128.05146216296296
+   },
+   "45": {
+    "p_nc": 0.90687,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 2.700651380469864,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 132.655056
+   }
+  },
+  "real G1 + buffer q90, correlated detection (0.5 s) | down8": {
+   "15": {
+    "p_nc": 0.00322,
+    "p_no_warning": 0.0,
+    "median_warning_m": 39.35760000000087,
+    "median_spare_m": 24.09455497702477,
+    "p_early_20m": 0.63197,
+    "design_ssd_m": 27.28501866666667
+   },
+   "16": {
+    "p_nc": 0.00305,
+    "p_no_warning": 0.0,
+    "median_warning_m": 42.710400000001414,
+    "median_spare_m": 26.10366216018674,
+    "p_early_20m": 0.68567,
+    "design_ssd_m": 29.706093985185184
+   },
+   "17": {
+    "p_nc": 0.00308,
+    "p_no_warning": 0.0,
+    "median_warning_m": 45.88438400000186,
+    "median_spare_m": 28.26277771557207,
+    "p_early_20m": 0.7349,
+    "design_ssd_m": 32.202428562962965
+   },
+   "18": {
+    "p_nc": 0.00281,
+    "p_no_warning": 0.0,
+    "median_warning_m": 49.41599999999866,
+    "median_spare_m": 30.365460202145588,
+    "p_early_20m": 0.7787,
+    "design_ssd_m": 34.7740224
+   },
+   "19": {
+    "p_nc": 0.00293,
+    "p_no_warning": 0.0,
+    "median_warning_m": 52.321759999999244,
+    "median_spare_m": 31.966228219425826,
+    "p_early_20m": 0.81036,
+    "design_ssd_m": 37.4208754962963
+   },
+   "20": {
+    "p_nc": 0.00242,
+    "p_no_warning": 0.0,
+    "median_warning_m": 56.121599999999745,
+    "median_spare_m": 32.75534281637055,
+    "p_early_20m": 0.83706,
+    "design_ssd_m": 40.14298785185185
+   },
+   "21": {
+    "p_nc": 0.00276,
+    "p_no_warning": 0.0,
+    "median_warning_m": 56.12160000000017,
+    "median_spare_m": 32.86272023182385,
+    "p_early_20m": 0.85577,
+    "design_ssd_m": 42.94035946666666
+   },
+   "22": {
+    "p_nc": 0.00257,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 32.329802500822694,
+    "p_early_20m": 0.86909,
+    "design_ssd_m": 45.81299034074074
+   },
+   "23": {
+    "p_nc": 0.00246,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000088,
+    "median_spare_m": 31.663085456432757,
+    "p_early_20m": 0.87643,
+    "design_ssd_m": 48.760880474074085
+   },
+   "24": {
+    "p_nc": 0.00281,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999988,
+    "median_spare_m": 31.088193866446034,
+    "p_early_20m": 0.87955,
+    "design_ssd_m": 51.78402986666667
+   },
+   "25": {
+    "p_nc": 0.00313,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999918,
+    "median_spare_m": 29.214401645854394,
+    "p_early_20m": 0.85818,
+    "design_ssd_m": 54.88243851851852
+   },
+   "26": {
+    "p_nc": 0.00368,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 27.85635087906028,
+    "p_early_20m": 0.83812,
+    "design_ssd_m": 58.05610642962963
+   },
+   "27": {
+    "p_nc": 0.00548,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.47439999999986,
+    "median_spare_m": 25.832382085714436,
+    "p_early_20m": 0.77193,
+    "design_ssd_m": 61.3050336
+   },
+   "28": {
+    "p_nc": 0.00691,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 24.862414305809068,
+    "p_early_20m": 0.74055,
+    "design_ssd_m": 64.62922002962964
+   },
+   "29": {
+    "p_nc": 0.01355,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.25088000000045,
+    "median_spare_m": 22.32236500012771,
+    "p_early_20m": 0.61743,
+    "design_ssd_m": 68.02866571851852
+   },
+   "30": {
+    "p_nc": 0.01848,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80384000000072,
+    "median_spare_m": 20.672553196116837,
+    "p_early_20m": 0.53054,
+    "design_ssd_m": 71.50337066666667
+   },
+   "31": {
+    "p_nc": 0.03011,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.92143999999911,
+    "median_spare_m": 19.471874350685255,
+    "p_early_20m": 0.45536,
+    "design_ssd_m": 75.05333487407408
+   },
+   "32": {
+    "p_nc": 0.03795,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.8767359999994,
+    "median_spare_m": 18.07982024132796,
+    "p_early_20m": 0.37175,
+    "design_ssd_m": 78.67855834074074
+   },
+   "33": {
+    "p_nc": 0.07557,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.53561599999966,
+    "median_spare_m": 14.865911318547958,
+    "p_early_20m": 0.19374,
+    "design_ssd_m": 82.37904106666667
+   },
+   "34": {
+    "p_nc": 0.11972,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999992,
+    "median_spare_m": 13.145003017217931,
+    "p_early_20m": 0.12458,
+    "design_ssd_m": 86.15478305185185
+   },
+   "35": {
+    "p_nc": 0.1347,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.250880000000166,
+    "median_spare_m": 12.16727949008849,
+    "p_early_20m": 0.08676,
+    "design_ssd_m": 90.00578429629631
+   },
+   "36": {
+    "p_nc": 0.19085,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.87673600000039,
+    "median_spare_m": 10.837520980077187,
+    "p_early_20m": 0.05603,
+    "design_ssd_m": 93.9320448
+   },
+   "37": {
+    "p_nc": 0.29171,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.02736000000061,
+    "median_spare_m": 8.814668611703112,
+    "p_early_20m": 0.01915,
+    "design_ssd_m": 97.93356456296299
+   },
+   "38": {
+    "p_nc": 0.31262,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.966143999999304,
+    "median_spare_m": 8.242661470452987,
+    "p_early_20m": 0.01271,
+    "design_ssd_m": 102.0103435851852
+   },
+   "39": {
+    "p_nc": 0.43443,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.34028799999953,
+    "median_spare_m": 6.67324808970281,
+    "p_early_20m": 0.00323,
+    "design_ssd_m": 106.16238186666666
+   },
+   "40": {
+    "p_nc": 0.56147,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.80383999999975,
+    "median_spare_m": 5.488552480912517,
+    "p_early_20m": 0.00066,
+    "design_ssd_m": 110.3896794074074
+   },
+   "41": {
+    "p_nc": 0.67989,
+    "p_no_warning": 0.0,
+    "median_warning_m": 58.356799999999964,
+    "median_spare_m": 4.610030594877017,
+    "p_early_20m": 7e-05,
+    "design_ssd_m": 114.69223620740739
+   },
+   "42": {
+    "p_nc": 0.69051,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.876736000000164,
+    "median_spare_m": 4.427815117203323,
+    "p_early_20m": 0.00012,
+    "design_ssd_m": 119.07005226666668
+   },
+   "43": {
+    "p_nc": 0.78709,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.653216000000356,
+    "median_spare_m": 3.7034585237952484,
+    "p_early_20m": 2e-05,
+    "design_ssd_m": 123.52312758518521
+   },
+   "44": {
+    "p_nc": 0.86028,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.51910400000054,
+    "median_spare_m": 3.2081529272345612,
+    "p_early_20m": 1e-05,
+    "design_ssd_m": 128.05146216296296
+   },
+   "45": {
+    "p_nc": 0.91328,
+    "p_no_warning": 0.0,
+    "median_warning_m": 59.474399999999434,
+    "median_spare_m": 2.85825085822308,
+    "p_early_20m": 0.0,
+    "design_ssd_m": 132.655056
+   }
+  }
+ },
+ "speeds": {
+  "perfect perception (to 60 m) | level": {
+   "risk_0.01": 31,
+   "risk_0.05": 34,
+   "risk_0.1": 36
+  },
+  "rendered G1 | level": {
+   "risk_0.01": 30,
+   "risk_0.05": 34,
+   "risk_0.1": 36
+  },
+  "real G1 | level": {
+   "risk_0.01": null,
+   "risk_0.05": null,
+   "risk_0.1": 35
+  },
+  "real G1 + buffer q90 | level": {
+   "risk_0.01": 30,
+   "risk_0.05": 34,
+   "risk_0.1": 36
+  },
+  "real species-mean height | level": {
+   "risk_0.01": null,
+   "risk_0.05": 34,
+   "risk_0.1": 36
+  },
+  "real range head | level": {
+   "risk_0.01": 31,
+   "risk_0.05": 34,
+   "risk_0.1": 36
+  },
+  "real G1 + buffer q90, correlated detection (0.5 s) | level": {
+   "risk_0.01": 29,
+   "risk_0.05": 33,
+   "risk_0.1": 36
+  },
+  "perfect perception (to 60 m) | down5": {
+   "risk_0.01": 29,
+   "risk_0.05": 33,
+   "risk_0.1": 35
+  },
+  "rendered G1 | down5": {
+   "risk_0.01": 29,
+   "risk_0.05": 33,
+   "risk_0.1": 35
+  },
+  "real G1 | down5": {
+   "risk_0.01": null,
+   "risk_0.05": 29,
+   "risk_0.1": 34
+  },
+  "real G1 + buffer q90 | down5": {
+   "risk_0.01": 29,
+   "risk_0.05": 33,
+   "risk_0.1": 35
+  },
+  "real species-mean height | down5": {
+   "risk_0.01": null,
+   "risk_0.05": 33,
+   "risk_0.1": 35
+  },
+  "real range head | down5": {
+   "risk_0.01": 29,
+   "risk_0.05": 33,
+   "risk_0.1": 35
+  },
+  "real G1 + buffer q90, correlated detection (0.5 s) | down5": {
+   "risk_0.01": 28,
+   "risk_0.05": 32,
+   "risk_0.1": 34
+  },
+  "perfect perception (to 60 m) | down8": {
+   "risk_0.01": 29,
+   "risk_0.05": 32,
+   "risk_0.1": 34
+  },
+  "rendered G1 | down8": {
+   "risk_0.01": 29,
+   "risk_0.05": 32,
+   "risk_0.1": 34
+  },
+  "real G1 | down8": {
+   "risk_0.01": null,
+   "risk_0.05": 29,
+   "risk_0.1": 33
+  },
+  "real G1 + buffer q90 | down8": {
+   "risk_0.01": 29,
+   "risk_0.05": 32,
+   "risk_0.1": 34
+  },
+  "real species-mean height | down8": {
+   "risk_0.01": 26,
+   "risk_0.05": 32,
+   "risk_0.1": 34
+  },
+  "real range head | down8": {
+   "risk_0.01": 29,
+   "risk_0.05": 32,
+   "risk_0.1": 34
+  },
+  "real G1 + buffer q90, correlated detection (0.5 s) | down8": {
+   "risk_0.01": 28,
+   "risk_0.05": 32,
+   "risk_0.1": 33
+  }
+ }
+}

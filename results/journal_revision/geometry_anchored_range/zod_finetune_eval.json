@@ -1,0 +1,386 @@
+{
+  "70": {
+    "hoofed": {
+      "n": 78,
+      "frames": 25,
+      "Rendered only (G1)": {
+        "median_rel": 0.2297370028478224,
+        "slope": 0.9512637529295864,
+        "within_10pct": 0.23076923076923078,
+        "median_rel_ci": [
+          0.1427145520614577,
+          0.3233305776803093
+        ],
+        "H_median": 1.0980679392814636
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.36403345359147543,
+        "slope": 0.936969650609762,
+        "within_10pct": 0.10256410256410256,
+        "median_rel_ci": [
+          0.21553562724087133,
+          0.5199636476258489
+        ],
+        "H_median": 0.6820557713508606
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.416369441152333,
+        "slope": 0.9676209702894062,
+        "within_10pct": 0.07692307692307693,
+        "median_rel_ci": [
+          0.2960510738864843,
+          0.5476565546712236
+        ],
+        "H_median": 0.7139695882797241
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.35141334987187645,
+        "slope": 0.8907679191906408,
+        "within_10pct": 0.11538461538461539,
+        "median_rel_ci": [
+          0.24573093277624627,
+          0.4480472357111431
+        ],
+        "H_median": 1.1740778684616089
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.45304022711785413,
+        "slope": 1.0448807336112327,
+        "within_10pct": 0.15384615384615385,
+        "median_rel_ci": [
+          0.2719952409864149,
+          0.5900389981200753
+        ],
+        "H_median": 0.9558199644088746
+      },
+      "H_true_median": 1.0391495909210242
+    },
+    "deer_like": {
+      "n": 25,
+      "frames": 6,
+      "Rendered only (G1)": {
+        "median_rel": 0.23261824785217625,
+        "slope": 0.8167736809044994,
+        "within_10pct": 0.2,
+        "median_rel_ci": [
+          0.1344932797163148,
+          0.32272359259665845
+        ],
+        "H_median": 1.168926239013672
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.19577027785890225,
+        "slope": 0.709878398596852,
+        "within_10pct": 0.24,
+        "median_rel_ci": [
+          0.12214585547013525,
+          0.42130012568692465
+        ],
+        "H_median": 0.8616752624511719
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.29461279335936846,
+        "slope": 0.6655295327463295,
+        "within_10pct": 0.12,
+        "median_rel_ci": [
+          0.16652409074963628,
+          0.49484996985690577
+        ],
+        "H_median": 0.7890042662620544
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.20978276875162566,
+        "slope": 0.8488700272888862,
+        "within_10pct": 0.24,
+        "median_rel_ci": [
+          0.06556310137075994,
+          0.3494008481631666
+        ],
+        "H_median": 1.400290608406067
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.4374039623671098,
+        "slope": 0.7496628434039572,
+        "within_10pct": 0.04,
+        "median_rel_ci": [
+          0.2643098666757641,
+          1.0164913355159269
+        ],
+        "H_median": 1.474464774131775
+      },
+      "H_true_median": 1.0243788969286989
+    },
+    "dogs": {
+      "n": 11,
+      "frames": 10,
+      "Rendered only (G1)": {
+        "median_rel": 0.6527370239642596,
+        "slope": 0.954256431066781,
+        "within_10pct": 0.0,
+        "median_rel_ci": null,
+        "H_median": 1.1437723636627195
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.27544544556465456,
+        "slope": 0.7130513600703796,
+        "within_10pct": 0.09090909090909091,
+        "median_rel_ci": null,
+        "H_median": 0.6528257727622986
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.23131167104824452,
+        "slope": 0.681286436912733,
+        "within_10pct": 0.09090909090909091,
+        "median_rel_ci": null,
+        "H_median": 0.6019098162651062
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.5775375783374422,
+        "slope": 0.8567488682555363,
+        "within_10pct": 0.09090909090909091,
+        "median_rel_ci": null,
+        "H_median": 1.159814953804016
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.3324892244754683,
+        "slope": 0.7018684976662146,
+        "within_10pct": 0.09090909090909091,
+        "median_rel_ci": null,
+        "H_median": 0.7474277019500732
+      },
+      "H_true_median": 0.7835982141615907
+    },
+    "all_non_statue": {
+      "n": 1480,
+      "frames": 1263,
+      "Rendered only (G1)": {
+        "median_rel": 0.8101901680795117,
+        "slope": 0.7073975260945102,
+        "within_10pct": 0.04121621621621622,
+        "median_rel_ci": null,
+        "H_median": 1.0532488822937012
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.21259514255033435,
+        "slope": 0.7272694481738783,
+        "within_10pct": 0.2418918918918919,
+        "median_rel_ci": null,
+        "H_median": 0.5770132541656494
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.2207796539152649,
+        "slope": 0.7429747663363644,
+        "within_10pct": 0.23445945945945945,
+        "median_rel_ci": null,
+        "H_median": 0.566585510969162
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.8108975223608295,
+        "slope": 0.7733128860287007,
+        "within_10pct": 0.04594594594594595,
+        "median_rel_ci": null,
+        "H_median": 1.044016718864441
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.30970798571736846,
+        "slope": 0.7160470387670788,
+        "within_10pct": 0.17905405405405406,
+        "median_rel_ci": null,
+        "H_median": 0.6388216316699982
+      },
+      "H_true_median": 0.5775922740475822
+    }
+  },
+  "54.4": {
+    "hoofed": {
+      "n": 52,
+      "frames": 16,
+      "Rendered only (G1)": {
+        "median_rel": 0.1868211177994647,
+        "slope": 0.8859940674776954,
+        "within_10pct": 0.2692307692307692,
+        "median_rel_ci": [
+          0.11768005945037356,
+          0.29813916747837016
+        ],
+        "H_median": 1.1084358096122742
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.299797631391608,
+        "slope": 0.7802210475027092,
+        "within_10pct": 0.15384615384615385,
+        "median_rel_ci": [
+          0.18812246601267693,
+          0.5154476919701423
+        ],
+        "H_median": 0.7309258878231049
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.35453574841274,
+        "slope": 0.7246502931032527,
+        "within_10pct": 0.07692307692307693,
+        "median_rel_ci": [
+          0.2407230795737133,
+          0.4941817803507358
+        ],
+        "H_median": 0.7436752915382385
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.34881282352959087,
+        "slope": 0.8430340076611379,
+        "within_10pct": 0.09615384615384616,
+        "median_rel_ci": [
+          0.20734492657551895,
+          0.4554463328998158
+        ],
+        "H_median": 1.202818512916565
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.40328302607491434,
+        "slope": 0.8185390605568444,
+        "within_10pct": 0.11538461538461539,
+        "median_rel_ci": [
+          0.2025345762025611,
+          0.5542873376960321
+        ],
+        "H_median": 0.9905174672603607
+      },
+      "H_true_median": null
+    },
+    "deer_like": {
+      "n": 24,
+      "frames": 6,
+      "Rendered only (G1)": {
+        "median_rel": 0.228869626506289,
+        "slope": 0.8582711047501593,
+        "within_10pct": 0.2916666666666667,
+        "median_rel_ci": [
+          0.07117639565565223,
+          0.35541798812152464
+        ],
+        "H_median": 1.1486744284629822
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.1443182543634531,
+        "slope": 0.7999331788321548,
+        "within_10pct": 0.3333333333333333,
+        "median_rel_ci": [
+          0.1259937187303094,
+          0.28017403018560766
+        ],
+        "H_median": 0.9261521100997925
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.2671989215687863,
+        "slope": 0.7503474856119609,
+        "within_10pct": 0.125,
+        "median_rel_ci": [
+          0.1505929401164883,
+          0.365411416008761
+        ],
+        "H_median": 0.8448696136474609
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.25884634952034313,
+        "slope": 0.8773085824366542,
+        "within_10pct": 0.20833333333333334,
+        "median_rel_ci": [
+          0.07666756424134029,
+          0.4240914550401
+        ],
+        "H_median": 1.409692645072937
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.43082645958059435,
+        "slope": 0.8274155385807355,
+        "within_10pct": 0.0,
+        "median_rel_ci": [
+          0.23618084558166663,
+          0.8853460109654727
+        ],
+        "H_median": 1.5325320363044739
+      },
+      "H_true_median": null
+    },
+    "dogs": {
+      "n": 8,
+      "frames": 7,
+      "Rendered only (G1)": {
+        "median_rel": 0.5527682913982763,
+        "slope": 0.9966712338883463,
+        "within_10pct": 0.0,
+        "median_rel_ci": null,
+        "H_median": 1.160414218902588
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.35043160507677834,
+        "slope": 0.6725723320983329,
+        "within_10pct": 0.0,
+        "median_rel_ci": null,
+        "H_median": 0.6136739253997803
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.2579667522825332,
+        "slope": 0.7593302099904843,
+        "within_10pct": 0.125,
+        "median_rel_ci": null,
+        "H_median": 0.5842443406581879
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.45332615999554915,
+        "slope": 0.9378829733488081,
+        "within_10pct": 0.125,
+        "median_rel_ci": null,
+        "H_median": 1.1403658986091614
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.3217056341404724,
+        "slope": 0.6770038822909972,
+        "within_10pct": 0.0,
+        "median_rel_ci": null,
+        "H_median": 0.7548612654209137
+      },
+      "H_true_median": null
+    },
+    "all_non_statue": {
+      "n": 1154,
+      "frames": 996,
+      "Rendered only (G1)": {
+        "median_rel": 0.8271002825862098,
+        "slope": 0.684617095605362,
+        "within_10pct": 0.0389948006932409,
+        "median_rel_ci": null,
+        "H_median": 1.0620877146720886
+      },
+      "Rendered -> real fine-tuned": {
+        "median_rel": 0.21295058211376436,
+        "slope": 0.7055368323321219,
+        "within_10pct": 0.24956672443674177,
+        "median_rel_ci": null,
+        "H_median": 0.5824400782585144
+      },
+      "Real only (scratch)": {
+        "median_rel": 0.23186987482011412,
+        "slope": 0.7055868272759487,
+        "within_10pct": 0.21663778162911612,
+        "median_rel_ci": null,
+        "H_median": 0.5751651227474213
+      },
+      "Fine-tuned, large animals only": {
+        "median_rel": 0.7786143550029764,
+        "slope": 0.7558542139645188,
+        "within_10pct": 0.04246100519930676,
+        "median_rel_ci": null,
+        "H_median": 1.0305553674697876
+      },
+      "Fine-tuned, size-balanced": {
+        "median_rel": 0.309517294185515,
+        "slope": 0.6808890834135868,
+        "within_10pct": 0.1707105719237435,
+        "median_rel_ci": null,
+        "H_median": 0.6514071226119995
+      },
+      "H_true_median": null
+    }
+  }
+}
